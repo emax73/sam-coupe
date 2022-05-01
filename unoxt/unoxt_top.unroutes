@@ -1,0 +1,61 @@
+Release 14.7 - par P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Sat Apr 30 17:17:31 2022
+
+All signals are completely routed.
+
+WARNING:ParHelpers:361 - There are 49 loadless signals in this design. This design will cause Bitgen to issue DRC
+   warnings.
+
+   btn_divmmc_n_i_IBUF
+   btn_multiface_n_i_IBUF
+   esp_rx_i_IBUF
+   flash_miso_i_IBUF
+   joyp9_i_IBUF
+   ram_data_io<10>_IBUF
+   ram_data_io<11>_IBUF
+   ram_data_io<12>_IBUF
+   ram_data_io<13>_IBUF
+   ram_data_io<14>_IBUF
+   ram_data_io<15>_IBUF
+   ram_data_io<8>_IBUF
+   ram_data_io<9>_IBUF
+   sam/MyCtrlModule/UART.uartrxfifo/Mram_mem32_RAMD_O
+   sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem10_RAMD_O
+   sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem11_RAMD_O
+   sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem12_RAMD_O
+   sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem13_RAMD_O
+   sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem14_RAMD_O
+   sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem15_RAMD_O
+   sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem16_RAMD_O
+   sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem1_RAMD_O
+   sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem2_RAMD_O
+   sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem3_RAMD_O
+   sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem4_RAMD_O
+   sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem5_RAMD_O
+   sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem6_RAMD_O
+   sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem7_RAMD_O
+   sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem8_RAMD_O
+   sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem9_RAMD_O
+   sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem10_RAMD_O
+   sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem11_RAMD_O
+   sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem12_RAMD_O
+   sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem13_RAMD_O
+   sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem14_RAMD_O
+   sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem15_RAMD_O
+   sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem16_RAMD_O
+   sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem1_RAMD_O
+   sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem2_RAMD_O
+   sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem3_RAMD_O
+   sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem4_RAMD_O
+   sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem5_RAMD_O
+   sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem6_RAMD_O
+   sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem7_RAMD_O
+   sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem8_RAMD_O
+   sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem9_RAMD_O
+   sam/maquina/el_z80/i_tv80_core/i_reg/Mram_RegsH11_RAMD_D1_O
+   sam/maquina/el_z80/i_tv80_core/i_reg/Mram_RegsL11_RAMD_D1_O
+   sam/maquina/la_ula_del_sam/Mram_clut1_RAMD_D1_O
+
+

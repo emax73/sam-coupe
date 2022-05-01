@@ -22,6 +22,9 @@
 //////////////////////////////////////////////////////////////////////////////////
 module tld_sam_v4 (
     input wire clk50mhz,
+	 //Max
+	 output wire sysclk,
+	 
     // Audio I/O
     input wire ear,
     output wire audio_out_left,
@@ -91,7 +94,10 @@ module tld_sam_v4 (
     wire joysplitter_tg;
     
     reg [7:0] poweron_reset = 8'h00;
-    reg [1:0] scandoubler_ctrl = 2'b00;
+    //Max
+	 //reg [1:0] scandoubler_ctrl = 2'b00;
+	 reg [1:0] scandoubler_ctrl = 2'b01;
+
     always @(posedge clk6) begin
         poweron_reset <= {poweron_reset[6:0], 1'b1};
         if (poweron_reset[6] == 1'b0)
@@ -110,6 +116,9 @@ module tld_sam_v4 (
         .CLK_OUT4           (clk8),   // SAA1099 y DAC
         .CLK_OUT5           (clk48)  // un reloj duplicado de 50Mhz
     );
+	 
+	 //Max
+	 assign sysclk = clk24;
 
     // select 1 joystick
     assign joyselect = joysplitter ? joytoggle : 1'b1;

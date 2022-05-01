@@ -1,5 +1,5 @@
 SRCDIR = ../../ctrl-module/CtrlModule/CtrlModule/Firmware
-BASE	= /opt/zpu/bin/zpu-elf
+BASE	= /root/zpugcc/bin/zpu-elf
 CC      = $(BASE)-gcc
 LD      = $(BASE)-gcc
 AS      = $(BASE)-as

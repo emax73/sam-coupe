@@ -1,3 +1,11 @@
+MGT SAM Coupe Core 
+
+MGT SAM Couple Core for UnoXT Dev Board
+
+from ZXMicroJack: https://github.com/ZXMicroJack/sam-coupe
+
+-----------------------------------------------------
+
 MGT SAM Coupe
 =============
 

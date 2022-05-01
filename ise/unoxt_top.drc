@@ -1,0 +1,117 @@
+Release 14.7 Drc P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Sun May  1 10:13:34 2022
+
+drc -z unoxt_top.ncd unoxt_top.pcf
+
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem12_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem10_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem13_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem15_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem11_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem9_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem14_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem16_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/MyCtrlModule/UART.uartrxfifo/Mram_mem32_RAMD_O> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem8_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem4_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem6_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem3_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/la_ula_del_sam/Mram_clut1_RAMD_D1_O> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem7_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem5_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem1_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem2_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem4_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem1_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem6_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem8_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem3_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem5_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem2_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem7_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem12_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem10_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem14_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem9_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem16_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem15_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem13_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem11_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/el_z80/i_tv80_core/i_reg/Mram_RegsL11_RAMD_D1_O> is incomplete.
+   The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <sam/maquina/el_z80/i_tv80_core/i_reg/Mram_RegsH11_RAMD_D1_O> is incomplete.
+   The signal does not drive any load pins in the design.
+DRC detected 0 errors and 36 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

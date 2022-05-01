@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=/home/ise/share/unoxt-sam-coupe/unoxt/unoxt_top.ncd
-OUTFILE=/home/ise/share/unoxt-sam-coupe/unoxt/unoxt_top.bit
-FAMILY=Spartan6
-PART=xc6slx25-2ftg256
-WORKINGDIR=/home/ise/share/unoxt-sam-coupe/unoxt
-LICENSE=ISE
-USER_INFO=212139378_0_0_840

@@ -1,2 +1,0 @@
-verilog work "../common/ps2_port.v"
-verilog work "../common/ps2_keyb.v"

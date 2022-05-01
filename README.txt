@@ -2,6 +2,8 @@ MGT SAM Coupe Core
 
 MGT SAM Couple Core for UnoXT Dev Board
 
+Need CtrlModule repository for build https://github.com/emax73/ctrl-module
+
 from ZXMicroJack: https://github.com/ZXMicroJack/sam-coupe
 
 -----------------------------------------------------

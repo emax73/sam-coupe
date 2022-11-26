@@ -10,7 +10,7 @@ run
 -opt_mode Speed
 -opt_level 2
 -power NO
--uc "/home/ise/share/unoxt-sam-coupe/common/timings.xcf"
+-uc "D:/Xilinx/share/unoxt2.cores/unoxt-sam-coupe/common/timings.xcf"
 -iuc NO
 -keep_hierarchy No
 -netlist_hierarchy As_Optimized

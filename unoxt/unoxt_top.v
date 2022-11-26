@@ -24,7 +24,18 @@
 //    Any distributed copy of this file must keep this notice intact.
 
 //Max
-module unoxt_top (
+//UnoXT Generation Selector
+//`define unoxt
+`define unoxt2
+
+`ifdef unoxt
+	module unoxt_top (
+`elsif unoxt2
+	module unoxt2_top (
+`else
+	module unoxt_top (
+`endif
+
    input wire clock_50_i,
 	
    output wire [4:0] rgb_r_o,

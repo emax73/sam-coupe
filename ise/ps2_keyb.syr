@@ -1,23 +1,20 @@
-Release 14.7 - xst P.20131013 (lin64)
+Release 14.7 - xst P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> 
-Parameter TMPDIR set to xst/projnav.tmp
+--> Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.04 secs
+Total CPU time to Xst completion: 0.24 secs
  
---> 
-Parameter xsthdpdir set to xst
+--> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.04 secs
+Total CPU time to Xst completion: 0.25 secs
  
---> 
-WARNING:Xst:1583 - You are using an internal switch '-infer_ramb8'.
+--> WARNING:Xst:1583 - You are using an internal switch '-infer_ramb8'.
 
-Reading constraint file /home/ise/share/unoxt-sam-coupe/common/timings.xcf.
+Reading constraint file D:/Xilinx/share/unoxt2.cores/unoxt-sam-coupe/common/timings.xcf.
 XCF parsing done.
 Reading design: ps2_keyb.prj
 
@@ -48,7 +45,7 @@ TABLE OF CONTENTS
 =========================================================================
 ---- Source Parameters
 Input File Name                    : "ps2_keyb.prj"
-Synthesis Constraint File          : "/home/ise/share/unoxt-sam-coupe/common/timings.xcf"
+Synthesis Constraint File          : "D:/Xilinx/share/unoxt2.cores/unoxt-sam-coupe/common/timings.xcf"
 Ignore Synthesis Constraint File   : NO
 
 ---- Target Parameters
@@ -112,34 +109,4 @@ Slice Utilization Ratio Delta      : 5
 infer_ramb8                        : No
 
 =========================================================================
-
-
-=========================================================================
-*                          HDL Parsing                                  *
-=========================================================================
-Analyzing Verilog file "/home/ise/share/unoxt-sam-coupe/common/ps2_port.v" into library work
-Parsing module <ps2_port>.
-Parsing module <ps2_host_to_kb>.
-Analyzing Verilog file "/home/ise/share/unoxt-sam-coupe/common/ps2_keyb.v" into library work
-Parsing module <ps2_keyb>.
-
-=========================================================================
-*                            HDL Elaboration                            *
-=========================================================================
-
-Elaborating module <ps2_keyb>.
-
-Elaborating module <ps2_port>.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt-sam-coupe/common/ps2_port.v" Line 129: Result of 17-bit expression is truncated to fit in 16-bit target.
-ERROR:HDLCompiler:1654 - "/home/ise/share/unoxt-sam-coupe/common/ps2_keyb.v" Line 100: Instantiating <traductor> from unknown module <scancode_to_sam2>
-Module ps2_keyb remains a blackbox, due to errors in its contents
-WARNING:HDLCompiler:1499 - "/home/ise/share/unoxt-sam-coupe/common/ps2_keyb.v" Line 23: Empty module <ps2_keyb> remains a black box.
---> 
-
-
-Total memory usage is 310416 kilobytes
-
-Number of errors   :    1 (   0 filtered)
-Number of warnings :    3 (   0 filtered)
-Number of infos    :    0 (   0 filtered)
 

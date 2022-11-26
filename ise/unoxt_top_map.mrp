@@ -1,18 +1,18 @@
-Release 14.7 Map P.20131013 (lin64)
+Release 14.7 Map P.20131013 (nt64)
 Xilinx Mapping Report File for Design 'unoxt_top'
 
 Design Information
 ------------------
 Command Line   : map -filter
-/home/ise/share/unoxt-sam-coupe/ise/iseconfig/filter.filter -intstyle ise -p
-xc6slx25-ftg256-2 -w -logic_opt off -ol high -xe n -t 10 -xt 0
+D:/Xilinx/share/unoxt2.cores/unoxt-sam-coupe/ise/iseconfig/filter.filter
+-intstyle ise -p xc6slx25-ftg256-2 -w -logic_opt off -ol high -xe n -t 10 -xt 0
 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off
 -power off -o unoxt_top_map.ncd unoxt_top.ngd unoxt_top.pcf 
 Target Device  : xc6slx25
 Target Package : ftg256
 Target Speed   : -2
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Sun May  1 10:12:42 2022
+Mapped Date    : Fri Nov 18 11:32:18 2022
 
 Design Summary
 --------------
@@ -98,9 +98,9 @@ Specific Feature Utilization:
 
 Average Fanout of Non-Clock Nets:                4.25
 
-Peak Memory Usage:  856 MB
-Total REAL time to MAP completion:  27 secs 
-Total CPU time to MAP completion (all processors):   27 secs 
+Peak Memory Usage:  4887 MB
+Total REAL time to MAP completion:  1 mins 50 secs 
+Total CPU time to MAP completion (all processors):   1 mins 49 secs 
 
 Table of Contents
 -----------------

@@ -1,10 +1,9 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-HERO::  Fri Nov 18 16:01:42 2022
+HERO::  Sun Jan 01 16:00:04 2023
 
-par -filter
-D:/Xilinx/share/unoxt2.cores/unoxt-sam-coupe/ise/iseconfig/filter.filter -w
+par -filter D:/Xilinx/share/sam/unoxt-sam-coupe/ise/iseconfig/filter.filter -w
 -intstyle ise -ol high -xe n -mt 4 unoxt2_top_map.ncd unoxt2_top.ncd
 unoxt2_top.pcf 
 
@@ -24,16 +23,16 @@ Device speed data version:  "PRODUCTION 1.23 2013-10-13".
 Device Utilization Summary:
 
 Slice Logic Utilization:
-  Number of Slice Registers:                 2,100 out of  30,064    6%
-    Number used as Flip Flops:               2,047
+  Number of Slice Registers:                 2,087 out of  30,064    6%
+    Number used as Flip Flops:               2,034
     Number used as Latches:                      0
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:               53
-  Number of Slice LUTs:                      4,446 out of  15,032   29%
-    Number used as logic:                    4,164 out of  15,032   27%
-      Number using O6 output only:           3,110
-      Number using O5 output only:             261
-      Number using O5 and O6:                  793
+  Number of Slice LUTs:                      4,437 out of  15,032   29%
+    Number used as logic:                    4,153 out of  15,032   27%
+      Number using O6 output only:           3,104
+      Number using O5 output only:             264
+      Number using O5 and O6:                  785
       Number used as ROM:                        0
     Number used as Memory:                     239 out of   3,664    6%
       Number used as Dual Port RAM:            232
@@ -48,18 +47,18 @@ Slice Logic Utilization:
         Number using O6 output only:             3
         Number using O5 output only:             0
         Number using O5 and O6:                  0
-    Number used exclusively as route-thrus:     43
-      Number with same-slice register load:     14
+    Number used exclusively as route-thrus:     45
+      Number with same-slice register load:     16
       Number with same-slice carry load:        29
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                 1,812 out of   3,758   48%
+  Number of occupied Slices:                 1,645 out of   3,758   43%
   Number of MUXCYs used:                     1,096 out of   7,516   14%
-  Number of LUT Flip Flop pairs used:        4,919
-    Number with an unused Flip Flop:         2,902 out of   4,919   58%
-    Number with an unused LUT:                 473 out of   4,919    9%
-    Number of fully used LUT-FF pairs:       1,544 out of   4,919   31%
+  Number of LUT Flip Flop pairs used:        4,804
+    Number with an unused Flip Flop:         2,803 out of   4,804   58%
+    Number with an unused LUT:                 367 out of   4,804    7%
+    Number of fully used LUT-FF pairs:       1,634 out of   4,804   34%
     Number of slice register sites lost
       to control set restrictions:               0 out of  30,064    0%
 
@@ -118,102 +117,102 @@ WARNING:Par:288 - The signal ram_data_io<12>_IBUF has no load.  PAR will not att
 WARNING:Par:288 - The signal ram_data_io<13>_IBUF has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal ram_data_io<14>_IBUF has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal ram_data_io<15>_IBUF has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem4_RAMD_O has no load.  PAR will not attempt to route
-   this signal.
-WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem5_RAMD_O has no load.  PAR will not attempt to route
-   this signal.
-WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem2_RAMD_O has no load.  PAR will not attempt to route
-   this signal.
-WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem12_RAMD_O has no load.  PAR will not attempt to route
-   this signal.
-WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem10_RAMD_O has no load.  PAR will not attempt to route
-   this signal.
-WARNING:Par:288 - The signal sam/maquina/la_ula_del_sam/Mram_clut1_RAMD_D1_O has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal sam/maquina/el_z80/i_tv80_core/i_reg/Mram_RegsH11_RAMD_D1_O has no load.  PAR will not attempt to route this
-   signal.
-WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem8_RAMD_O has no load.  PAR will not attempt to route
-   this signal.
-WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem3_RAMD_O has no load.  PAR will not attempt to route
-   this signal.
-WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem6_RAMD_O has no load.  PAR will not attempt to route
-   this signal.
-WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem13_RAMD_O has no load.  PAR will not attempt to route
-   this signal.
-WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem14_RAMD_O has no load.  PAR will not attempt to route
-   this signal.
-WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem9_RAMD_O has no load.  PAR will not attempt to route
-   this signal.
-WARNING:Par:288 - The signal sam/maquina/el_z80/i_tv80_core/i_reg/Mram_RegsL11_RAMD_D1_O has no load.  PAR will not attempt to route this
-   signal.
-WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem1_RAMD_O has no load.  PAR will not attempt to route
-   this signal.
-WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem7_RAMD_O has no load.  PAR will not attempt to route
-   this signal.
-WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem15_RAMD_O has no load.  PAR will not attempt to route
-   this signal.
-WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem11_RAMD_O has no load.  PAR will not attempt to route
-   this signal.
-WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem16_RAMD_O has no load.  PAR will not attempt to route
-   this signal.
-WARNING:Par:288 - The signal sam/MyCtrlModule/UART.uartrxfifo/Mram_mem32_RAMD_O has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem8_RAMD_O has no load.  PAR will not attempt to route
-   this signal.
-WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem7_RAMD_O has no load.  PAR will not attempt to route
-   this signal.
-WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem6_RAMD_O has no load.  PAR will not attempt to route
-   this signal.
-WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem5_RAMD_O has no load.  PAR will not attempt to route
-   this signal.
-WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem4_RAMD_O has no load.  PAR will not attempt to route
-   this signal.
-WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem2_RAMD_O has no load.  PAR will not attempt to route
-   this signal.
-WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem3_RAMD_O has no load.  PAR will not attempt to route
-   this signal.
-WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem10_RAMD_O has no load.  PAR will not attempt to route
-   this signal.
-WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem1_RAMD_O has no load.  PAR will not attempt to route
-   this signal.
-WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem15_RAMD_O has no load.  PAR will not attempt to route
+WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem11_RAMD_O has no load.  PAR will not attempt to route
    this signal.
 WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem14_RAMD_O has no load.  PAR will not attempt to route
    this signal.
-WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem16_RAMD_O has no load.  PAR will not attempt to route
+WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem10_RAMD_O has no load.  PAR will not attempt to route
    this signal.
-WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem13_RAMD_O has no load.  PAR will not attempt to route
+WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem15_RAMD_O has no load.  PAR will not attempt to route
    this signal.
 WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem12_RAMD_O has no load.  PAR will not attempt to route
    this signal.
+WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem13_RAMD_O has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem16_RAMD_O has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal sam/MyCtrlModule/UART.uartrxfifo/Mram_mem32_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sam/maquina/la_ula_del_sam/Mram_clut1_RAMD_D1_O has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem9_RAMD_O has no load.  PAR will not attempt to route
    this signal.
-WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem11_RAMD_O has no load.  PAR will not attempt to route
+WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem6_RAMD_O has no load.  PAR will not attempt to route
    this signal.
+WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem3_RAMD_O has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem5_RAMD_O has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem2_RAMD_O has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem1_RAMD_O has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem8_RAMD_O has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem14_RAMD_O has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem12_RAMD_O has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem4_RAMD_O has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem9_RAMD_O has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem13_RAMD_O has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem11_RAMD_O has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem10_RAMD_O has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_out/Mram_mem7_RAMD_O has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem15_RAMD_O has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem16_RAMD_O has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem8_RAMD_O has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem2_RAMD_O has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem7_RAMD_O has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem5_RAMD_O has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem1_RAMD_O has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem4_RAMD_O has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem6_RAMD_O has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal sam/maquina/diskdrives_inst/wd1770_inst/fifo_in/Mram_mem3_RAMD_O has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal sam/maquina/el_z80/i_tv80_core/i_reg/Mram_RegsL11_RAMD_D1_O has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal sam/maquina/el_z80/i_tv80_core/i_reg/Mram_RegsH11_RAMD_D1_O has no load.  PAR will not attempt to route this
+   signal.
 Starting Multi-threaded Router
 
 
-Phase  1  : 27002 unrouted;      REAL time: 13 secs 
+Phase  1  : 26953 unrouted;      REAL time: 13 secs 
 
-Phase  2  : 24235 unrouted;      REAL time: 16 secs 
+Phase  2  : 24179 unrouted;      REAL time: 15 secs 
 
-Phase  3  : 12564 unrouted;      REAL time: 22 secs 
+Phase  3  : 12462 unrouted;      REAL time: 20 secs 
 
-Phase  4  : 12564 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 30 secs 
+Phase  4  : 12462 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 28 secs 
 
 Updating file: unoxt2_top.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 39 secs 
+Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 35 secs 
 
-Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 39 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 35 secs 
 
-Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 39 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 35 secs 
 
-Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 39 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 35 secs 
 
-Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 39 secs 
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 35 secs 
 
-Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 40 secs 
-Total REAL time to Router completion: 41 secs 
-Total CPU time to Router completion (all processors): 53 secs 
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 36 secs 
+Total REAL time to Router completion: 36 secs 
+Total CPU time to Router completion (all processors): 46 secs 
 
 Generating "PAR" statistics.
 
@@ -224,40 +223,35 @@ Generating Clock Report
 +---------------------+--------------+------+------+------------+-------------+
 |        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
 +---------------------+--------------+------+------+------------+-------------+
-|sam/los_relojes/clkc |              |      |      |            |             |
-|       ounter_2_BUFG |  BUFGMUX_X2Y1| No   |  330 |  0.226     |  1.750      |
-+---------------------+--------------+------+------+------------+-------------+
-|    sam/count_6_BUFG | BUFGMUX_X3Y13| No   |   28 |  0.049     |  1.598      |
+|    sam/count_2_BUFG |  BUFGMUX_X2Y4| No   |  331 |  0.215     |  1.750      |
 +---------------------+--------------+------+------+------------+-------------+
 |sam/los_relojes/clk8 |              |      |      |            |             |
-|               _BUFG |  BUFGMUX_X2Y2| No   |   14 |  0.043     |  1.574      |
+|               _BUFG | BUFGMUX_X2Y12| No   |   14 |  0.146     |  1.687      |
 +---------------------+--------------+------+------+------------+-------------+
 |sam/maquina/ps2_keyb |              |      |      |            |             |
-|         /valid_BUFG |  BUFGMUX_X2Y3| No   |   76 |  0.160     |  1.688      |
+|         /valid_BUFG |  BUFGMUX_X2Y3| No   |   75 |  0.084     |  1.624      |
 +---------------------+--------------+------+------+------------+-------------+
-|sam/los_relojes/clkc |              |      |      |            |             |
-|       ounter_1_BUFG | BUFGMUX_X2Y12| No   |  220 |  0.231     |  1.757      |
+|    sam/count_1_BUFG |  BUFGMUX_X2Y1| No   |  220 |  0.235     |  1.759      |
 +---------------------+--------------+------+------+------------+-------------+
-|           sam/clk48 |  BUFGMUX_X2Y4| No   |  198 |  0.216     |  1.740      |
+|           sam/clk48 | BUFGMUX_X2Y10| No   |  194 |  0.230     |  1.753      |
 +---------------------+--------------+------+------+------------+-------------+
-|sam/los_relojes/clkc |              |      |      |            |             |
-|       ounter_0_BUFG | BUFGMUX_X2Y10| No   |   47 |  0.217     |  1.748      |
+|sam/los_relojes/clk8 |              |      |      |            |             |
+|           ct_0_BUFG | BUFGMUX_X3Y13| No   |   49 |  0.194     |  1.737      |
++---------------------+--------------+------+------+------------+-------------+
+|    sam/count_6_BUFG |  BUFGMUX_X2Y2| No   |   20 |  0.037     |  1.573      |
 +---------------------+--------------+------+------+------------+-------------+
 |sam/maquina/el_raton |              |      |      |            |             |
 |/puerto_del_raton/rk |              |      |      |            |             |
-|    b_interrupt_BUFG | BUFGMUX_X3Y14| No   |    8 |  0.022     |  1.586      |
+|    b_interrupt_BUFG | BUFGMUX_X3Y14| No   |    7 |  0.014     |  1.567      |
 +---------------------+--------------+------+------+------------+-------------+
 |sam/maquina/scan_ins |              |      |      |            |             |
-|            t/kminus |         Local|      |    1 |  0.000     |  0.580      |
+|            t/kminus |         Local|      |    1 |  0.000     |  2.175      |
 +---------------------+--------------+------+------+------------+-------------+
 |sam/maquina/ps2_keyb |              |      |      |            |             |
-|  /kbd_clk_debounced |         Local|      |    6 |  2.226     |  4.058      |
+|  /kbd_clk_debounced |         Local|      |    6 |  1.568     |  2.876      |
 +---------------------+--------------+------+------+------------+-------------+
 |sam/maquina/scan_ins |              |      |      |            |             |
-|               t/kf1 |         Local|      |    1 |  0.000     |  0.772      |
-+---------------------+--------------+------+------+------------+-------------+
-|sam/maquina/scan_ins |              |      |      |            |             |
-|             t/ksclk |         Local|      |    1 |  0.000     |  0.936      |
+|             t/ksclk |         Local|      |    1 |  0.000     |  0.798      |
 +---------------------+--------------+------+------+------------+-------------+
 
 * Net Skew is the difference between the minimum and maximum routing
@@ -279,8 +273,8 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-  TS_sam_los_relojes_clkout0 = PERIOD TIMEG | SETUP       |     0.942ns|    19.857ns|       0|           0
-  RP "sam_los_relojes_clkout0" TS_clk50     | HOLD        |     0.346ns|            |       0|           0
+  TS_sam_los_relojes_clkout0 = PERIOD TIMEG | SETUP       |     1.156ns|    19.643ns|       0|           0
+  RP "sam_los_relojes_clkout0" TS_clk50     | HOLD        |     0.417ns|            |       0|           0
        / 0.961538462 HIGH 50%               |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
   TS_clk50 = PERIOD TIMEGRP "clock_50_i" 20 | MINLOWPULSE |    15.000ns|     5.000ns|       0|           0
@@ -298,8 +292,8 @@ Derived Constraints for TS_clk50
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TS_clk50                       |     20.000ns|      5.000ns|     19.093ns|            0|            0|            0|    318259599|
-| TS_sam_los_relojes_clkout0    |     20.800ns|     19.857ns|          N/A|            0|            0|    318259599|            0|
+|TS_clk50                       |     20.000ns|      5.000ns|     18.888ns|            0|            0|            0|    318259603|
+| TS_sam_los_relojes_clkout0    |     20.800ns|     19.643ns|          N/A|            0|            0|    318259603|            0|
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
 All constraints were met.
@@ -311,8 +305,8 @@ All signals are completely routed.
 
 WARNING:Par:283 - There are 49 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
 
-Total REAL time to PAR completion: 44 secs 
-Total CPU time to PAR completion (all processors): 57 secs 
+Total REAL time to PAR completion: 40 secs 
+Total CPU time to PAR completion (all processors): 49 secs 
 
 Peak Memory Usage:  4750 MB
 

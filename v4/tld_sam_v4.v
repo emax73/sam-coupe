@@ -123,11 +123,19 @@ module tld_sam_v4 (
     // select 1 joystick
     assign joyselect = joysplitter ? joytoggle : 1'b1;
     reg joysplitter = 1'b0;
-    reg[4:0] joystick1 = 5'h00;
-    reg[4:0] joystick2 = 5'h00;
-    reg joytoggle = 1'b0;
+    //Max
+	 //reg[4:0] joystick1 = 5'h00;
+    //reg[4:0] joystick2 = 5'h00;
+	 wire[4:0] joystick1;
+    wire[4:0] joystick2;
     
-    always @(posedge clk390k625) begin
+	 reg joytoggle = 1'b0;
+    
+    //Max
+	 assign joystick1[4:0] = {joyleft,joyright,joydown,joyup,joyfire};
+    assign joystick2[4:0] = 5'h1f;
+  
+  /*always @(posedge clk390k625) begin
       if (joytoggle)
         joystick1[4:0] <= {joyleft,joyright,joydown,joyup,joyfire};
       else
@@ -135,7 +143,8 @@ module tld_sam_v4 (
 
       joytoggle <= !joytoggle;
     end
-    
+    */
+	 
     samcoupe maquina (
         .clk48(clk48),
         .clk24(clk24),

@@ -25,8 +25,8 @@
 
 //Max
 //UnoXT Generation Selector
-//`define unoxt
-`define unoxt2
+`define unoxt
+//`define unoxt2
 
 `ifdef unoxt
 	module unoxt_top (

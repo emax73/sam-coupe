@@ -25,6 +25,8 @@ Keys
 - SCROLL-LOCK - switch from VGA to RGB and back.
 - (numeric keypad [-]) - switch on/off scanlines
 
+Command after disk mounth: boot
+
 Known issues
 ------------
 - Only support for .MGT 80 track 10 sector, or CPM 80 track 9 sector format

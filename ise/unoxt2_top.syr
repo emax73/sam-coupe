@@ -1,23 +1,20 @@
-Release 14.7 - xst P.20131013 (lin64)
+Release 14.7 - xst P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> 
-Parameter TMPDIR set to xst/projnav.tmp
+--> Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total CPU time to Xst completion: 0.25 secs
  
---> 
-Parameter xsthdpdir set to xst
+--> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total CPU time to Xst completion: 0.26 secs
  
---> 
-WARNING:Xst:1583 - You are using an internal switch '-infer_ramb8'.
+--> WARNING:Xst:1583 - You are using an internal switch '-infer_ramb8'.
 
-Reading constraint file /home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/timings.xcf.
+Reading constraint file D:/Xilinx/share/sam/unoxt-sam-coupe/common/timings.xcf.
 XCF parsing done.
 Reading design: unoxt2_top.prj
 
@@ -48,7 +45,7 @@ TABLE OF CONTENTS
 =========================================================================
 ---- Source Parameters
 Input File Name                    : "unoxt2_top.prj"
-Synthesis Constraint File          : "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/timings.xcf"
+Synthesis Constraint File          : "D:/Xilinx/share/sam/unoxt-sam-coupe/common/timings.xcf"
 Ignore Synthesis Constraint File   : NO
 
 ---- Target Parameters
@@ -117,28 +114,28 @@ infer_ramb8                        : No
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/tv80_reg.v" into library work
+Analyzing Verilog file "D:\Xilinx\share\sam\unoxt-sam-coupe\common\tv80_reg.v" into library work
 Parsing module <tv80_reg>.
-Analyzing Verilog file "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/tv80_mcode.v" into library work
+Analyzing Verilog file "D:\Xilinx\share\sam\unoxt-sam-coupe\common\tv80_mcode.v" into library work
 Parsing module <tv80_mcode>.
-Analyzing Verilog file "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/tv80_alu.v" into library work
+Analyzing Verilog file "D:\Xilinx\share\sam\unoxt-sam-coupe\common\tv80_alu.v" into library work
 Parsing module <tv80_alu>.
-Analyzing Verilog file "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/fifo.v" into library work
+Analyzing Verilog file "D:\Xilinx\share\sam\unoxt-sam-coupe\common\fifo.v" into library work
 Parsing module <fifo>.
-Analyzing Verilog file "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/wd1770.v" into library work
+Analyzing Verilog file "D:\Xilinx\share\sam\unoxt-sam-coupe\common\wd1770.v" into library work
 Parsing module <wd1770>.
-Analyzing Verilog file "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/tv80_core.v" into library work
+Analyzing Verilog file "D:\Xilinx\share\sam\unoxt-sam-coupe\common\tv80_core.v" into library work
 Parsing module <tv80_core>.
-Analyzing Verilog file "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/ps2_port.v" into library work
+Analyzing Verilog file "D:\Xilinx\share\sam\unoxt-sam-coupe\common\ps2_port.v" into library work
 Parsing module <ps2_port>.
 Parsing module <ps2_host_to_kb>.
-Analyzing Verilog file "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/dpsram.v" into library work
+Analyzing Verilog file "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\dpsram.v" into library work
 Parsing module <dpsram>.
-Analyzing Verilog file "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/tv80a.v" into library work
+Analyzing Verilog file "D:\Xilinx\share\sam\unoxt-sam-coupe\common\tv80a.v" into library work
 Parsing module <tv80a>.
-Analyzing Verilog file "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/scancode_to_sam.v" into library work
+Analyzing Verilog file "D:\Xilinx\share\sam\unoxt-sam-coupe\common\scancode_to_sam.v" into library work
 Parsing module <scancode_to_sam>.
-Analyzing Verilog file "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/saa1099s.v" into library work
+Analyzing Verilog file "D:\Xilinx\share\sam\unoxt-sam-coupe\common\saa1099s.v" into library work
 Parsing module <saa1099s>.
 Parsing module <saa1099_triplet>.
 Parsing module <saa1099_tone>.
@@ -146,115 +143,116 @@ Parsing module <saa1099_noise>.
 Parsing module <saa1099_amp>.
 Parsing module <saa1099_mul_env>.
 Parsing module <saa1099_output_mixer>.
-Analyzing Verilog file "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/rom.v" into library work
+Analyzing Verilog file "D:\Xilinx\share\sam\unoxt-sam-coupe\common\rom.v" into library work
 Parsing module <rom>.
-Analyzing Verilog file "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/ram.v" into library work
+Analyzing Verilog file "D:\Xilinx\share\sam\unoxt-sam-coupe\common\ram.v" into library work
 Parsing module <ram_dual_port_turnos>.
 Parsing module <ram_dual_port>.
-Analyzing Verilog file "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/ps2.v" into library work
+Analyzing Verilog file "D:\Xilinx\share\sam\unoxt-sam-coupe\common\ps2.v" into library work
 Parsing module <ps2>.
-Analyzing Verilog file "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/multiboot.v" into library work
+Analyzing Verilog file "D:\Xilinx\share\sam\unoxt-sam-coupe\common\multiboot.v" into library work
 Parsing module <multiboot>.
 Parsing module <multiboot_spartan6>.
-Analyzing Verilog file "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/mouse.v" into library work
+Analyzing Verilog file "D:\Xilinx\share\sam\unoxt-sam-coupe\common\mouse.v" into library work
 Parsing module <ps2_mouse>.
-Analyzing Verilog file "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/diskdrives.v" into library work
+Analyzing Verilog file "D:\Xilinx\share\sam\unoxt-sam-coupe\common\diskdrives.v" into library work
 Parsing module <diskdrives>.
-Analyzing Verilog file "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/audio_management.v" into library work
+Analyzing Verilog file "D:\Xilinx\share\sam\unoxt-sam-coupe\common\audio_management.v" into library work
 Parsing module <dac>.
 Parsing module <mixer>.
-Analyzing Verilog file "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/asic.v" into library work
+Analyzing Verilog file "D:\Xilinx\share\sam\unoxt-sam-coupe\common\asic.v" into library work
 Parsing module <asic>.
-Analyzing Verilog file "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/taploader2.v" into library work
+Analyzing Verilog file "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\taploader2.v" into library work
 Parsing module <tapsaver2>.
 Parsing module <taploader2>.
-INFO:HDLCompiler:693 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/taploader2.v" Line 145. parameter declaration becomes local in taploader2 with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/taploader2.v" Line 146. parameter declaration becomes local in taploader2 with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/taploader2.v" Line 147. parameter declaration becomes local in taploader2 with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/taploader2.v" Line 148. parameter declaration becomes local in taploader2 with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/taploader2.v" Line 149. parameter declaration becomes local in taploader2 with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/taploader2.v" Line 150. parameter declaration becomes local in taploader2 with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/taploader2.v" Line 151. parameter declaration becomes local in taploader2 with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/taploader2.v" Line 152. parameter declaration becomes local in taploader2 with formal parameter declaration list
-Analyzing Verilog file "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/vga_scandoubler.v" into library work
+INFO:HDLCompiler:693 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\taploader2.v" Line 145. parameter declaration becomes local in taploader2 with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\taploader2.v" Line 146. parameter declaration becomes local in taploader2 with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\taploader2.v" Line 147. parameter declaration becomes local in taploader2 with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\taploader2.v" Line 148. parameter declaration becomes local in taploader2 with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\taploader2.v" Line 149. parameter declaration becomes local in taploader2 with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\taploader2.v" Line 150. parameter declaration becomes local in taploader2 with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\taploader2.v" Line 151. parameter declaration becomes local in taploader2 with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\taploader2.v" Line 152. parameter declaration becomes local in taploader2 with formal parameter declaration list
+Analyzing Verilog file "D:\Xilinx\share\sam\unoxt-sam-coupe\common\vga_scandoubler.v" into library work
 Parsing module <vga_scandoubler>.
 Parsing module <vgascanline_dport>.
 Parsing module <color_dimmed>.
-Analyzing Verilog file "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/samcoupe.v" into library work
+Analyzing Verilog file "D:\Xilinx\share\sam\unoxt-sam-coupe\common\samcoupe.v" into library work
 Parsing module <samcoupe>.
-Analyzing Verilog file "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/relojes.v" into library work
+Analyzing Verilog file "D:\Xilinx\share\sam\unoxt-sam-coupe\common\relojes.v" into library work
 Parsing module <relojes>.
-WARNING:HDLCompiler:568 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/relojes.v" Line 183: Constant value is truncated to fit in <1> bits.
-WARNING:HDLCompiler:568 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/relojes.v" Line 184: Constant value is truncated to fit in <1> bits.
-Analyzing Verilog file "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v" into library work
+WARNING:HDLCompiler:568 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\relojes.v" Line 183: Constant value is truncated to fit in <1> bits.
+WARNING:HDLCompiler:568 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\relojes.v" Line 184: Constant value is truncated to fit in <1> bits.
+Analyzing Verilog file "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" into library work
 Parsing module <tld_sam_v4>.
-Analyzing Verilog file "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/unoxt/leds.v" into library work
+Analyzing Verilog file "D:\Xilinx\share\sam\unoxt-sam-coupe\unoxt\leds.v" into library work
 Parsing module <ledPWM>.
 Parsing module <flashCnt>.
-Analyzing Verilog file "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/unoxt/unoxt_top.v" into library work
+Analyzing Verilog file "D:\Xilinx\share\sam\unoxt-sam-coupe\unoxt\unoxt_top.v" into library work
 Parsing module <unoxt2_top>.
-Parsing VHDL file "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/ZPUFlex/RTL/zpupkg.vhd" into library work
+Parsing VHDL file "D:\Xilinx\share\sam\ctrl-module\CtrlModule\ZPUFlex\RTL\zpupkg.vhd" into library work
 Parsing package <zpupkg>.
-Parsing VHDL file "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/CharROM/CharROM_ROM.vhd" into library work
+Parsing VHDL file "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\CharROM\CharROM_ROM.vhd" into library work
 Parsing entity <CharROM_ROM>.
 Parsing architecture <arch> of entity <charrom_rom>.
-Parsing VHDL file "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/firmware/CtrlROM_ROM.vhd" into library work
+Parsing VHDL file "D:\Xilinx\share\sam\unoxt-sam-coupe\firmware\CtrlROM_ROM.vhd" into library work
 Parsing entity <CtrlROM_ROM>.
 Parsing architecture <arch> of entity <ctrlrom_rom>.
-Parsing VHDL file "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/ZPUFlex/RTL/zpu_core_flex.vhd" into library work
+Parsing VHDL file "D:\Xilinx\share\sam\ctrl-module\CtrlModule\ZPUFlex\RTL\zpu_core_flex.vhd" into library work
 Parsing entity <zpu_core_flex>.
 Parsing architecture <behave> of entity <zpu_core_flex>.
-Parsing VHDL file "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/spi.vhd" into library work
+Parsing VHDL file "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\spi.vhd" into library work
 Parsing entity <spi_interface>.
-INFO:HDLCompiler:1676 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/spi.vhd" Line 22. declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output
+INFO:HDLCompiler:1676 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\spi.vhd" Line 22. declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output
 Parsing architecture <rtl> of entity <spi_interface>.
-Parsing VHDL file "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/simple_uart.vhd" into library work
+Parsing VHDL file "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\simple_uart.vhd" into library work
 Parsing entity <simple_uart>.
 Parsing architecture <rtl> of entity <simple_uart>.
-Parsing VHDL file "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/OnScreenDisplay.vhd" into library work
+Parsing VHDL file "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\OnScreenDisplay.vhd" into library work
 Parsing entity <OnScreenDisplay>.
 Parsing architecture <rtl> of entity <onscreendisplay>.
-WARNING:HDLCompiler:946 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/OnScreenDisplay.vhd" Line 299: Actual for formal port address is neither a static name nor a globally static expression
-Parsing VHDL file "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/io_ps2_com.vhd" into library work
+WARNING:HDLCompiler:946 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\OnScreenDisplay.vhd" Line 299: Actual for formal port address is neither a static name nor a globally static expression
+Parsing VHDL file "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\io_ps2_com.vhd" into library work
 Parsing entity <io_ps2_com>.
 Parsing architecture <rtl> of entity <io_ps2_com>.
-Parsing VHDL file "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/interrupt_controller.vhd" into library work
+Parsing VHDL file "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\interrupt_controller.vhd" into library work
 Parsing entity <interrupt_controller>.
-INFO:HDLCompiler:1676 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/interrupt_controller.vhd" Line 20. declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output
+INFO:HDLCompiler:1676 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\interrupt_controller.vhd" Line 20. declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output
 Parsing architecture <rtl> of entity <interrupt_controller>.
-Parsing VHDL file "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/OSD_Overlay.vhd" into library work
+Parsing VHDL file "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\OSD_Overlay.vhd" into library work
 Parsing entity <OSD_Overlay>.
 Parsing architecture <RTL> of entity <osd_overlay>.
-Parsing VHDL file "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/CtrlModule.vhd" into library work
+Parsing VHDL file "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\CtrlModule.vhd" into library work
 Parsing entity <CtrlModule>.
 Parsing architecture <rtl> of entity <ctrlmodule>.
-WARNING:HDLCompiler:946 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/CtrlModule.vhd" Line 271: Actual for formal port reset is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\CtrlModule.vhd" Line 271: Actual for formal port reset is neither a static name nor a globally static expression
 
 =========================================================================
 *                            HDL Elaboration                            *
 =========================================================================
 
 Elaborating module <unoxt2_top>.
-WARNING:HDLCompiler:1016 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v" Line 139: Port REBOOT is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" Line 148: Port REBOOT is not connected to this instance
 
 Elaborating module <tld_sam_v4>.
+WARNING:HDLCompiler:872 - "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" Line 132: Using initial value of joytoggle since it is never assigned
 
 Elaborating module <relojes>.
 
 Elaborating module <IBUFG>.
 
 Elaborating module <PLL_BASE(BANDWIDTH="OPTIMIZED",CLK_FEEDBACK="CLKFBOUT",COMPENSATION="SYSTEM_SYNCHRONOUS",DIVCLK_DIVIDE=2,CLKFBOUT_MULT=25,CLKFBOUT_PHASE=0.0,CLKOUT0_DIVIDE=13,CLKOUT0_PHASE=0.0,CLKOUT0_DUTY_CYCLE=0.5,CLKIN_PERIOD=20.0,REF_JITTER=0.01)>.
-WARNING:HDLCompiler:1127 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/relojes.v" Line 118: Assignment to clkout1_unused ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/relojes.v" Line 119: Assignment to clkout2_unused ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/relojes.v" Line 120: Assignment to clkout3_unused ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/relojes.v" Line 121: Assignment to clkout4_unused ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/relojes.v" Line 122: Assignment to clkout5_unused ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/relojes.v" Line 123: Assignment to locked_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\relojes.v" Line 118: Assignment to clkout1_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\relojes.v" Line 119: Assignment to clkout2_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\relojes.v" Line 120: Assignment to clkout3_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\relojes.v" Line 121: Assignment to clkout4_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\relojes.v" Line 122: Assignment to clkout5_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\relojes.v" Line 123: Assignment to locked_unused ignored, since the identifier is never used
 
 Elaborating module <BUFG>.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/relojes.v" Line 181: Result of 4-bit expression is truncated to fit in 3-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/relojes.v" Line 189: Result of 5-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:1127 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/relojes.v" Line 175: Assignment to clk24 ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\relojes.v" Line 181: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\relojes.v" Line 189: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:1127 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\relojes.v" Line 175: Assignment to clk24 ignored, since the identifier is never used
 
 Elaborating module <samcoupe>.
 
@@ -265,64 +263,64 @@ Elaborating module <tv80_core(Mode=0,IOWait=1)>.
 Elaborating module <tv80_mcode(Mode=0,Flag_C=0,Flag_N=1,Flag_P=2,Flag_X=3,Flag_H=4,Flag_Y=5,Flag_Z=6,Flag_S=7)>.
 
 Elaborating module <tv80_alu(Mode=0,Flag_C=0,Flag_N=1,Flag_P=2,Flag_X=3,Flag_H=4,Flag_Y=5,Flag_Z=6,Flag_S=7)>.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/tv80_alu.v" Line 240: Result of 10-bit expression is truncated to fit in 9-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/tv80_alu.v" Line 252: Result of 32-bit expression is truncated to fit in 8-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/tv80_alu.v" Line 256: Result of 32-bit expression is truncated to fit in 9-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/tv80_core.v" Line 447: Result of 8-bit expression is truncated to fit in 7-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/tv80_core.v" Line 616: Result of 17-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\tv80_alu.v" Line 240: Result of 10-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\tv80_alu.v" Line 252: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\tv80_alu.v" Line 256: Result of 32-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\tv80_core.v" Line 447: Result of 8-bit expression is truncated to fit in 7-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\tv80_core.v" Line 616: Result of 17-bit expression is truncated to fit in 16-bit target.
 
 Elaborating module <tv80_reg>.
-WARNING:HDLCompiler:1127 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/samcoupe.v" Line 126: Assignment to m1_n ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/samcoupe.v" Line 131: Assignment to rfsh_n ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\samcoupe.v" Line 126: Assignment to m1_n ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\samcoupe.v" Line 131: Assignment to rfsh_n ignored, since the identifier is never used
 
 Elaborating module <asic>.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/asic.v" Line 164: Result of 11-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/asic.v" Line 169: Result of 10-bit expression is truncated to fit in 9-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/asic.v" Line 306: Result of 6-bit expression is truncated to fit in 5-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/asic.v" Line 320: Result of 6-bit expression is truncated to fit in 5-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/asic.v" Line 322: Result of 16-bit expression is truncated to fit in 15-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/asic.v" Line 326: Result of 16-bit expression is truncated to fit in 15-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/asic.v" Line 396: Result of 9-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\asic.v" Line 164: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\asic.v" Line 169: Result of 10-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\asic.v" Line 306: Result of 6-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\asic.v" Line 320: Result of 6-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\asic.v" Line 322: Result of 16-bit expression is truncated to fit in 15-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\asic.v" Line 326: Result of 16-bit expression is truncated to fit in 15-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\asic.v" Line 396: Result of 9-bit expression is truncated to fit in 8-bit target.
 
 Elaborating module <rom>.
-Reading initialization file \"home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/rom30.hex\".
+Reading initialization file \":\Xilinx\share\sam\unoxt-sam-coupe\common\/rom30.hex\".
 
 Elaborating module <ram_dual_port_turnos>.
 
 Elaborating module <ps2>.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/ps2.v" Line 27: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\ps2.v" Line 27: Result of 11-bit expression is truncated to fit in 10-bit target.
 
 Elaborating module <scancode_to_sam>.
-WARNING:HDLCompiler:634 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/scancode_to_sam.v" Line 42: Net <row[8][7]> does not have a driver.
+WARNING:HDLCompiler:634 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\scancode_to_sam.v" Line 42: Net <row[8][7]> does not have a driver.
 
 Elaborating module <ps2_mouse>.
 
 Elaborating module <ps2_port>.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/ps2_port.v" Line 129: Result of 17-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\ps2_port.v" Line 129: Result of 17-bit expression is truncated to fit in 16-bit target.
 
 Elaborating module <ps2_host_to_kb>.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/ps2_port.v" Line 206: Result of 17-bit expression is truncated to fit in 16-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/ps2_port.v" Line 232: Result of 4-bit expression is truncated to fit in 3-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/ps2_port.v" Line 260: Result of 17-bit expression is truncated to fit in 16-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/mouse.v" Line 130: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\ps2_port.v" Line 206: Result of 17-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\ps2_port.v" Line 232: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\ps2_port.v" Line 260: Result of 17-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\mouse.v" Line 130: Result of 11-bit expression is truncated to fit in 10-bit target.
 
 Elaborating module <saa1099s>.
 
 Elaborating module <saa1099_triplet>.
 
 Elaborating module <saa1099_tone>.
-WARNING:HDLCompiler:189 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/saa1099s.v" Line 185: Size mismatch in connection of port <octave>. Formal port size is 9-bit while actual signal size is 3-bit.
-WARNING:HDLCompiler:189 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/saa1099s.v" Line 186: Size mismatch in connection of port <octave>. Formal port size is 9-bit while actual signal size is 3-bit.
-WARNING:HDLCompiler:189 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/saa1099s.v" Line 187: Size mismatch in connection of port <octave>. Formal port size is 9-bit while actual signal size is 3-bit.
+WARNING:HDLCompiler:189 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\saa1099s.v" Line 185: Size mismatch in connection of port <octave>. Formal port size is 9-bit while actual signal size is 3-bit.
+WARNING:HDLCompiler:189 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\saa1099s.v" Line 186: Size mismatch in connection of port <octave>. Formal port size is 9-bit while actual signal size is 3-bit.
+WARNING:HDLCompiler:189 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\saa1099s.v" Line 187: Size mismatch in connection of port <octave>. Formal port size is 9-bit while actual signal size is 3-bit.
 
 Elaborating module <saa1099_noise>.
 
 Elaborating module <saa1099_amp>.
 
 Elaborating module <saa1099_mul_env>.
-WARNING:HDLCompiler:189 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/saa1099s.v" Line 190: Size mismatch in connection of port <envreg>. Formal port size is 8-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:189 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/saa1099s.v" Line 191: Size mismatch in connection of port <envreg>. Formal port size is 8-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:189 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/saa1099s.v" Line 192: Size mismatch in connection of port <vol>. Formal port size is 24-bit while actual signal size is 8-bit.
+WARNING:HDLCompiler:189 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\saa1099s.v" Line 190: Size mismatch in connection of port <envreg>. Formal port size is 8-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\saa1099s.v" Line 191: Size mismatch in connection of port <envreg>. Formal port size is 8-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\saa1099s.v" Line 192: Size mismatch in connection of port <vol>. Formal port size is 24-bit while actual signal size is 8-bit.
 
 Elaborating module <saa1099_output_mixer>.
 
@@ -331,33 +329,33 @@ Elaborating module <mixer>.
 Elaborating module <dac>.
 
 Elaborating module <diskdrives(NR_DISK=2,SHARED_FDC=1)>.
-WARNING:HDLCompiler:1016 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/wd1770.v" Line 94: Port full is not connected to this instance
-WARNING:HDLCompiler:1016 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/wd1770.v" Line 116: Port full is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\wd1770.v" Line 94: Port full is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\wd1770.v" Line 116: Port full is not connected to this instance
 
 Elaborating module <wd1770>.
-WARNING:HDLCompiler:872 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/wd1770.v" Line 48: Using initial value of motor_on since it is never assigned
-WARNING:HDLCompiler:872 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/wd1770.v" Line 50: Using initial value of datamark_n since it is never assigned
-WARNING:HDLCompiler:872 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/wd1770.v" Line 51: Using initial value of lostdata since it is never assigned
+WARNING:HDLCompiler:872 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\wd1770.v" Line 48: Using initial value of motor_on since it is never assigned
+WARNING:HDLCompiler:872 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\wd1770.v" Line 50: Using initial value of datamark_n since it is never assigned
+WARNING:HDLCompiler:872 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\wd1770.v" Line 51: Using initial value of lostdata since it is never assigned
 
 Elaborating module <fifo(RAM_SIZE=512,ADDRESS_WIDTH=9)>.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/fifo.v" Line 27: Result of 10-bit expression is truncated to fit in 9-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/fifo.v" Line 28: Result of 11-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/fifo.v" Line 31: Result of 10-bit expression is truncated to fit in 9-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/fifo.v" Line 32: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:1127 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/wd1770.v" Line 123: Assignment to fifo_out_empty ignored, since the identifier is never used
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/wd1770.v" Line 174: Result of 9-bit expression is truncated to fit in 8-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/wd1770.v" Line 178: Result of 32-bit expression is truncated to fit in 8-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/wd1770.v" Line 184: Result of 10-bit expression is truncated to fit in 9-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/wd1770.v" Line 191: Result of 33-bit expression is truncated to fit in 9-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/wd1770.v" Line 250: Result of 32-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/wd1770.v" Line 281: Result of 11-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/wd1770.v" Line 317: Result of 32-bit expression is truncated to fit in 3-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/wd1770.v" Line 325: Result of 32-bit expression is truncated to fit in 3-bit target.
-WARNING:HDLCompiler:634 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/wd1770.v" Line 79: Net <crcerror> does not have a driver.
-WARNING:HDLCompiler:189 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/samcoupe.v" Line 286: Size mismatch in connection of port <cpuaddr>. Formal port size is 3-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\fifo.v" Line 27: Result of 10-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\fifo.v" Line 28: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\fifo.v" Line 31: Result of 10-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\fifo.v" Line 32: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:1127 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\wd1770.v" Line 123: Assignment to fifo_out_empty ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\wd1770.v" Line 174: Result of 9-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\wd1770.v" Line 178: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\wd1770.v" Line 184: Result of 10-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\wd1770.v" Line 191: Result of 33-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\wd1770.v" Line 250: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\wd1770.v" Line 281: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\wd1770.v" Line 317: Result of 32-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\wd1770.v" Line 325: Result of 32-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:634 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\wd1770.v" Line 79: Net <crcerror> does not have a driver.
+WARNING:HDLCompiler:189 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\samcoupe.v" Line 286: Size mismatch in connection of port <cpuaddr>. Formal port size is 3-bit while actual signal size is 16-bit.
 
 Elaborating module <multiboot>.
-WARNING:HDLCompiler:1016 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/multiboot.v" Line 41: Port BUSY is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\multiboot.v" Line 41: Port BUSY is not connected to this instance
 
 Elaborating module <multiboot_spartan6>.
 
@@ -368,37 +366,37 @@ Elaborating module <vga_scandoubler(CLKVIDEO=12000)>.
 Elaborating module <vgascanline_dport>.
 
 Elaborating module <color_dimmed>.
-WARNING:HDLCompiler:1127 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v" Line 236: Assignment to hyperload_fifo_data ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v" Line 243: Assignment to hyperload_fifo_empty ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v" Line 244: Assignment to hyperload_fifo_full ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" Line 245: Assignment to hyperload_fifo_data ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" Line 252: Assignment to hyperload_fifo_empty ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" Line 253: Assignment to hyperload_fifo_full ignored, since the identifier is never used
 Going to vhdl side to elaborate module CtrlModule
 
 Elaborating entity <CtrlModule> (architecture <rtl>) with generics from library <work>.
 
 Elaborating entity <simple_uart> (architecture <rtl>) with generics from library <work>.
-INFO:HDLCompiler:679 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/simple_uart.vhd" Line 165. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/simple_uart.vhd" Line 205. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\simple_uart.vhd" Line 165. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\simple_uart.vhd" Line 205. Case statement is complete. others clause is never selected
 Going to verilog side to elaborate module fifo
 
 Elaborating module <fifo(RAM_SIZE=1024,ADDRESS_WIDTH=10,WORD_SIZE=8)>.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/fifo.v" Line 27: Result of 11-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/fifo.v" Line 28: Result of 12-bit expression is truncated to fit in 11-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/fifo.v" Line 31: Result of 11-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/fifo.v" Line 32: Result of 32-bit expression is truncated to fit in 11-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\fifo.v" Line 27: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\fifo.v" Line 28: Result of 12-bit expression is truncated to fit in 11-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\fifo.v" Line 31: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\fifo.v" Line 32: Result of 32-bit expression is truncated to fit in 11-bit target.
 Back to vhdl to continue elaboration
 
 Elaborating entity <CtrlROM_ROM> (architecture <arch>) with generics from library <work>.
 
 Elaborating entity <zpu_core_flex> (architecture <behave>) with generics from library <work>.
-WARNING:HDLCompiler:92 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/ZPUFlex/RTL/zpu_core_flex.vhd" Line 318: cachedprogramword should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/ZPUFlex/RTL/zpu_core_flex.vhd" Line 320: cachedprogramword should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/ZPUFlex/RTL/zpu_core_flex.vhd" Line 322: cachedprogramword should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/ZPUFlex/RTL/zpu_core_flex.vhd" Line 324: cachedprogramword should be on the sensitivity list of the process
-INFO:HDLCompiler:679 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/ZPUFlex/RTL/zpu_core_flex.vhd" Line 326. Case statement is complete. others clause is never selected
-WARNING:HDLCompiler:92 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/ZPUFlex/RTL/zpu_core_flex.vhd" Line 429: comparison_sub_result should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/ZPUFlex/RTL/zpu_core_flex.vhd" Line 435: shift_count should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/ZPUFlex/RTL/zpu_core_flex.vhd" Line 444: membread should be on the sensitivity list of the process
-WARNING:HDLCompiler:1127 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/ZPUFlex/RTL/zpu_core_flex.vhd" Line 423: Assignment to begin_inst ignored, since the identifier is never used
+WARNING:HDLCompiler:92 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\ZPUFlex\RTL\zpu_core_flex.vhd" Line 318: cachedprogramword should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\ZPUFlex\RTL\zpu_core_flex.vhd" Line 320: cachedprogramword should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\ZPUFlex\RTL\zpu_core_flex.vhd" Line 322: cachedprogramword should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\ZPUFlex\RTL\zpu_core_flex.vhd" Line 324: cachedprogramword should be on the sensitivity list of the process
+INFO:HDLCompiler:679 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\ZPUFlex\RTL\zpu_core_flex.vhd" Line 326. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:92 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\ZPUFlex\RTL\zpu_core_flex.vhd" Line 429: comparison_sub_result should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\ZPUFlex\RTL\zpu_core_flex.vhd" Line 435: shift_count should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\ZPUFlex\RTL\zpu_core_flex.vhd" Line 444: membread should be on the sensitivity list of the process
+WARNING:HDLCompiler:1127 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\ZPUFlex\RTL\zpu_core_flex.vhd" Line 423: Assignment to begin_inst ignored, since the identifier is never used
 
 Elaborating entity <OnScreenDisplay> (architecture <rtl>) from library <work>.
 Going to verilog side to elaborate module dpsram
@@ -414,57 +412,57 @@ Elaborating entity <spi_interface> (architecture <rtl>) from library <work>.
 Going to verilog side to elaborate module taploader2
 
 Elaborating module <taploader2(TURBO_1=49,TURBO_0=24,NORMAL_1=191,NORMAL_0=95,LEADER_PULSE=242,SYNC_PULSE0=74,SYNC_PULSE1=82,ONE_SECOND=1627)>.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/taploader2.v" Line 241: Result of 32-bit expression is truncated to fit in 8-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/taploader2.v" Line 242: Result of 32-bit expression is truncated to fit in 8-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/taploader2.v" Line 244: Result of 32-bit expression is truncated to fit in 8-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/taploader2.v" Line 245: Result of 32-bit expression is truncated to fit in 8-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/taploader2.v" Line 269: Result of 32-bit expression is truncated to fit in 8-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/taploader2.v" Line 270: Result of 32-bit expression is truncated to fit in 8-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/taploader2.v" Line 272: Result of 32-bit expression is truncated to fit in 8-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/taploader2.v" Line 273: Result of 32-bit expression is truncated to fit in 8-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/taploader2.v" Line 279: Result of 32-bit expression is truncated to fit in 8-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/taploader2.v" Line 280: Result of 32-bit expression is truncated to fit in 8-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/taploader2.v" Line 282: Result of 32-bit expression is truncated to fit in 8-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/taploader2.v" Line 283: Result of 32-bit expression is truncated to fit in 8-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/taploader2.v" Line 295: Result of 32-bit expression is truncated to fit in 13-bit target.
-WARNING:HDLCompiler:413 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/taploader2.v" Line 296: Result of 32-bit expression is truncated to fit in 8-bit target.
-WARNING:HDLCompiler:634 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/taploader2.v" Line 136: Net <tap_data_byte[0]> does not have a driver.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\taploader2.v" Line 241: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\taploader2.v" Line 242: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\taploader2.v" Line 244: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\taploader2.v" Line 245: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\taploader2.v" Line 269: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\taploader2.v" Line 270: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\taploader2.v" Line 272: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\taploader2.v" Line 273: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\taploader2.v" Line 279: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\taploader2.v" Line 280: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\taploader2.v" Line 282: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\taploader2.v" Line 283: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\taploader2.v" Line 295: Result of 32-bit expression is truncated to fit in 13-bit target.
+WARNING:HDLCompiler:413 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\taploader2.v" Line 296: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:634 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\taploader2.v" Line 136: Net <tap_data_byte[0]> does not have a driver.
 Back to vhdl to continue elaboration
 
 Elaborating entity <interrupt_controller> (architecture <rtl>) with generics from library <work>.
-WARNING:HDLCompiler:92 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/CtrlModule.vhd" Line 424: reset_n should be on the sensitivity list of the process
-WARNING:HDLCompiler:1127 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/CtrlModule.vhd" Line 422: Assignment to disk_irq_mask ignored, since the identifier is never used
+WARNING:HDLCompiler:92 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\CtrlModule.vhd" Line 424: reset_n should be on the sensitivity list of the process
+WARNING:HDLCompiler:1127 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\CtrlModule.vhd" Line 422: Assignment to disk_irq_mask ignored, since the identifier is never used
 Back to verilog to continue elaboration
 Going to vhdl side to elaborate module OSD_Overlay
 
 Elaborating entity <OSD_Overlay> (architecture <RTL>) from library <work>.
 Back to verilog to continue elaboration
-WARNING:HDLCompiler:634 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v" Line 87: Net <ear_in_sc> does not have a driver.
-WARNING:HDLCompiler:634 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v" Line 212: Net <tape_data[7]> does not have a driver.
-WARNING:HDLCompiler:634 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v" Line 219: Net <hyperload_fifo_rd> does not have a driver.
-WARNING:HDLCompiler:634 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v" Line 229: Net <tape_dclk> does not have a driver.
-WARNING:HDLCompiler:634 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v" Line 230: Net <tape_reset> does not have a driver.
-WARNING:HDLCompiler:552 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v" Line 254: Input port ear_in is not connected on this instance
+WARNING:HDLCompiler:634 - "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" Line 87: Net <ear_in_sc> does not have a driver.
+WARNING:HDLCompiler:634 - "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" Line 221: Net <tape_data[7]> does not have a driver.
+WARNING:HDLCompiler:634 - "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" Line 228: Net <hyperload_fifo_rd> does not have a driver.
+WARNING:HDLCompiler:634 - "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" Line 238: Net <tape_dclk> does not have a driver.
+WARNING:HDLCompiler:634 - "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" Line 239: Net <tape_reset> does not have a driver.
+WARNING:HDLCompiler:552 - "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" Line 263: Input port ear_in is not connected on this instance
 
 Elaborating module <ledPWM>.
-WARNING:HDLCompiler:634 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/unoxt/unoxt_top.v" Line 127: Net <turbo100[15]> does not have a driver.
-WARNING:Xst:2972 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v" line 235. All outputs of instance <hyperload_fifo_inst> of block <fifo> are unconnected in block <tld_sam_v4>. Underlying logic will be removed.
+WARNING:HDLCompiler:634 - "D:\Xilinx\share\sam\unoxt-sam-coupe\unoxt\unoxt_top.v" Line 127: Net <turbo100[15]> does not have a driver.
+WARNING:Xst:2972 - "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" line 244. All outputs of instance <hyperload_fifo_inst> of block <fifo> are unconnected in block <tld_sam_v4>. Underlying logic will be removed.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <unoxt2_top>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/unoxt/unoxt_top.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\unoxt\unoxt_top.v".
 WARNING:Xst:647 - Input <esp_rx_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <flash_miso_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <joyp9_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <btn_divmmc_n_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <btn_multiface_n_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/unoxt/unoxt_top.v" line 134: Output port <stdn> of the instance <sam> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/unoxt/unoxt_top.v" line 134: Output port <stdnb> of the instance <sam> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/unoxt/unoxt_top.v" line 134: Output port <joyselect> of the instance <sam> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/unoxt/unoxt_top.v" line 134: Output port <led> of the instance <sam> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\unoxt\unoxt_top.v" line 134: Output port <stdn> of the instance <sam> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\unoxt\unoxt_top.v" line 134: Output port <stdnb> of the instance <sam> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\unoxt\unoxt_top.v" line 134: Output port <joyselect> of the instance <sam> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\unoxt\unoxt_top.v" line 134: Output port <led> of the instance <sam> is unconnected or connected to loadless signal.
 Always blocking tristate driving signal <ram_data_io<15>> is removed.
 Always blocking tristate driving signal <ram_data_io<14>> is removed.
 Always blocking tristate driving signal <ram_data_io<13>> is removed.
@@ -480,7 +478,7 @@ INFO:Xst:2774 - HDL ADVISOR - KEEP property attached to signal ram_data_io<7:0> 
 Unit <unoxt2_top> synthesized.
 
 Synthesizing Unit <tld_sam_v4>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v".
 WARNING:Xst:2898 - Port 'debug', unconnected in block instance 'MyCtrlModule', is tied to GND.
 WARNING:Xst:2898 - Port 'ear_in', unconnected in block instance 'MyCtrlModule', is tied to GND.
 WARNING:Xst:2898 - Port 'tape_hreq', unconnected in block instance 'MyCtrlModule', is tied to GND.
@@ -488,50 +486,47 @@ WARNING:Xst:2898 - Port 'cpu_reset', unconnected in block instance 'MyCtrlModule
 WARNING:Xst:2898 - Port 'juart_rx', unconnected in block instance 'MyCtrlModule', is tied to GND.
 WARNING:Xst:2898 - Port 'host_bootdata_ack', unconnected in block instance 'MyCtrlModule', is tied to GND.
 WARNING:Xst:2898 - Port 'host_rom_initialised', unconnected in block instance 'MyCtrlModule', is tied to GND.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v" line 139: Output port <REBOOT> of the instance <maquina> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v" line 139: Output port <testled> of the instance <maquina> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v" line 235: Output port <q> of the instance <hyperload_fifo_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v" line 235: Output port <empty> of the instance <hyperload_fifo_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v" line 235: Output port <full> of the instance <hyperload_fifo_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v" line 254: Output port <tape_data_out> of the instance <MyCtrlModule> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v" line 254: Output port <host_bootdata> of the instance <MyCtrlModule> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v" line 254: Output port <kbd_kbscan> of the instance <MyCtrlModule> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v" line 254: Output port <ps2k_clk_out> of the instance <MyCtrlModule> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v" line 254: Output port <ps2k_dat_out> of the instance <MyCtrlModule> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v" line 254: Output port <host_divert_sdcard> of the instance <MyCtrlModule> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v" line 254: Output port <host_reset> of the instance <MyCtrlModule> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v" line 254: Output port <ear_out> of the instance <MyCtrlModule> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v" line 254: Output port <tape_dclk_out> of the instance <MyCtrlModule> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v" line 254: Output port <tape_reset_out> of the instance <MyCtrlModule> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v" line 254: Output port <tape_busy> of the instance <MyCtrlModule> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v" line 254: Output port <juart_tx> of the instance <MyCtrlModule> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v" line 254: Output port <host_bootdata_req> of the instance <MyCtrlModule> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v" line 254: Output port <kbd_kbhit> of the instance <MyCtrlModule> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/v4/tld_sam_v4.v" line 318: Output port <window_out> of the instance <overlay> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" line 148: Output port <REBOOT> of the instance <maquina> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" line 148: Output port <testled> of the instance <maquina> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" line 244: Output port <q> of the instance <hyperload_fifo_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" line 244: Output port <empty> of the instance <hyperload_fifo_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" line 244: Output port <full> of the instance <hyperload_fifo_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" line 263: Output port <tape_data_out> of the instance <MyCtrlModule> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" line 263: Output port <host_bootdata> of the instance <MyCtrlModule> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" line 263: Output port <kbd_kbscan> of the instance <MyCtrlModule> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" line 263: Output port <ps2k_clk_out> of the instance <MyCtrlModule> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" line 263: Output port <ps2k_dat_out> of the instance <MyCtrlModule> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" line 263: Output port <host_divert_sdcard> of the instance <MyCtrlModule> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" line 263: Output port <host_reset> of the instance <MyCtrlModule> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" line 263: Output port <ear_out> of the instance <MyCtrlModule> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" line 263: Output port <tape_dclk_out> of the instance <MyCtrlModule> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" line 263: Output port <tape_reset_out> of the instance <MyCtrlModule> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" line 263: Output port <tape_busy> of the instance <MyCtrlModule> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" line 263: Output port <juart_tx> of the instance <MyCtrlModule> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" line 263: Output port <host_bootdata_req> of the instance <MyCtrlModule> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" line 263: Output port <kbd_kbhit> of the instance <MyCtrlModule> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\v4\tld_sam_v4.v" line 327: Output port <window_out> of the instance <overlay> is unconnected or connected to loadless signal.
 WARNING:Xst:653 - Signal <tape_data> is used but never assigned. This sourceless signal will be automatically connected to value GND.
 WARNING:Xst:653 - Signal <ear_in_sc> is used but never assigned. This sourceless signal will be automatically connected to value GND.
 WARNING:Xst:653 - Signal <hyperload_fifo_rd> is used but never assigned. This sourceless signal will be automatically connected to value GND.
 WARNING:Xst:653 - Signal <tape_dclk> is used but never assigned. This sourceless signal will be automatically connected to value GND.
 WARNING:Xst:653 - Signal <tape_reset> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Found 2-bit register for signal <scandoubler_ctrl>.
-    Found 5-bit register for signal <joystick1>.
-    Found 5-bit register for signal <joystick2>.
-    Found 1-bit register for signal <joytoggle>.
     Found 1-bit register for signal <scanlines_inv>.
     Found 1-bit register for signal <scandbl_inv>.
     Found 1-bit register for signal <joysplitter>.
     Found 32-bit register for signal <count>.
     Found 1-bit register for signal <led>.
     Found 8-bit register for signal <poweron_reset>.
-    Found 32-bit adder for signal <count[31]_GND_2_o_add_21_OUT> created at line 226.
+    Found 32-bit adder for signal <count[31]_GND_2_o_add_17_OUT> created at line 235.
     Summary:
 	inferred   1 Adder/Subtractor(s).
-	inferred  57 D-type flip-flop(s).
-	inferred   5 Multiplexer(s).
+	inferred  46 D-type flip-flop(s).
+	inferred   4 Multiplexer(s).
 Unit <tld_sam_v4> synthesized.
 
 Synthesizing Unit <relojes>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/relojes.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\relojes.v".
     Found 3-bit register for signal <clkcounter>.
     Found 4-bit register for signal <clk8ct>.
     Found 1-bit register for signal <clk8>.
@@ -543,11 +538,11 @@ Synthesizing Unit <relojes>.
 Unit <relojes> synthesized.
 
 Synthesizing Unit <samcoupe>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/samcoupe.v".
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/samcoupe.v" line 125: Output port <m1_n> of the instance <el_z80> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/samcoupe.v" line 125: Output port <rfsh_n> of the instance <el_z80> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/samcoupe.v" line 125: Output port <halt_n> of the instance <el_z80> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/samcoupe.v" line 125: Output port <busak_n> of the instance <el_z80> is unconnected or connected to loadless signal.
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\samcoupe.v".
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\samcoupe.v" line 125: Output port <m1_n> of the instance <el_z80> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\samcoupe.v" line 125: Output port <rfsh_n> of the instance <el_z80> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\samcoupe.v" line 125: Output port <halt_n> of the instance <el_z80> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\samcoupe.v" line 125: Output port <busak_n> of the instance <el_z80> is unconnected or connected to loadless signal.
 WARNING:Xst:653 - Signal <REBOOT> is used but never assigned. This sourceless signal will be automatically connected to value GND.
 WARNING:Xst:653 - Signal <testled> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Summary:
@@ -555,12 +550,12 @@ WARNING:Xst:653 - Signal <testled> is used but never assigned. This sourceless s
 Unit <samcoupe> synthesized.
 
 Synthesizing Unit <tv80a>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/tv80a.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\tv80a.v".
         Mode = 0
         T2Write = 1
         IOWait = 1
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/tv80a.v" line 74: Output port <IntE> of the instance <i_tv80_core> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/tv80a.v" line 74: Output port <stop> of the instance <i_tv80_core> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\tv80a.v" line 74: Output port <IntE> of the instance <i_tv80_core> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\tv80a.v" line 74: Output port <stop> of the instance <i_tv80_core> is unconnected or connected to loadless signal.
     Found 1-bit register for signal <tstate_rr<1>>.
     Found 8-bit register for signal <di_reg>.
     Found 3-bit register for signal <tstate_r<3:1>>.
@@ -570,7 +565,7 @@ INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/tv80a.v" li
 Unit <tv80a> synthesized.
 
 Synthesizing Unit <tv80_core>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/tv80_core.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\tv80_core.v".
         Mode = 0
         IOWait = 1
         Flag_C = 0
@@ -657,7 +652,7 @@ Synthesizing Unit <tv80_core>.
 Unit <tv80_core> synthesized.
 
 Synthesizing Unit <tv80_mcode>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/tv80_mcode.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\tv80_mcode.v".
         Mode = 0
         Flag_C = 0
         Flag_N = 1
@@ -685,7 +680,7 @@ WARNING:Xst:647 - Input <F<5:3>> is never used. This port will be preserved and 
 Unit <tv80_mcode> synthesized.
 
 Synthesizing Unit <tv80_alu>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/tv80_alu.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\tv80_alu.v".
         Mode = 0
         Flag_C = 0
         Flag_N = 1
@@ -717,7 +712,7 @@ Synthesizing Unit <tv80_alu>.
 Unit <tv80_alu> synthesized.
 
 Synthesizing Unit <tv80_reg>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/tv80_reg.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\tv80_reg.v".
     Found 8x8-bit dual-port RAM <Mram_RegsH> for signal <RegsH>.
     Found 8x8-bit dual-port RAM <Mram_RegsL> for signal <RegsL>.
     Summary:
@@ -725,7 +720,7 @@ Synthesizing Unit <tv80_reg>.
 Unit <tv80_reg> synthesized.
 
 Synthesizing Unit <asic>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/asic.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\asic.v".
         HACTIVEREGION = 512
         RBORDER = 64
         HFPORCH = 16
@@ -821,7 +816,7 @@ Synthesizing Unit <asic>.
 Unit <asic> synthesized.
 
 Synthesizing Unit <rom>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/rom.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\rom.v".
     Set property "rom_extract = yes".
     Set property "rom_style = block".
 WARNING:Xst:2999 - Signal 'mem', unconnected in block 'rom', is tied to its initial value.
@@ -833,7 +828,7 @@ WARNING:Xst:2999 - Signal 'mem', unconnected in block 'rom', is tied to its init
 Unit <rom> synthesized.
 
 Synthesizing Unit <ram_dual_port_turnos>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/ram.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\ram.v".
 WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 1-bit tristate buffer for signal <sram_d<7>> created at line 38
     Found 1-bit tristate buffer for signal <sram_d<6>> created at line 38
@@ -849,7 +844,7 @@ WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and lef
 Unit <ram_dual_port_turnos> synthesized.
 
 Synthesizing Unit <ps2>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/ps2.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\ps2.v".
     Found 1-bit register for signal <kbd_clk_last>.
     Found 1-bit register for signal <kbd_clk_debounced>.
     Found 1-bit register for signal <valid>.
@@ -870,7 +865,7 @@ Synthesizing Unit <ps2>.
 Unit <ps2> synthesized.
 
 Synthesizing Unit <scancode_to_sam>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/scancode_to_sam.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\scancode_to_sam.v".
 WARNING:Xst:653 - Signal <row<8><7:5>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Found 1-bit register for signal <kextended>.
     Found 1-bit register for signal <row<0><7>>.
@@ -954,11 +949,11 @@ WARNING:Xst:653 - Signal <row<8><7:5>> is used but never assigned. This sourcele
 Unit <scancode_to_sam> synthesized.
 
 Synthesizing Unit <ps2_mouse>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/mouse.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\mouse.v".
 WARNING:Xst:647 - Input <rstn> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/mouse.v" line 69: Output port <released> of the instance <puerto_del_raton> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/mouse.v" line 69: Output port <extended> of the instance <puerto_del_raton> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/mouse.v" line 81: Output port <ps2error> of the instance <escritura_a_raton> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\mouse.v" line 69: Output port <released> of the instance <puerto_del_raton> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\mouse.v" line 69: Output port <extended> of the instance <puerto_del_raton> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\mouse.v" line 81: Output port <ps2error> of the instance <escritura_a_raton> is unconnected or connected to loadless signal.
     Found 1-bit register for signal <enable_mouse>.
     Found 1-bit register for signal <prev_rdmsel>.
     Found 10-bit register for signal <counter>.
@@ -1011,7 +1006,7 @@ INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/mouse.v" li
 Unit <ps2_mouse> synthesized.
 
 Synthesizing Unit <ps2_port>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/ps2_port.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\ps2_port.v".
     Found 2-bit register for signal <ps2dat_synchr>.
     Found 16-bit register for signal <negedgedetect>.
     Found 1-bit register for signal <rkb_interrupt>.
@@ -1043,7 +1038,7 @@ Synthesizing Unit <ps2_port>.
 Unit <ps2_port> synthesized.
 
 Synthesizing Unit <ps2_host_to_kb>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/ps2_port.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\ps2_port.v".
     Found 16-bit register for signal <edgedetect>.
     Found 8-bit register for signal <rdata>.
     Found 1-bit register for signal <busy>.
@@ -1079,7 +1074,7 @@ Synthesizing Unit <ps2_host_to_kb>.
 Unit <ps2_host_to_kb> synthesized.
 
 Synthesizing Unit <saa1099s>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/saa1099s.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\saa1099s.v".
     Found 1-bit register for signal <wr>.
     Found 5-bit register for signal <addr>.
     Found 8-bit register for signal <amplit5>.
@@ -1109,8 +1104,8 @@ Synthesizing Unit <saa1099s>.
 Unit <saa1099s> synthesized.
 
 Synthesizing Unit <saa1099_triplet>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/saa1099s.v".
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/saa1099s.v" line 187: Output port <pulse> of the instance <freq_gen2> is unconnected or connected to loadless signal.
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\saa1099s.v".
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\saa1099s.v" line 187: Output port <pulse> of the instance <freq_gen2> is unconnected or connected to loadless signal.
     Found 10-bit adder for signal <n0037[9:0]> created at line 194.
     Found 11-bit adder for signal <n0040[10:0]> created at line 194.
     Found 10-bit adder for signal <n0043[9:0]> created at line 195.
@@ -1120,7 +1115,7 @@ INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/saa1099s.v"
 Unit <saa1099_triplet> synthesized.
 
 Synthesizing Unit <saa1099_tone>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/saa1099s.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\saa1099s.v".
     Found 17-bit register for signal <count>.
     Found 1-bit register for signal <out>.
     Found 1-bit register for signal <pulse>.
@@ -1137,7 +1132,7 @@ Synthesizing Unit <saa1099_tone>.
 Unit <saa1099_tone> synthesized.
 
 Synthesizing Unit <saa1099_noise>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/saa1099s.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\saa1099s.v".
     Found 17-bit register for signal <lfsr>.
     Found 11-bit register for signal <count>.
     Found 11-bit subtractor for signal <fcount> created at line 250.
@@ -1151,7 +1146,7 @@ Synthesizing Unit <saa1099_noise>.
 Unit <saa1099_noise> synthesized.
 
 Synthesizing Unit <saa1099_amp>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/saa1099s.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\saa1099s.v".
 WARNING:Xst:647 - Input <envreg<6:6>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <vol<23:8>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 1-bit register for signal <stereo>.
@@ -1179,7 +1174,7 @@ WARNING:Xst:647 - Input <vol<23:8>> is never used. This port will be preserved a
 Unit <saa1099_amp> synthesized.
 
 Synthesizing Unit <saa1099_mul_env>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/saa1099s.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\saa1099s.v".
     Found 9-bit adder for signal <n0023> created at line 493.
     Found 9-bit adder for signal <n0026> created at line 493.
     Found 9-bit adder for signal <out> created at line 493.
@@ -1189,7 +1184,7 @@ Synthesizing Unit <saa1099_mul_env>.
 Unit <saa1099_mul_env> synthesized.
 
 Synthesizing Unit <saa1099_output_mixer>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/saa1099s.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\saa1099s.v".
     Found 8-bit register for signal <out>.
     Found 1-bit register for signal <ced>.
     Found 12-bit adder for signal <n0014> created at line 517.
@@ -1201,7 +1196,7 @@ Synthesizing Unit <saa1099_output_mixer>.
 Unit <saa1099_output_mixer> synthesized.
 
 Synthesizing Unit <mixer>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/audio_management.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\audio_management.v".
     Found 9-bit register for signal <sample_r>.
     Found 9-bit register for signal <sample_l>.
     Found 7-bit adder for signal <GND_53_o_GND_53_o_add_3_OUT> created at line 73.
@@ -1215,7 +1210,7 @@ Synthesizing Unit <mixer>.
 Unit <mixer> synthesized.
 
 Synthesizing Unit <dac>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/audio_management.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\audio_management.v".
     Found 1-bit register for signal <DACout>.
     Found 11-bit register for signal <SigmaLatch>.
     Found 11-bit adder for signal <DeltaAdder> created at line 38.
@@ -1227,7 +1222,7 @@ Synthesizing Unit <dac>.
 Unit <dac> synthesized.
 
 Synthesizing Unit <diskdrives>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/diskdrives.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\diskdrives.v".
         NR_DISK = 2
         SHARED_FDC = 1
 WARNING:Xst:647 - Input <clk24> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -1236,7 +1231,7 @@ WARNING:Xst:647 - Input <clk24> is never used. This port will be preserved and l
 Unit <diskdrives> synthesized.
 
 Synthesizing Unit <wd1770>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/wd1770.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\wd1770.v".
         CR = 4'b0100
         SR = 4'b1000
         TRKW = 4'b0101
@@ -1250,9 +1245,9 @@ Synthesizing Unit <wd1770>.
         DATA = 2'b11
 WARNING:Xst:647 - Input <dcr<2:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <dcr<31:5>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/wd1770.v" line 94: Output port <full> of the instance <fifo_in> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/wd1770.v" line 116: Output port <empty> of the instance <fifo_out> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/wd1770.v" line 116: Output port <full> of the instance <fifo_out> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\wd1770.v" line 94: Output port <full> of the instance <fifo_in> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\wd1770.v" line 116: Output port <empty> of the instance <fifo_out> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\unoxt-sam-coupe\common\wd1770.v" line 116: Output port <full> of the instance <fifo_out> is unconnected or connected to loadless signal.
 WARNING:Xst:653 - Signal <crcerror> is used but never assigned. This sourceless signal will be automatically connected to value GND.
 WARNING:Xst:653 - Signal <spinupcomplete> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Found 32-bit register for signal <spincount>.
@@ -1289,7 +1284,7 @@ WARNING:Xst:653 - Signal <spinupcomplete> is used but never assigned. This sourc
 Unit <wd1770> synthesized.
 
 Synthesizing Unit <fifo_1>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/fifo.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\fifo.v".
         RAM_SIZE = 512
         ADDRESS_WIDTH = 9
         WORD_SIZE = 8
@@ -1312,7 +1307,7 @@ WARNING:Xst:37 - Detected unknown constraint/property "ramstyle". This constrain
 Unit <fifo_1> synthesized.
 
 Synthesizing Unit <multiboot>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/multiboot.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\multiboot.v".
     Found 1-bit register for signal <reboot_ff>.
     Found 5-bit register for signal <q>.
     Summary:
@@ -1320,7 +1315,7 @@ Synthesizing Unit <multiboot>.
 Unit <multiboot> synthesized.
 
 Synthesizing Unit <multiboot_spartan6>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/multiboot.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\multiboot.v".
         IDLE = 0
         SYNC_H = 1
         SYNC_L = 2
@@ -1359,7 +1354,7 @@ Synthesizing Unit <multiboot_spartan6>.
 Unit <multiboot_spartan6> synthesized.
 
 Synthesizing Unit <vga_scandoubler>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/vga_scandoubler.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\vga_scandoubler.v".
         CLKVIDEO = 32'b00000000000000000010111011100000
         HSYNC_COUNT = 64'b0000000000000000000000000000000000000000000000000000000001010000
         VSYNC_COUNT = 64'b0000000000000000000000000000000000000000000000000000101010110111
@@ -1392,7 +1387,7 @@ Synthesizing Unit <vga_scandoubler>.
 Unit <vga_scandoubler> synthesized.
 
 Synthesizing Unit <vgascanline_dport>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/vga_scandoubler.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\vga_scandoubler.v".
     Found 2048x9-bit dual-port RAM <Mram_scan> for signal <scan>.
     Found 9-bit register for signal <dout>.
     Summary:
@@ -1401,28 +1396,28 @@ Synthesizing Unit <vgascanline_dport>.
 Unit <vgascanline_dport> synthesized.
 
 Synthesizing Unit <color_dimmed>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/vga_scandoubler.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\vga_scandoubler.v".
     Found 8x3-bit Read Only RAM for signal <out>
     Summary:
 	inferred   1 RAM(s).
 Unit <color_dimmed> synthesized.
 
 Synthesizing Unit <CtrlModule>.
-    Related source file is "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/CtrlModule.vhd".
+    Related source file is "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\CtrlModule.vhd".
         sysclk_frequency = 500
         ROMSIZE_BITS = 14
         USE_UART = 1
         USE_TAPE = 1
 WARNING:Xst:647 - Input <ear_in> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/CtrlModule.vhd" line 201: Output port <txint> of the instance <UART.uart> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/CtrlModule.vhd" line 252: Output port <out_mem_bEnable> of the instance <zpu> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/CtrlModule.vhd" line 252: Output port <out_mem_hEnable> of the instance <zpu> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/CtrlModule.vhd" line 252: Output port <break> of the instance <zpu> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/CtrlModule.vhd" line 288: Output port <vblank> of the instance <myosd> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/CtrlModule.vhd" line 288: Output port <enabled> of the instance <myosd> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/CtrlModule.vhd" line 311: Output port <inIdle> of the instance <mykeyboard> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/CtrlModule.vhd" line 311: Output port <sendBusy> of the instance <mykeyboard> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/CtrlModule.vhd" line 311: Output port <sendDone> of the instance <mykeyboard> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\CtrlModule.vhd" line 201: Output port <txint> of the instance <UART.uart> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\CtrlModule.vhd" line 252: Output port <out_mem_bEnable> of the instance <zpu> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\CtrlModule.vhd" line 252: Output port <out_mem_hEnable> of the instance <zpu> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\CtrlModule.vhd" line 252: Output port <break> of the instance <zpu> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\CtrlModule.vhd" line 288: Output port <vblank> of the instance <myosd> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\CtrlModule.vhd" line 288: Output port <enabled> of the instance <myosd> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\CtrlModule.vhd" line 311: Output port <inIdle> of the instance <mykeyboard> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\CtrlModule.vhd" line 311: Output port <sendBusy> of the instance <mykeyboard> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\CtrlModule.vhd" line 311: Output port <sendDone> of the instance <mykeyboard> is unconnected or connected to loadless signal.
     Found 9-bit register for signal <spi_tick>.
     Found 1-bit register for signal <int_enabled>.
     Found 1-bit register for signal <kbdrecvreg>.
@@ -1469,7 +1464,7 @@ INFO:Xst:3210 - "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/
 Unit <CtrlModule> synthesized.
 
 Synthesizing Unit <simple_uart>.
-    Related source file is "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/simple_uart.vhd".
+    Related source file is "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\simple_uart.vhd".
         counter_bits = 16
         enable_rx = true
         enable_tx = true
@@ -1492,7 +1487,7 @@ Synthesizing Unit <simple_uart>.
 Unit <simple_uart> synthesized.
 
 Synthesizing Unit <fifo_2>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/fifo.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\common\fifo.v".
         RAM_SIZE = 1024
         ADDRESS_WIDTH = 10
         WORD_SIZE = 8
@@ -1515,7 +1510,7 @@ WARNING:Xst:37 - Detected unknown constraint/property "ramstyle". This constrain
 Unit <fifo_2> synthesized.
 
 Synthesizing Unit <CtrlROM_ROM>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/firmware/CtrlROM_ROM.vhd".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\firmware\CtrlROM_ROM.vhd".
         maxAddrBitBRAM = 14
 WARNING:Xst:647 - Input <from_zpu_memAAddr<15:15>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <from_zpu_memBAddr<15:15>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -1531,7 +1526,7 @@ WARNING:Xst:3015 - Contents of array <ram> may be accessed with an index that do
 Unit <CtrlROM_ROM> synthesized.
 
 Synthesizing Unit <zpu_core_flex>.
-    Related source file is "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/ZPUFlex/RTL/zpu_core_flex.vhd".
+    Related source file is "D:\Xilinx\share\sam\ctrl-module\CtrlModule\ZPUFlex\RTL\zpu_core_flex.vhd".
         IMPL_MULTIPLY = true
         IMPL_COMPARISON_SUB = true
         IMPL_EQBRANCH = true
@@ -1641,7 +1636,7 @@ INFO:Xst:1799 - State state_interrupt is never reached in FSM <state>.
 Unit <zpu_core_flex> synthesized.
 
 Synthesizing Unit <OnScreenDisplay>.
-    Related source file is "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/OnScreenDisplay.vhd".
+    Related source file is "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\OnScreenDisplay.vhd".
     Found 16-bit register for signal <hcounter>.
     Found 1-bit register for signal <newline>.
     Found 16-bit register for signal <hframe>.
@@ -1677,7 +1672,7 @@ Synthesizing Unit <OnScreenDisplay>.
 Unit <OnScreenDisplay> synthesized.
 
 Synthesizing Unit <dpsram>.
-    Related source file is "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/dpsram.v".
+    Related source file is "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\dpsram.v".
         RAM_SIZE = 512
         ADDRESS_WIDTH = 9
         WORD_SIZE = 7
@@ -1691,7 +1686,7 @@ WARNING:Xst:37 - Detected unknown constraint/property "ramstyle". This constrain
 Unit <dpsram> synthesized.
 
 Synthesizing Unit <CharROM_ROM>.
-    Related source file is "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/CharROM/CharROM_ROM.vhd".
+    Related source file is "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\CharROM\CharROM_ROM.vhd".
         addrbits = 13
 WARNING:Xst:2999 - Signal 'rom', unconnected in block 'CharROM_ROM', is tied to its initial value.
     Found 8192x1-bit single-port Read Only RAM <Mram_rom> for signal <rom>.
@@ -1702,7 +1697,7 @@ WARNING:Xst:2999 - Signal 'rom', unconnected in block 'CharROM_ROM', is tied to 
 Unit <CharROM_ROM> synthesized.
 
 Synthesizing Unit <io_ps2_com>.
-    Related source file is "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/io_ps2_com.vhd".
+    Related source file is "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\io_ps2_com.vhd".
         clockFilter = 15
         ticksPerUsec = 50
     Found 1-bit register for signal <clkReg>.
@@ -1742,7 +1737,7 @@ Synthesizing Unit <io_ps2_com>.
 Unit <io_ps2_com> synthesized.
 
 Synthesizing Unit <spi_interface>.
-    Related source file is "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/spi.vhd".
+    Related source file is "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\spi.vhd".
     Found 1-bit register for signal <shiftcnt<3>>.
     Found 1-bit register for signal <shiftcnt<2>>.
     Found 1-bit register for signal <shiftcnt<1>>.
@@ -1758,7 +1753,7 @@ Synthesizing Unit <spi_interface>.
 Unit <spi_interface> synthesized.
 
 Synthesizing Unit <taploader2>.
-    Related source file is "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/taploader2.v".
+    Related source file is "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\taploader2.v".
         TURBO_1 = 49
         TURBO_0 = 24
         NORMAL_1 = 191
@@ -1812,7 +1807,7 @@ WARNING:Xst:653 - Signal <tap_data_byte<0>> is used but never assigned. This sou
 Unit <taploader2> synthesized.
 
 Synthesizing Unit <interrupt_controller>.
-    Related source file is "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/interrupt_controller.vhd".
+    Related source file is "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\interrupt_controller.vhd".
         max_int = 1
 WARNING:Xst:647 - Input <reset_n> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 2-bit register for signal <status>.
@@ -1824,13 +1819,13 @@ WARNING:Xst:647 - Input <reset_n> is never used. This port will be preserved and
 Unit <interrupt_controller> synthesized.
 
 Synthesizing Unit <OSD_Overlay>.
-    Related source file is "/home/ise/share/unoxt2.cores/ctrl-module/CtrlModule/CtrlModule/RTL/OSD_Overlay.vhd".
+    Related source file is "D:\Xilinx\share\sam\ctrl-module\CtrlModule\CtrlModule\RTL\OSD_Overlay.vhd".
     Summary:
 	inferred   3 Multiplexer(s).
 Unit <OSD_Overlay> synthesized.
 
 Synthesizing Unit <ledPWM>.
-    Related source file is "/home/ise/share/unoxt2.cores/unoxt-sam-coupe/unoxt/leds.v".
+    Related source file is "D:\Xilinx\share\sam\unoxt-sam-coupe\unoxt\leds.v".
     Found 1-bit register for signal <ledO>.
     Found 16-bit register for signal <cnt>.
     Found 16-bit adder for signal <cnt[15]_GND_128_o_add_4_OUT> created at line 45.
@@ -1898,8 +1893,8 @@ Macro Statistics
  8-bit subtractor                                      : 3
  9-bit adder                                           : 46
  9-bit subtractor                                      : 7
-# Registers                                            : 507
- 1-bit register                                        : 289
+# Registers                                            : 504
+ 1-bit register                                        : 288
  10-bit register                                       : 10
  11-bit register                                       : 8
  12-bit register                                       : 2
@@ -1913,7 +1908,7 @@ Macro Statistics
  32-bit register                                       : 16
  33-bit register                                       : 1
  4-bit register                                        : 18
- 5-bit register                                        : 10
+ 5-bit register                                        : 8
  6-bit register                                        : 2
  7-bit register                                        : 2
  8-bit register                                        : 73
@@ -1936,8 +1931,8 @@ Macro Statistics
  9-bit comparator equal                                : 1
  9-bit comparator greater                              : 3
  9-bit comparator lessequal                            : 2
-# Multiplexers                                         : 1460
- 1-bit 2-to-1 multiplexer                              : 762
+# Multiplexers                                         : 1459
+ 1-bit 2-to-1 multiplexer                              : 761
  1-bit 3-to-1 multiplexer                              : 1
  1-bit 4-to-1 multiplexer                              : 5
  1-bit 7-to-1 multiplexer                              : 2
@@ -2661,8 +2656,8 @@ Macro Statistics
  9-bit up counter                                      : 6
 # Accumulators                                         : 2
  11-bit up loadable accumulator                        : 2
-# Registers                                            : 1981
- Flip-Flops                                            : 1981
+# Registers                                            : 1970
+ Flip-Flops                                            : 1970
 # Comparators                                          : 51
  1-bit comparator equal                                : 2
  1-bit comparator greater                              : 6
@@ -2681,8 +2676,8 @@ Macro Statistics
  9-bit comparator equal                                : 1
  9-bit comparator greater                              : 3
  9-bit comparator lessequal                            : 2
-# Multiplexers                                         : 1459
- 1-bit 2-to-1 multiplexer                              : 784
+# Multiplexers                                         : 1458
+ 1-bit 2-to-1 multiplexer                              : 783
  1-bit 3-to-1 multiplexer                              : 1
  1-bit 4-to-1 multiplexer                              : 5
  1-bit 7-to-1 multiplexer                              : 2
@@ -2940,6 +2935,7 @@ WARNING:Xst:2677 - Node <ledYellow/cnt_15> of sequential type is unconnected in 
 INFO:Xst:1901 - Instance los_relojes/pll_base_inst in unit los_relojes/pll_base_inst of type PLL_BASE has been replaced by PLL_ADV
 INFO:Xst:2261 - The FF/Latch <ff_icap_din_reversed_5> in Unit <multiboot_spartan6> is equivalent to the following FF/Latch, which will be removed : <ff_icap_din_reversed_6> 
 WARNING:Xst:2677 - Node <sam/led> of sequential type is unconnected in block <unoxt2_top>.
+WARNING:Xst:2677 - Node <sam/joysplitter> of sequential type is unconnected in block <unoxt2_top>.
 WARNING:Xst:2677 - Node <sam/maquina/el_raton/escritura_a_raton/error> of sequential type is unconnected in block <unoxt2_top>.
 
 Optimizing unit <unoxt2_top> ...
@@ -3180,6 +3176,7 @@ WARNING:Xst:2677 - Node <sam/maquina/el_saa/envelope1_6> of sequential type is u
 WARNING:Xst:2677 - Node <sam/maquina/el_saa/top/freq_gen2/pulse> of sequential type is unconnected in block <unoxt2_top>.
 WARNING:Xst:2677 - Node <sam/maquina/el_saa/bottom/freq_gen2/pulse> of sequential type is unconnected in block <unoxt2_top>.
 WARNING:Xst:2677 - Node <sam/maquina/el_z80/i_tv80_core/m1_n> of sequential type is unconnected in block <unoxt2_top>.
+WARNING:Xst:2677 - Node <sam/maquina/scan_inst/kf1> of sequential type is unconnected in block <unoxt2_top>.
 WARNING:Xst:1898 - Due to constant pushing, FF/Latch <sam/maquina/el_saa/top/amp0/phase> is unconnected in block <unoxt2_top>.
 WARNING:Xst:1898 - Due to constant pushing, FF/Latch <sam/maquina/el_saa/top/amp1/phase> is unconnected in block <unoxt2_top>.
 WARNING:Xst:1898 - Due to constant pushing, FF/Latch <sam/maquina/el_saa/bottom/amp0/phase> is unconnected in block <unoxt2_top>.
@@ -3304,9 +3301,8 @@ WARNING:Xst:1898 - Due to constant pushing, FF/Latch <sam/MyCtrlModule/uartrxfif
 WARNING:Xst:1898 - Due to constant pushing, FF/Latch <sam/MyCtrlModule/UART.uartrxfifo/prev_read> is unconnected in block <unoxt2_top>.
 INFO:Xst:2261 - The FF/Latch <sam/maquina/el_raton/escritura_a_raton/ps2clk_synchr_0> in Unit <unoxt2_top> is equivalent to the following FF/Latch, which will be removed : <sam/maquina/el_raton/puerto_del_raton/ps2clk_synchr_0> 
 INFO:Xst:2261 - The FF/Latch <sam/maquina/el_raton/escritura_a_raton/ps2clk_synchr_1> in Unit <unoxt2_top> is equivalent to the following FF/Latch, which will be removed : <sam/maquina/el_raton/puerto_del_raton/ps2clk_synchr_1> 
-INFO:Xst:2261 - The FF/Latch <sam/los_relojes/clkcounter_0> in Unit <unoxt2_top> is equivalent to the following 2 FFs/Latches, which will be removed : <sam/count_0> <sam/los_relojes/clk8ct_0> 
-INFO:Xst:2261 - The FF/Latch <sam/los_relojes/clkcounter_1> in Unit <unoxt2_top> is equivalent to the following FF/Latch, which will be removed : <sam/count_1> 
-INFO:Xst:2261 - The FF/Latch <sam/los_relojes/clkcounter_2> in Unit <unoxt2_top> is equivalent to the following FF/Latch, which will be removed : <sam/count_2> 
+INFO:Xst:2261 - The FF/Latch <sam/count_1> in Unit <unoxt2_top> is equivalent to the following FF/Latch, which will be removed : <sam/los_relojes/clkcounter_1> 
+INFO:Xst:2261 - The FF/Latch <sam/count_2> in Unit <unoxt2_top> is equivalent to the following FF/Latch, which will be removed : <sam/los_relojes/clkcounter_2> 
 INFO:Xst:2261 - The FF/Latch <sam/maquina/el_raton/escritura_a_raton/edgedetect_10> in Unit <unoxt2_top> is equivalent to the following FF/Latch, which will be removed : <sam/maquina/el_raton/puerto_del_raton/negedgedetect_10> 
 INFO:Xst:2261 - The FF/Latch <sam/maquina/el_raton/escritura_a_raton/edgedetect_11> in Unit <unoxt2_top> is equivalent to the following FF/Latch, which will be removed : <sam/maquina/el_raton/puerto_del_raton/negedgedetect_11> 
 INFO:Xst:2261 - The FF/Latch <sam/maquina/el_raton/escritura_a_raton/edgedetect_12> in Unit <unoxt2_top> is equivalent to the following FF/Latch, which will be removed : <sam/maquina/el_raton/puerto_del_raton/negedgedetect_12> 
@@ -3314,6 +3310,7 @@ INFO:Xst:2261 - The FF/Latch <sam/maquina/el_raton/escritura_a_raton/edgedetect_
 INFO:Xst:2261 - The FF/Latch <sam/maquina/el_raton/escritura_a_raton/edgedetect_14> in Unit <unoxt2_top> is equivalent to the following FF/Latch, which will be removed : <sam/maquina/el_raton/puerto_del_raton/negedgedetect_14> 
 INFO:Xst:2261 - The FF/Latch <sam/maquina/el_raton/escritura_a_raton/edgedetect_15> in Unit <unoxt2_top> is equivalent to the following FF/Latch, which will be removed : <sam/maquina/el_raton/puerto_del_raton/negedgedetect_15> 
 INFO:Xst:2261 - The FF/Latch <sam/MyCtrlModule/zpu/add_low_0> in Unit <unoxt2_top> is equivalent to the following FF/Latch, which will be removed : <sam/MyCtrlModule/zpu/comparison_sub_result_0> 
+INFO:Xst:2261 - The FF/Latch <sam/los_relojes/clk8ct_0> in Unit <unoxt2_top> is equivalent to the following 2 FFs/Latches, which will be removed : <sam/count_0> <sam/los_relojes/clkcounter_0> 
 INFO:Xst:2261 - The FF/Latch <sam/maquina/el_raton/escritura_a_raton/edgedetect_0> in Unit <unoxt2_top> is equivalent to the following FF/Latch, which will be removed : <sam/maquina/el_raton/puerto_del_raton/negedgedetect_0> 
 INFO:Xst:2261 - The FF/Latch <sam/maquina/el_raton/escritura_a_raton/edgedetect_1> in Unit <unoxt2_top> is equivalent to the following FF/Latch, which will be removed : <sam/maquina/el_raton/puerto_del_raton/negedgedetect_1> 
 INFO:Xst:2261 - The FF/Latch <sam/maquina/el_raton/escritura_a_raton/edgedetect_2> in Unit <unoxt2_top> is equivalent to the following FF/Latch, which will be removed : <sam/maquina/el_raton/puerto_del_raton/negedgedetect_2> 
@@ -3327,7 +3324,7 @@ INFO:Xst:2261 - The FF/Latch <sam/maquina/el_raton/escritura_a_raton/edgedetect_
 INFO:Xst:2261 - The FF/Latch <sam/maquina/el_saa/top/freq_gen0/count_0> in Unit <unoxt2_top> is equivalent to the following 5 FFs/Latches, which will be removed : <sam/maquina/el_saa/top/freq_gen1/count_0> <sam/maquina/el_saa/top/freq_gen2/count_0> <sam/maquina/el_saa/bottom/freq_gen0/count_0> <sam/maquina/el_saa/bottom/freq_gen1/count_0> <sam/maquina/el_saa/bottom/freq_gen2/count_0> 
 
 Mapping all equations...
-Annotating constraints using XCF file '/home/ise/share/unoxt2.cores/unoxt-sam-coupe/common/timings.xcf'
+Annotating constraints using XCF file 'D:/Xilinx/share/sam/unoxt-sam-coupe/common/timings.xcf'
 XCF parsing done.
 Building and optimizing final netlist ...
 Found area constraint ratio of 100 (+ 5) on block unoxt2_top, actual ratio is 43.
@@ -3346,8 +3343,8 @@ Unit <unoxt2_top> processed.
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 2044
- Flip-Flops                                            : 2044
+# Registers                                            : 2031
+ Flip-Flops                                            : 2031
 # Shift Registers                                      : 3
  2-bit shift register                                  : 1
  3-bit shift register                                  : 1
@@ -3374,29 +3371,29 @@ Top Level Output File Name         : unoxt2_top.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 6817
+# BELS                             : 6800
 #      GND                         : 1
-#      INV                         : 191
+#      INV                         : 189
 #      LUT1                        : 286
-#      LUT2                        : 364
-#      LUT3                        : 490
-#      LUT4                        : 693
+#      LUT2                        : 352
+#      LUT3                        : 489
+#      LUT4                        : 690
 #      LUT5                        : 848
-#      LUT6                        : 1996
+#      LUT6                        : 1995
 #      MUXCY                       : 908
 #      MUXF7                       : 90
 #      VCC                         : 1
-#      XORCY                       : 949
-# FlipFlops/Latches                : 2047
-#      FD                          : 378
+#      XORCY                       : 951
+# FlipFlops/Latches                : 2034
+#      FD                          : 370
 #      FD_1                        : 6
 #      FDC                         : 45
 #      FDCE                        : 88
-#      FDE                         : 899
+#      FDE                         : 893
 #      FDE_1                       : 40
 #      FDP                         : 25
 #      FDPE                        : 26
-#      FDR                         : 155
+#      FDR                         : 156
 #      FDR_1                       : 1
 #      FDRE                        : 363
 #      FDS                         : 17
@@ -3429,19 +3426,19 @@ Selected Device : 6slx25ftg256-2
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:            2047  out of  30064     6%  
- Number of Slice LUTs:                 5123  out of  15032    34%  
-    Number used as Logic:              4868  out of  15032    32%  
+ Number of Slice Registers:            2034  out of  30064     6%  
+ Number of Slice LUTs:                 5104  out of  15032    33%  
+    Number used as Logic:              4849  out of  15032    32%  
     Number used as Memory:              255  out of   3664     6%  
        Number used as RAM:              252
        Number used as SRL:                3
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   5654
-   Number with an unused Flip Flop:    3607  out of   5654    63%  
-   Number with an unused LUT:           531  out of   5654     9%  
-   Number of fully used LUT-FF pairs:  1516  out of   5654    26%  
-   Number of unique control sets:       291
+ Number of LUT Flip Flop pairs used:   5635
+   Number with an unused Flip Flop:    3601  out of   5635    63%  
+   Number with an unused LUT:           531  out of   5635     9%  
+   Number of fully used LUT-FF pairs:  1503  out of   5635    26%  
+   Number of unique control sets:       288
 
 IO Utilization: 
  Number of IOs:                          95
@@ -3475,18 +3472,17 @@ Clock Information:
 ---------------------------------------------------+-----------------------------------+-------+
 Clock Signal                                       | Clock buffer(FF name)             | Load  |
 ---------------------------------------------------+-----------------------------------+-------+
-sam/los_relojes/clkcounter_0                       | BUFG                              | 108   |
+sam/los_relojes/clk8ct_0                           | BUFG                              | 108   |
 sam/los_relojes/pll_base_inst/CLKOUT0              | BUFG                              | 544   |
-sam/maquina/scan_inst/kf1                          | NONE(sam/joysplitter)             | 1     |
 sam/maquina/scan_inst/kminus                       | NONE(sam/scanlines_inv)           | 1     |
 sam/maquina/scan_inst/ksclk                        | NONE(sam/scandbl_inv)             | 1     |
-sam/los_relojes/clkcounter_2                       | BUFG                              | 710   |
-sam/count_6                                        | BUFG                              | 52    |
+sam/count_2                                        | BUFG                              | 710   |
 sam/maquina/el_raton/puerto_del_raton/rkb_interrupt| BUFG                              | 25    |
-sam/los_relojes/clkcounter_1                       | BUFG                              | 592   |
+sam/count_1                                        | BUFG                              | 592   |
+sam/count_6                                        | BUFG                              | 41    |
 sam/maquina/ps2_keyb/kbd_clk_debounced             | NONE(sam/maquina/ps2_keyb/nbits_5)| 23    |
 sam/los_relojes/clk8                               | BUFG                              | 42    |
-sam/maquina/ps2_keyb/valid                         | BUFG                              | 76    |
+sam/maquina/ps2_keyb/valid                         | BUFG                              | 75    |
 ---------------------------------------------------+-----------------------------------+-------+
 INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 
@@ -3499,7 +3495,7 @@ Timing Summary:
 Speed Grade: -2
 
    Minimum period: 19.100ns (Maximum Frequency: 52.356MHz)
-   Minimum input arrival time before clock: 8.085ns
+   Minimum input arrival time before clock: 10.410ns
    Maximum output required time after clock: 16.514ns
    Maximum combinational path delay: No path found
 
@@ -3508,15 +3504,15 @@ Timing Details:
 All values displayed in nanoseconds (ns)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'sam/los_relojes/clkcounter_0'
+Timing constraint: Default period analysis for Clock 'sam/los_relojes/clk8ct_0'
   Clock period: 7.409ns (frequency: 134.971MHz)
   Total number of paths / destination ports: 6094 / 112
 -------------------------------------------------------------------------
 Delay:               7.409ns (Levels of Logic = 4)
   Source:            sam/salida_vga/addrvga_7 (FF)
   Destination:       sam/salida_vga/scaneffect (FF)
-  Source Clock:      sam/los_relojes/clkcounter_0 rising
-  Destination Clock: sam/los_relojes/clkcounter_0 rising
+  Source Clock:      sam/los_relojes/clk8ct_0 rising
+  Destination Clock: sam/los_relojes/clk8ct_0 rising
 
   Data Path: sam/salida_vga/addrvga_7 to sam/salida_vga/scaneffect
                                 Gate     Net
@@ -3524,7 +3520,7 @@ Delay:               7.409ns (Levels of Logic = 4)
     ----------------------------------------  ------------
      FDR:C->Q             13   0.525   1.553  sam/salida_vga/addrvga_7 (sam/salida_vga/addrvga_7)
      LUT6:I0->O            1   0.254   1.137  sam/salida_vga/addrvga[9]_hsync_ext_n_AND_686_o1 (sam/salida_vga/addrvga[9]_hsync_ext_n_AND_686_o1)
-     LUT6:I0->O            2   0.254   1.156  sam/salida_vga/addrvga[9]_hsync_ext_n_AND_686_o5_SW0 (N510)
+     LUT6:I0->O            2   0.254   1.156  sam/salida_vga/addrvga[9]_hsync_ext_n_AND_686_o5_SW0 (N516)
      LUT6:I1->O           11   0.254   1.039  sam/salida_vga/addrvga[9]_hsync_ext_n_AND_686_o5 (sam/salida_vga/addrvga[9]_hsync_ext_n_AND_686_o)
      LUT5:I4->O            1   0.254   0.681  sam/salida_vga/_n0134_inv1 (sam/salida_vga/_n0134_inv)
      FDE:CE                    0.302          sam/salida_vga/scaneffect
@@ -3535,7 +3531,7 @@ Delay:               7.409ns (Levels of Logic = 4)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'sam/los_relojes/pll_base_inst/CLKOUT0'
   Clock period: 18.046ns (frequency: 55.413MHz)
-  Total number of paths / destination ports: 403776617 / 888
+  Total number of paths / destination ports: 403776621 / 889
 -------------------------------------------------------------------------
 Delay:               18.046ns (Levels of Logic = 25)
   Source:            sam/maquina/el_saa/noiseenable_5 (FF)
@@ -3577,28 +3573,6 @@ Delay:               18.046ns (Levels of Logic = 25)
     ----------------------------------------
     Total                     18.046ns (6.434ns logic, 11.612ns route)
                                        (35.7% logic, 64.3% route)
-
-=========================================================================
-Timing constraint: Default period analysis for Clock 'sam/maquina/scan_inst/kf1'
-  Clock period: 2.410ns (frequency: 414.938MHz)
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Delay:               2.410ns (Levels of Logic = 1)
-  Source:            sam/joysplitter (FF)
-  Destination:       sam/joysplitter (FF)
-  Source Clock:      sam/maquina/scan_inst/kf1 rising
-  Destination Clock: sam/maquina/scan_inst/kf1 rising
-
-  Data Path: sam/joysplitter to sam/joysplitter
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FD:C->Q               6   0.525   0.875  sam/joysplitter (sam/joysplitter)
-     INV:I->O              1   0.255   0.681  sam/joysplitter_INV_542_o1_INV_0 (sam/joysplitter_INV_542_o)
-     FD:D                      0.074          sam/joysplitter
-    ----------------------------------------
-    Total                      2.410ns (0.854ns logic, 1.556ns route)
-                                       (35.4% logic, 64.6% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'sam/maquina/scan_inst/kminus'
@@ -3645,15 +3619,15 @@ Delay:               2.300ns (Levels of Logic = 1)
                                        (37.1% logic, 62.9% route)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'sam/los_relojes/clkcounter_2'
+Timing constraint: Default period analysis for Clock 'sam/count_2'
   Clock period: 19.100ns (frequency: 52.356MHz)
-  Total number of paths / destination ports: 3181521 / 2056
+  Total number of paths / destination ports: 3181472 / 2056
 -------------------------------------------------------------------------
 Delay:               9.550ns (Levels of Logic = 7)
   Source:            sam/maquina/el_z80/tstate_r_2 (FF)
   Destination:       sam/maquina/el_z80/i_tv80_core/IntE_FF1 (FF)
-  Source Clock:      sam/los_relojes/clkcounter_2 falling
-  Destination Clock: sam/los_relojes/clkcounter_2 rising
+  Source Clock:      sam/count_2 falling
+  Destination Clock: sam/count_2 rising
 
   Data Path: sam/maquina/el_z80/tstate_r_2 to sam/maquina/el_z80/i_tv80_core/IntE_FF1
                                 Gate     Net
@@ -3664,39 +3638,13 @@ Delay:               9.550ns (Levels of Logic = 7)
      LUT5:I4->O           12   0.254   1.069  sam/maquina/el_z80/Mmux_rd_n12 (sam/maquina/rd_n)
      LUT5:I4->O            4   0.254   0.912  sam/maquina/la_ula_del_sam/Mmux_wait_n12 (sam/maquina/la_ula_del_sam/Mmux_wait_n11)
      LUT5:I3->O           14   0.250   1.127  sam/maquina/la_ula_del_sam/Mmux_wait_n16 (sam/maquina/wait_n)
-     LUT6:I5->O            4   0.254   0.804  sam/maquina/el_z80/i_tv80_core/Mmux_m1_n_m1_n_MUX_745_o111 (sam/maquina/el_z80/i_tv80_core/Mmux_m1_n_m1_n_MUX_745_o11)
-     LUT5:I4->O            1   0.254   0.682  sam/maquina/el_z80/i_tv80_core/_n1609_inv_SW1 (N564)
+     LUT6:I5->O            4   0.254   0.804  sam/maquina/el_z80/i_tv80_core/Mmux_m1_n_m1_n_MUX_744_o111 (sam/maquina/el_z80/i_tv80_core/Mmux_m1_n_m1_n_MUX_744_o11)
+     LUT5:I4->O            1   0.254   0.682  sam/maquina/el_z80/i_tv80_core/_n1609_inv_SW1 (N570)
      LUT6:I5->O            1   0.254   0.681  sam/maquina/el_z80/i_tv80_core/_n1609_inv (sam/maquina/el_z80/i_tv80_core/_n1609_inv)
      FDCE:CE                   0.302          sam/maquina/el_z80/i_tv80_core/IntE_FF1
     ----------------------------------------
     Total                      9.550ns (2.597ns logic, 6.953ns route)
                                        (27.2% logic, 72.8% route)
-
-=========================================================================
-Timing constraint: Default period analysis for Clock 'sam/count_6'
-  Clock period: 8.131ns (frequency: 122.988MHz)
-  Total number of paths / destination ports: 1877 / 90
--------------------------------------------------------------------------
-Delay:               8.131ns (Levels of Logic = 5)
-  Source:            sam/MyCtrlModule/TAPE2.taploader_inst/tap_leader_count_0 (FF)
-  Destination:       sam/MyCtrlModule/TAPE2.taploader_inst/tap_pulse_count_7 (FF)
-  Source Clock:      sam/count_6 rising
-  Destination Clock: sam/count_6 rising
-
-  Data Path: sam/MyCtrlModule/TAPE2.taploader_inst/tap_leader_count_0 to sam/MyCtrlModule/TAPE2.taploader_inst/tap_pulse_count_7
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FDE:C->Q              4   0.525   1.234  sam/MyCtrlModule/TAPE2.taploader_inst/tap_leader_count_0 (sam/MyCtrlModule/TAPE2.taploader_inst/tap_leader_count_0)
-     LUT6:I1->O           18   0.254   1.463  sam/MyCtrlModule/TAPE2.taploader_inst/GND_116_o_GND_116_o_equal_49_o<12>1 (sam/MyCtrlModule/TAPE2.taploader_inst/GND_116_o_GND_116_o_equal_49_o<12>)
-     LUT3:I0->O           29   0.235   1.746  sam/MyCtrlModule/TAPE2.taploader_inst/GND_116_o_GND_116_o_equal_49_o<12>3 (sam/MyCtrlModule/TAPE2.taploader_inst/GND_116_o_GND_116_o_equal_49_o)
-     LUT5:I1->O            2   0.254   1.156  sam/MyCtrlModule/TAPE2.taploader_inst/GND_116_o_GND_116_o_equal_49_o61 (sam/MyCtrlModule/TAPE2.taploader_inst/GND_116_o_GND_116_o_equal_49_o_mmx_out6)
-     LUT6:I1->O            1   0.254   0.682  sam/MyCtrlModule/TAPE2.taploader_inst/Mmux_tap_state[2]_GND_116_o_mux_97_OUT81 (sam/MyCtrlModule/TAPE2.taploader_inst/Mmux_tap_state[2]_GND_116_o_mux_97_OUT8)
-     LUT5:I4->O            1   0.254   0.000  sam/MyCtrlModule/TAPE2.taploader_inst/Mmux_tap_state[2]_GND_116_o_mux_97_OUT83 (sam/MyCtrlModule/TAPE2.taploader_inst/tap_state[2]_GND_116_o_mux_97_OUT<7>)
-     FDE:D                     0.074          sam/MyCtrlModule/TAPE2.taploader_inst/tap_pulse_count_7
-    ----------------------------------------
-    Total                      8.131ns (1.850ns logic, 6.281ns route)
-                                       (22.8% logic, 77.2% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'sam/maquina/el_raton/puerto_del_raton/rkb_interrupt'
@@ -3721,15 +3669,15 @@ Delay:               3.330ns (Levels of Logic = 1)
                                        (32.5% logic, 67.5% route)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'sam/los_relojes/clkcounter_1'
+Timing constraint: Default period analysis for Clock 'sam/count_1'
   Clock period: 12.271ns (frequency: 81.492MHz)
   Total number of paths / destination ports: 17882 / 1660
 -------------------------------------------------------------------------
 Delay:               12.271ns (Levels of Logic = 7)
   Source:            sam/maquina/la_ula_del_sam/vmpr_6 (FF)
   Destination:       sam/maquina/la_ula_del_sam/lineint_7 (FF)
-  Source Clock:      sam/los_relojes/clkcounter_1 rising
-  Destination Clock: sam/los_relojes/clkcounter_1 rising
+  Source Clock:      sam/count_1 rising
+  Destination Clock: sam/count_1 rising
 
   Data Path: sam/maquina/la_ula_del_sam/vmpr_6 to sam/maquina/la_ula_del_sam/lineint_7
                                 Gate     Net
@@ -3741,12 +3689,38 @@ Delay:               12.271ns (Levels of Logic = 7)
      LUT6:I0->O            1   0.254   0.958  sam/maquina/la_ula_del_sam/Mmux_wait_n14 (sam/maquina/la_ula_del_sam/Mmux_wait_n13)
      LUT6:I2->O            4   0.254   0.804  sam/maquina/la_ula_del_sam/Mmux_wait_n15 (sam/maquina/la_ula_del_sam/Mmux_wait_n14)
      LUT5:I4->O           14   0.254   1.235  sam/maquina/la_ula_del_sam/Mmux_wait_n16 (sam/maquina/wait_n)
-     LUT4:I2->O            1   0.250   0.682  sam/maquina/la_ula_del_sam/_n0718_inv_SW1 (N626)
+     LUT4:I2->O            1   0.250   0.682  sam/maquina/la_ula_del_sam/_n0718_inv_SW1 (N628)
      LUT6:I5->O            8   0.254   0.943  sam/maquina/la_ula_del_sam/_n0718_inv (sam/maquina/la_ula_del_sam/_n0718_inv)
      FDE:CE                    0.302          sam/maquina/la_ula_del_sam/lineint_0
     ----------------------------------------
     Total                     12.271ns (2.601ns logic, 9.670ns route)
                                        (21.2% logic, 78.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'sam/count_6'
+  Clock period: 8.131ns (frequency: 122.988MHz)
+  Total number of paths / destination ports: 1861 / 79
+-------------------------------------------------------------------------
+Delay:               8.131ns (Levels of Logic = 5)
+  Source:            sam/MyCtrlModule/TAPE2.taploader_inst/tap_leader_count_0 (FF)
+  Destination:       sam/MyCtrlModule/TAPE2.taploader_inst/tap_pulse_count_7 (FF)
+  Source Clock:      sam/count_6 rising
+  Destination Clock: sam/count_6 rising
+
+  Data Path: sam/MyCtrlModule/TAPE2.taploader_inst/tap_leader_count_0 to sam/MyCtrlModule/TAPE2.taploader_inst/tap_pulse_count_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              4   0.525   1.234  sam/MyCtrlModule/TAPE2.taploader_inst/tap_leader_count_0 (sam/MyCtrlModule/TAPE2.taploader_inst/tap_leader_count_0)
+     LUT6:I1->O           18   0.254   1.463  sam/MyCtrlModule/TAPE2.taploader_inst/GND_116_o_GND_116_o_equal_49_o<12>1 (sam/MyCtrlModule/TAPE2.taploader_inst/GND_116_o_GND_116_o_equal_49_o<12>)
+     LUT3:I0->O           29   0.235   1.746  sam/MyCtrlModule/TAPE2.taploader_inst/GND_116_o_GND_116_o_equal_49_o<12>3 (sam/MyCtrlModule/TAPE2.taploader_inst/GND_116_o_GND_116_o_equal_49_o)
+     LUT5:I1->O            2   0.254   1.156  sam/MyCtrlModule/TAPE2.taploader_inst/GND_116_o_GND_116_o_equal_49_o61 (sam/MyCtrlModule/TAPE2.taploader_inst/GND_116_o_GND_116_o_equal_49_o_mmx_out6)
+     LUT6:I1->O            1   0.254   0.682  sam/MyCtrlModule/TAPE2.taploader_inst/Mmux_tap_state[2]_GND_116_o_mux_97_OUT81 (sam/MyCtrlModule/TAPE2.taploader_inst/Mmux_tap_state[2]_GND_116_o_mux_97_OUT8)
+     LUT5:I4->O            1   0.254   0.000  sam/MyCtrlModule/TAPE2.taploader_inst/Mmux_tap_state[2]_GND_116_o_mux_97_OUT83 (sam/MyCtrlModule/TAPE2.taploader_inst/tap_state[2]_GND_116_o_mux_97_OUT<7>)
+     FDE:D                     0.074          sam/MyCtrlModule/TAPE2.taploader_inst/tap_pulse_count_7
+    ----------------------------------------
+    Total                      8.131ns (1.850ns logic, 6.281ns route)
+                                       (22.8% logic, 77.2% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'sam/maquina/ps2_keyb/kbd_clk_debounced'
@@ -3807,7 +3781,7 @@ Delay:               2.451ns (Levels of Logic = 12)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'sam/maquina/ps2_keyb/valid'
   Clock period: 4.812ns (frequency: 207.814MHz)
-  Total number of paths / destination ports: 148 / 148
+  Total number of paths / destination ports: 146 / 146
 -------------------------------------------------------------------------
 Delay:               4.812ns (Levels of Logic = 2)
   Source:            sam/maquina/scan_inst/kextended (FF)
@@ -3828,49 +3802,31 @@ Delay:               4.812ns (Levels of Logic = 2)
                                        (27.7% logic, 72.3% route)
 
 =========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'sam/los_relojes/clkcounter_2'
-  Total number of paths / destination ports: 39 / 35
+Timing constraint: Default OFFSET IN BEFORE for Clock 'sam/count_2'
+  Total number of paths / destination ports: 55 / 35
 -------------------------------------------------------------------------
-Offset:              8.085ns (Levels of Logic = 7)
-  Source:            ear_port_i (PAD)
-  Destination:       sam/maquina/el_z80/i_tv80_core/TmpAddr_6 (FF)
-  Destination Clock: sam/los_relojes/clkcounter_2 rising
+Offset:              10.410ns (Levels of Logic = 9)
+  Source:            joyp4_i (PAD)
+  Destination:       sam/maquina/el_z80/i_tv80_core/TmpAddr_3 (FF)
+  Destination Clock: sam/count_2 rising
 
-  Data Path: ear_port_i to sam/maquina/el_z80/i_tv80_core/TmpAddr_6
+  Data Path: joyp4_i to sam/maquina/el_z80/i_tv80_core/TmpAddr_3
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            11   1.328   1.147  ear_port_i_IBUF (ear_port_i_IBUF)
-     LUT3:I1->O            1   0.250   0.682  sam/maquina/Mmux_data_to_cpu144 (sam/maquina/Mmux_data_to_cpu143)
-     LUT6:I5->O            1   0.254   0.910  sam/maquina/Mmux_data_to_cpu145 (sam/maquina/Mmux_data_to_cpu144)
-     LUT6:I3->O            1   0.235   0.682  sam/maquina/Mmux_data_to_cpu1411 (sam/maquina/Mmux_data_to_cpu1410)
-     LUT5:I4->O            1   0.254   0.790  sam/maquina/Mmux_data_to_cpu1412 (sam/maquina/Mmux_data_to_cpu1411)
-     LUT6:I4->O            3   0.250   0.994  sam/maquina/Mmux_data_to_cpu1413 (sam/maquina/data_to_cpu<6>)
-     LUT6:I3->O            1   0.235   0.000  sam/maquina/el_z80/i_tv80_core/Mmux_TmpAddr[15]_TmpAddr[15]_mux_190_OUT13 (sam/maquina/el_z80/i_tv80_core/TmpAddr[15]_TmpAddr[15]_mux_190_OUT<6>)
-     FDC:D                     0.074          sam/maquina/el_z80/i_tv80_core/TmpAddr_6
+     IBUF:I->O             1   1.328   0.790  joyp4_i_IBUF (joyp4_i_IBUF)
+     LUT2:I0->O            1   0.250   0.910  sam/maquina/Mmux_data_to_cpu85 (sam/maquina/Mmux_data_to_cpu84)
+     LUT6:I3->O            1   0.235   1.112  sam/maquina/Mmux_data_to_cpu86 (sam/maquina/Mmux_data_to_cpu85)
+     LUT6:I1->O            1   0.254   0.790  sam/maquina/Mmux_data_to_cpu88_SW0 (N472)
+     LUT6:I4->O            1   0.250   0.958  sam/maquina/Mmux_data_to_cpu88 (sam/maquina/Mmux_data_to_cpu87)
+     LUT6:I2->O            1   0.254   0.682  sam/maquina/Mmux_data_to_cpu814 (sam/maquina/Mmux_data_to_cpu813)
+     LUT5:I4->O            1   0.254   0.790  sam/maquina/Mmux_data_to_cpu815 (sam/maquina/Mmux_data_to_cpu814)
+     LUT6:I4->O            3   0.250   0.994  sam/maquina/Mmux_data_to_cpu816 (sam/maquina/data_to_cpu<3>)
+     LUT6:I3->O            1   0.235   0.000  sam/maquina/el_z80/i_tv80_core/Mmux_TmpAddr[15]_TmpAddr[15]_mux_190_OUT103 (sam/maquina/el_z80/i_tv80_core/TmpAddr[15]_TmpAddr[15]_mux_190_OUT<3>)
+     FDC:D                     0.074          sam/maquina/el_z80/i_tv80_core/TmpAddr_3
     ----------------------------------------
-    Total                      8.085ns (2.880ns logic, 5.205ns route)
-                                       (35.6% logic, 64.4% route)
-
-=========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'sam/count_6'
-  Total number of paths / destination ports: 10 / 10
--------------------------------------------------------------------------
-Offset:              2.591ns (Levels of Logic = 2)
-  Source:            joyp6_i (PAD)
-  Destination:       sam/joystick2_4 (FF)
-  Destination Clock: sam/count_6 rising
-
-  Data Path: joyp6_i to sam/joystick2_4
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     IBUF:I->O             2   1.328   0.954  joyp6_i_IBUF (joyp6_i_IBUF)
-     LUT4:I1->O            1   0.235   0.000  sam/joystick2_4_glue_set (sam/joystick2_4_glue_set)
-     FD:D                      0.074          sam/joystick2_4
-    ----------------------------------------
-    Total                      2.591ns (1.637ns logic, 0.954ns route)
-                                       (63.2% logic, 36.8% route)
+    Total                     10.410ns (3.384ns logic, 7.026ns route)
+                                       (32.5% logic, 67.5% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'sam/los_relojes/pll_base_inst/CLKOUT0'
@@ -3886,7 +3842,7 @@ Offset:              5.845ns (Levels of Logic = 4)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      IBUF:I->O             8   1.328   0.944  ps2_clk_io_IBUF (ps2_clk_io_IBUF)
-     LUT2:I1->O            3   0.254   1.042  sam/Mmux_clkps2_PWR_2_o_MUX_1610_o11 (sam/clkps2_PWR_2_o_MUX_1610_o)
+     LUT2:I1->O            3   0.254   1.042  sam/Mmux_clkps2_PWR_2_o_MUX_1609_o11 (sam/clkps2_PWR_2_o_MUX_1609_o)
      LUT6:I2->O            1   0.254   0.790  sam/maquina/ps2_keyb/_n0089_inv12 (sam/maquina/ps2_keyb/_n0089_inv11)
      LUT6:I4->O            1   0.250   0.681  sam/maquina/ps2_keyb/_n0089_inv13 (sam/maquina/ps2_keyb/_n0089_inv)
      FDE_1:CE                  0.302          sam/maquina/ps2_keyb/kbd_clk_debounced
@@ -3908,7 +3864,7 @@ Offset:              4.505ns (Levels of Logic = 3)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      IBUF:I->O             3   1.328   0.766  ps2_data_io_IBUF (ps2_data_io_IBUF)
-     LUT2:I1->O            2   0.254   0.726  sam/Mmux_dataps2_PWR_2_o_MUX_1611_o11 (sam/dataps2_PWR_2_o_MUX_1611_o)
+     LUT2:I1->O            2   0.254   0.726  sam/Mmux_dataps2_PWR_2_o_MUX_1610_o11 (sam/dataps2_PWR_2_o_MUX_1610_o)
      LUT6:I5->O            6   0.254   0.875  sam/maquina/ps2_keyb/_n0105_inv (sam/maquina/ps2_keyb/_n0105_inv)
      FDRE:CE                   0.302          sam/maquina/ps2_keyb/nbits_0
     ----------------------------------------
@@ -3916,13 +3872,13 @@ Offset:              4.505ns (Levels of Logic = 3)
                                        (47.5% logic, 52.5% route)
 
 =========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'sam/los_relojes/clkcounter_1'
+Timing constraint: Default OFFSET IN BEFORE for Clock 'sam/count_1'
   Total number of paths / destination ports: 34 / 34
 -------------------------------------------------------------------------
 Offset:              2.422ns (Levels of Logic = 2)
   Source:            ram_data_io<1> (PAD)
   Destination:       sam/maquina/la_ula_del_sam/vram_byte4_1 (FF)
-  Destination Clock: sam/los_relojes/clkcounter_1 rising
+  Destination Clock: sam/count_1 rising
 
   Data Path: ram_data_io<1> to sam/maquina/la_ula_del_sam/vram_byte4_1
                                 Gate     Net
@@ -3983,13 +3939,13 @@ Offset:              7.003ns (Levels of Logic = 3)
                                        (56.3% logic, 43.7% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'sam/los_relojes/clkcounter_2'
+Timing constraint: Default OFFSET OUT AFTER for Clock 'sam/count_2'
   Total number of paths / destination ports: 4205 / 48
 -------------------------------------------------------------------------
 Offset:              16.514ns (Levels of Logic = 11)
   Source:            sam/maquina/el_z80/i_tv80_core/IR_7 (FF)
   Destination:       ram_data_io<7> (PAD)
-  Source Clock:      sam/los_relojes/clkcounter_2 rising
+  Source Clock:      sam/count_2 rising
 
   Data Path: sam/maquina/el_z80/i_tv80_core/IR_7 to ram_data_io<7>
                                 Gate     Net
@@ -3999,7 +3955,7 @@ Offset:              16.514ns (Levels of Logic = 11)
      LUT4:I2->O           15   0.250   1.155  sam/maquina/el_z80/i_tv80_core/i_mcode/_n266921 (sam/maquina/el_z80/i_tv80_core/i_mcode/_n26692)
      LUT5:I4->O           13   0.254   1.098  sam/maquina/el_z80/i_tv80_core/i_mcode/IR[7]_GND_10_o_equal_351_o<7>1 (sam/maquina/el_z80/i_tv80_core/i_mcode/IR[7]_GND_10_o_equal_351_o)
      LUT3:I2->O            4   0.254   0.912  sam/maquina/el_z80/i_tv80_core/i_mcode/Write161 (sam/maquina/el_z80/i_tv80_core/i_mcode/Write16)
-     LUT6:I4->O            1   0.250   0.000  sam/maquina/el_z80/i_tv80_core/i_mcode/Write3_G (N775)
+     LUT6:I4->O            1   0.250   0.000  sam/maquina/el_z80/i_tv80_core/i_mcode/Write3_G (N777)
      MUXF7:I1->O           1   0.175   0.682  sam/maquina/el_z80/i_tv80_core/i_mcode/Write3 (sam/maquina/el_z80/i_tv80_core/i_mcode/Write2)
      LUT6:I5->O            1   0.254   0.682  sam/maquina/el_z80/i_tv80_core/i_mcode/Write9 (sam/maquina/el_z80/i_tv80_core/i_mcode/Write8)
      LUT6:I5->O            2   0.254   0.834  sam/maquina/el_z80/i_tv80_core/i_mcode/Write13 (sam/maquina/el_z80/write)
@@ -4012,13 +3968,13 @@ Offset:              16.514ns (Levels of Logic = 11)
                                        (35.6% logic, 64.4% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'sam/los_relojes/clkcounter_0'
+Timing constraint: Default OFFSET OUT AFTER for Clock 'sam/los_relojes/clk8ct_0'
   Total number of paths / destination ports: 81 / 37
 -------------------------------------------------------------------------
 Offset:              7.187ns (Levels of Logic = 2)
   Source:            sam/salida_vga/memscan/Mram_scan (RAM)
   Destination:       rgb_r_o<4> (PAD)
-  Source Clock:      sam/los_relojes/clkcounter_0 rising
+  Source Clock:      sam/los_relojes/clk8ct_0 rising
 
   Data Path: sam/salida_vga/memscan/Mram_scan to rgb_r_o<4>
                                 Gate     Net
@@ -4053,13 +4009,13 @@ Offset:              6.478ns (Levels of Logic = 3)
                                        (60.9% logic, 39.1% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'sam/los_relojes/clkcounter_1'
+Timing constraint: Default OFFSET OUT AFTER for Clock 'sam/count_1'
   Total number of paths / destination ports: 899 / 46
 -------------------------------------------------------------------------
 Offset:              11.911ns (Levels of Logic = 5)
   Source:            sam/maquina/la_ula_del_sam/vmpr_6 (FF)
   Destination:       ram_addr_o<11> (PAD)
-  Source Clock:      sam/los_relojes/clkcounter_1 rising
+  Source Clock:      sam/count_1 rising
 
   Data Path: sam/maquina/la_ula_del_sam/vmpr_6 to ram_addr_o<11>
                                 Gate     Net
@@ -4121,15 +4077,38 @@ Offset:              4.118ns (Levels of Logic = 1)
 Cross Clock Domains Report:
 --------------------------
 
+Clock to Setup on destination clock sam/count_1
+---------------------------------------------------+---------+---------+---------+---------+
+                                                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                                       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------------------------------------+---------+---------+---------+---------+
+sam/count_1                                        |   12.271|         |         |         |
+sam/count_2                                        |   21.181|   13.247|         |         |
+sam/maquina/el_raton/puerto_del_raton/rkb_interrupt|         |    4.287|         |         |
+sam/maquina/ps2_keyb/valid                         |    7.229|         |         |         |
+---------------------------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock sam/count_2
+-------------------------------------+---------+---------+---------+---------+
+                                     | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                         |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------------------------+---------+---------+---------+---------+
+sam/count_1                          |   12.963|         |         |         |
+sam/count_2                          |   18.098|    9.550|    2.816|         |
+sam/count_6                          |    6.183|         |         |         |
+sam/los_relojes/clk8ct_0             |    5.809|         |         |         |
+sam/los_relojes/pll_base_inst/CLKOUT0|    5.053|         |         |         |
+sam/maquina/ps2_keyb/valid           |   10.186|         |         |         |
+-------------------------------------+---------+---------+---------+---------+
+
 Clock to Setup on destination clock sam/count_6
 -------------------------------------+---------+---------+---------+---------+
                                      | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock                         |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 -------------------------------------+---------+---------+---------+---------+
+sam/count_2                          |    4.838|         |         |         |
 sam/count_6                          |    8.131|         |         |         |
-sam/los_relojes/clkcounter_2         |    4.838|         |         |         |
 sam/los_relojes/pll_base_inst/CLKOUT0|    4.458|         |         |         |
-sam/maquina/scan_inst/kf1            |    1.833|         |         |         |
 -------------------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock sam/los_relojes/clk8
@@ -4137,46 +4116,22 @@ Clock to Setup on destination clock sam/los_relojes/clk8
                                      | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock                         |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 -------------------------------------+---------+---------+---------+---------+
+sam/count_1                          |    2.850|         |         |         |
 sam/los_relojes/clk8                 |    2.451|         |         |         |
-sam/los_relojes/clkcounter_1         |    2.850|         |         |         |
 sam/los_relojes/pll_base_inst/CLKOUT0|    2.152|         |         |         |
 sam/maquina/ps2_keyb/valid           |    5.696|         |         |         |
 -------------------------------------+---------+---------+---------+---------+
 
-Clock to Setup on destination clock sam/los_relojes/clkcounter_0
+Clock to Setup on destination clock sam/los_relojes/clk8ct_0
 -------------------------------------+---------+---------+---------+---------+
                                      | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock                         |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 -------------------------------------+---------+---------+---------+---------+
-sam/los_relojes/clkcounter_0         |    7.409|         |         |         |
-sam/los_relojes/clkcounter_1         |    7.812|         |         |         |
-sam/los_relojes/clkcounter_2         |    3.979|         |         |         |
+sam/count_1                          |    7.812|         |         |         |
+sam/count_2                          |    3.979|         |         |         |
+sam/los_relojes/clk8ct_0             |    7.409|         |         |         |
 sam/los_relojes/pll_base_inst/CLKOUT0|    5.611|         |         |         |
 sam/maquina/ps2_keyb/valid           |    2.945|         |         |         |
--------------------------------------+---------+---------+---------+---------+
-
-Clock to Setup on destination clock sam/los_relojes/clkcounter_1
----------------------------------------------------+---------+---------+---------+---------+
-                                                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
-Source Clock                                       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
----------------------------------------------------+---------+---------+---------+---------+
-sam/los_relojes/clkcounter_1                       |   12.271|         |         |         |
-sam/los_relojes/clkcounter_2                       |   21.181|   13.247|         |         |
-sam/maquina/el_raton/puerto_del_raton/rkb_interrupt|         |    4.287|         |         |
-sam/maquina/ps2_keyb/valid                         |    7.229|         |         |         |
----------------------------------------------------+---------+---------+---------+---------+
-
-Clock to Setup on destination clock sam/los_relojes/clkcounter_2
--------------------------------------+---------+---------+---------+---------+
-                                     | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
-Source Clock                         |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
--------------------------------------+---------+---------+---------+---------+
-sam/count_6                          |   10.000|         |         |         |
-sam/los_relojes/clkcounter_0         |    5.809|         |         |         |
-sam/los_relojes/clkcounter_1         |   12.963|         |         |         |
-sam/los_relojes/clkcounter_2         |   18.098|    9.550|    2.816|         |
-sam/los_relojes/pll_base_inst/CLKOUT0|    5.053|         |         |         |
-sam/maquina/ps2_keyb/valid           |    9.896|         |         |         |
 -------------------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock sam/los_relojes/pll_base_inst/CLKOUT0
@@ -4184,9 +4139,9 @@ Clock to Setup on destination clock sam/los_relojes/pll_base_inst/CLKOUT0
                                      | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock                         |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 -------------------------------------+---------+---------+---------+---------+
+sam/count_1                          |    6.482|         |         |         |
+sam/count_2                          |   14.775|    7.426|    5.043|         |
 sam/count_6                          |    4.920|         |         |         |
-sam/los_relojes/clkcounter_1         |    6.482|         |         |         |
-sam/los_relojes/clkcounter_2         |   14.775|    7.426|    5.043|         |
 sam/los_relojes/pll_base_inst/CLKOUT0|   18.046|         |    4.224|         |
 sam/maquina/ps2_keyb/valid           |    7.274|         |         |         |
 -------------------------------------+---------+---------+---------+---------+
@@ -4196,7 +4151,7 @@ Clock to Setup on destination clock sam/maquina/el_raton/puerto_del_raton/rkb_in
                                                    | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock                                       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------------------------------------------+---------+---------+---------+---------+
-sam/los_relojes/clkcounter_1                       |         |         |    5.414|         |
+sam/count_1                                        |         |         |    5.414|         |
 sam/maquina/el_raton/puerto_del_raton/rkb_interrupt|         |         |    3.330|         |
 ---------------------------------------------------+---------+---------+---------+---------+
 
@@ -4205,7 +4160,7 @@ Clock to Setup on destination clock sam/maquina/ps2_keyb/kbd_clk_debounced
                                       | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock                          |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 --------------------------------------+---------+---------+---------+---------+
-sam/los_relojes/clkcounter_2          |         |         |    3.881|         |
+sam/count_2                           |         |         |    3.881|         |
 sam/maquina/ps2_keyb/kbd_clk_debounced|         |         |    4.327|         |
 --------------------------------------+---------+---------+---------+---------+
 
@@ -4214,17 +4169,9 @@ Clock to Setup on destination clock sam/maquina/ps2_keyb/valid
                                       | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock                          |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 --------------------------------------+---------+---------+---------+---------+
-sam/maquina/ps2_keyb/kbd_clk_debounced|         |    5.917|         |         |
+sam/maquina/ps2_keyb/kbd_clk_debounced|         |    5.909|         |         |
 sam/maquina/ps2_keyb/valid            |    4.812|         |         |         |
 --------------------------------------+---------+---------+---------+---------+
-
-Clock to Setup on destination clock sam/maquina/scan_inst/kf1
--------------------------+---------+---------+---------+---------+
-                         | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
-Source Clock             |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
--------------------------+---------+---------+---------+---------+
-sam/maquina/scan_inst/kf1|    2.410|         |         |         |
--------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock sam/maquina/scan_inst/kminus
 ----------------------------+---------+---------+---------+---------+
@@ -4245,15 +4192,14 @@ sam/maquina/scan_inst/ksclk|    2.300|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 39.00 secs
-Total CPU time to Xst completion: 36.25 secs
+Total REAL time to Xst completion: 331.00 secs
+Total CPU time to Xst completion: 330.86 secs
  
 --> 
 
-
-Total memory usage is 586280 kilobytes
+Total memory usage is 4867188 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  704 (   0 filtered)
+Number of warnings :  707 (   0 filtered)
 Number of infos    :  164 (   0 filtered)
 

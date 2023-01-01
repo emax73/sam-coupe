@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Fri Nov 18 11:34:00 2022
+// Written by: Map P.20131013 on Sun Jan 01 17:07:55 2023
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -105,11 +105,11 @@ PIN sam/MyCtrlModule/myosd/charram/Mram_mem1_pins<23> = BEL
 PIN sam/MyCtrlModule_myosd/charrom/Mram_rom_pins<14> = BEL
         "sam/MyCtrlModule_myosd/charrom/Mram_rom" PINNAME CLKA;
 TIMEGRP sam_los_relojes_clkout0 = BEL "sam/los_relojes/clkout1_buf" BEL
-        "sam/los_relojes/clkcounter_2" BEL "sam/los_relojes/clkcounter_1" BEL
-        "sam/los_relojes/clkcounter_0" BEL "sam/count_6" BEL "sam/count_5" BEL
-        "sam/count_4" BEL "sam/count_3" BEL "sam/los_relojes/clk8ct_3" BEL
-        "sam/los_relojes/clk8ct_2" BEL "sam/los_relojes/clk8ct_1" BEL
-        "sam/los_relojes/clk8" BEL "sam/MyCtrlModule/myosd/pixelcounter_3" BEL
+        "sam/los_relojes/clk8ct_3" BEL "sam/los_relojes/clk8ct_2" BEL
+        "sam/los_relojes/clk8ct_1" BEL "sam/los_relojes/clk8ct_0" BEL
+        "sam/count_6" BEL "sam/count_5" BEL "sam/count_4" BEL "sam/count_3"
+        BEL "sam/count_2" BEL "sam/count_1" BEL "sam/los_relojes/clk8" BEL
+        "sam/MyCtrlModule/myosd/pixelcounter_3" BEL
         "sam/MyCtrlModule/myosd/pixelcounter_2" BEL
         "sam/MyCtrlModule/myosd/pixelcounter_1" BEL
         "sam/MyCtrlModule/myosd/pixelcounter_0" BEL

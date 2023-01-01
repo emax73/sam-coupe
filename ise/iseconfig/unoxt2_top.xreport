@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-11-18T15:56:08</DateModified>
+  <DateModified>2023-01-01T15:51:40</DateModified>
   <ModuleName>unoxt2_top</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>D:/Xilinx/share/unoxt2.cores/unoxt-sam-coupe/ise/iseconfig/unoxt2_top.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>D:/Xilinx/share/unoxt2.cores/unoxt-sam-coupe/ise\</ImplementationReportsDirectory>
+  <SavedFilePath>D:/Xilinx/share/sam/unoxt-sam-coupe/ise/iseconfig/unoxt2_top.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>D:/Xilinx/share/sam/unoxt-sam-coupe/ise\</ImplementationReportsDirectory>
   <DateInitialized>2022-11-18T13:42:12</DateInitialized>
   <EnableMessageFiltering>true</EnableMessageFiltering>
  </header>

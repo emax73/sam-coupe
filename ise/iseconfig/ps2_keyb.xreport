@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2023-01-01T16:58:49</DateModified>
+  <DateModified>2023-06-12T12:37:11</DateModified>
   <ModuleName>ps2_keyb</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>D:/Xilinx/share/sam/unoxt-sam-coupe/ise/iseconfig/ps2_keyb.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>D:/Xilinx/share/sam/unoxt-sam-coupe/ise\</ImplementationReportsDirectory>
+  <SavedFilePath>/home/ise/share/git/unoxt-sam-coupe/ise/iseconfig/ps2_keyb.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/ise/share/git/unoxt-sam-coupe/ise/</ImplementationReportsDirectory>
   <DateInitialized>2022-05-01T10:11:51</DateInitialized>
   <EnableMessageFiltering>true</EnableMessageFiltering>
  </header>

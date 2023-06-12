@@ -1,9 +1,9 @@
 --------------------------------------------------------------------------------
-Release 14.7 Trace  (nt64)
+Release 14.7 Trace  (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -filter
-D:/Xilinx/share/sam/unoxt-sam-coupe/ise/iseconfig/filter.filter -intstyle ise
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -filter
+/home/ise/share/git/unoxt-sam-coupe/ise/iseconfig/filter.filter -intstyle ise
 -v 3 -s 2 -n 3 -fastpaths -xml unoxt2_top.twx unoxt2_top.ncd -o unoxt2_top.twr
 unoxt2_top.pcf
 
@@ -71,468 +71,17 @@ For more information, see Period Analysis in the Timing Closure User Guide (UG61
 
  318259603 paths analyzed, 1918 endpoints analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
- Minimum period is  19.643ns.
+ Minimum period is  20.088ns.
 --------------------------------------------------------------------------------
 
-Paths for end point sam/maquina/el_saa/outmix_l/out_7 (SLICE_X38Y62.CIN), 39357855 paths
+Paths for end point sam/maquina/el_saa/outmix_r/out_7 (SLICE_X6Y72.CIN), 38971713 paths
 --------------------------------------------------------------------------------
-Slack (setup path):     1.157ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               sam/maquina/el_saa/freqenable_5 (FF)
-  Destination:          sam/maquina/el_saa/outmix_l/out_7 (FF)
-  Requirement:          20.800ns
-  Data Path Delay:      19.506ns (Levels of Logic = 15)
-  Clock Path Skew:      0.017ns (0.331 - 0.314)
-  Source Clock:         sam/clk48 rising at 0.000ns
-  Destination Clock:    sam/clk48 rising at 20.800ns
-  Clock Uncertainty:    0.154ns
-
-  Clock Uncertainty:          0.154ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
-    Total System Jitter (TSJ):  0.070ns
-    Discrete Jitter (DJ):       0.300ns
-    Phase Error (PE):           0.000ns
-
-  Maximum Data Path at Slow Process Corner: sam/maquina/el_saa/freqenable_5 to sam/maquina/el_saa/outmix_l/out_7
-    Location             Delay type         Delay(ns)  Physical Resource
-                                                       Logical Resource(s)
-    -------------------------------------------------  -------------------
-    SLICE_X31Y62.BQ      Tcko                  0.430   sam/maquina/el_saa/freqenable<5>
-                                                       sam/maquina/el_saa/freqenable_5
-    SLICE_X31Y62.B2      net (fanout=18)       1.687   sam/maquina/el_saa/freqenable<5>
-    SLICE_X31Y62.B       Tilo                  0.259   sam/maquina/el_saa/freqenable<5>
-                                                       sam/maquina/el_saa/bottom/amp2/Mmux_outmix11
-    SLICE_X36Y62.C2      net (fanout=17)       1.467   sam/maquina/el_saa/bottom/amp2/outmix<0>
-    SLICE_X36Y62.C       Tilo                  0.235   sam/maquina/el_saa/outmix_r/out<7>
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd1_lut<3>1
-    SLICE_X38Y62.D2      net (fanout=4)        0.920   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd1_lut<3>
-    SLICE_X38Y62.D       Tilo                  0.254   sam/maquina/el_saa/outmix_l/out<7>
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd1_cy<5>11
-    SLICE_X38Y62.C1      net (fanout=3)        1.196   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd1_cy<5>1
-    SLICE_X38Y62.C       Tilo                  0.255   sam/maquina/el_saa/outmix_l/out<7>
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd1_xor<6>11
-    SLICE_X22Y61.C5      net (fanout=1)        1.115   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_61
-    SLICE_X22Y61.CMUX    Topcc                 0.495   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_52
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd2_lut<0>6
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd2_cy<0>_6
-    SLICE_X32Y62.D3      net (fanout=1)        1.019   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_62
-    SLICE_X32Y62.DMUX    Tilo                  0.298   sam/maquina/sam_audio_mixer/audio_dac_left/DACout
-                                                       sam/maquina/el_saa/bottom/amp2/out<12>1
-    SLICE_X34Y53.C4      net (fanout=1)        1.253   sam/maquina/el_saa/bottom/out2<6>
-    SLICE_X34Y53.CMUX    Tilo                  0.326   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_78
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd86
-    SLICE_X34Y53.DX      net (fanout=2)        0.706   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd86
-    SLICE_X34Y53.COUT    Tdxcy                 0.109   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_78
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd8_cy<0>_6
-    SLICE_X34Y54.CIN     net (fanout=1)        0.003   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd8_cy<0>7
-    SLICE_X34Y54.AQ      Tito_logic            0.698   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_88
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd8_xor<0>_9
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_88_rt
-    SLICE_X38Y53.A2      net (fanout=1)        0.955   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_88
-    SLICE_X38Y53.AMUX    Topaa                 0.456   sam/maquina/scan_inst/row<7>_6
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd9_lut<8>
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd9_cy<10>
-    SLICE_X38Y55.D2      net (fanout=10)       1.235   sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd1_lut<11>
-    SLICE_X38Y55.COUT    Topcyd                0.312   sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd_cy<11>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd_lut<11>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd_cy<11>
-    SLICE_X38Y56.CIN     net (fanout=1)        0.082   sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd_cy<11>
-    SLICE_X38Y56.BMUX    Tcinb                 0.310   sam/maquina/scan_inst/row<1>_0
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd_cy<15>
-    SLICE_X30Y61.C5      net (fanout=2)        1.214   sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd_13
-    SLICE_X30Y61.DMUX    Topcd                 0.536   sam/maquina/el_saa/ctrl<1>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd2_lut<13>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd2_cy<14>
-    SLICE_X38Y61.B5      net (fanout=2)        0.982   sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd_142
-    SLICE_X38Y61.COUT    Topcyb                0.483   sam/maquina/el_saa/outmix_l/out<6>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd3_lut<14>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd3_cy<16>
-    SLICE_X38Y62.CIN     net (fanout=1)        0.003   sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd3_cy<16>
-    SLICE_X38Y62.CLK     Tcinck                0.213   sam/maquina/el_saa/outmix_l/out<7>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd3_xor<17>
-                                                       sam/maquina/el_saa/outmix_l/out_7
-    -------------------------------------------------  ---------------------------
-    Total                                     19.506ns (5.669ns logic, 13.837ns route)
-                                                       (29.1% logic, 70.9% route)
-
---------------------------------------------------------------------------------
-Slack (setup path):     1.172ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               sam/maquina/el_saa/freqenable_5 (FF)
-  Destination:          sam/maquina/el_saa/outmix_l/out_7 (FF)
-  Requirement:          20.800ns
-  Data Path Delay:      19.491ns (Levels of Logic = 14)
-  Clock Path Skew:      0.017ns (0.331 - 0.314)
-  Source Clock:         sam/clk48 rising at 0.000ns
-  Destination Clock:    sam/clk48 rising at 20.800ns
-  Clock Uncertainty:    0.154ns
-
-  Clock Uncertainty:          0.154ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
-    Total System Jitter (TSJ):  0.070ns
-    Discrete Jitter (DJ):       0.300ns
-    Phase Error (PE):           0.000ns
-
-  Maximum Data Path at Slow Process Corner: sam/maquina/el_saa/freqenable_5 to sam/maquina/el_saa/outmix_l/out_7
-    Location             Delay type         Delay(ns)  Physical Resource
-                                                       Logical Resource(s)
-    -------------------------------------------------  -------------------
-    SLICE_X31Y62.BQ      Tcko                  0.430   sam/maquina/el_saa/freqenable<5>
-                                                       sam/maquina/el_saa/freqenable_5
-    SLICE_X31Y62.B2      net (fanout=18)       1.687   sam/maquina/el_saa/freqenable<5>
-    SLICE_X31Y62.B       Tilo                  0.259   sam/maquina/el_saa/freqenable<5>
-                                                       sam/maquina/el_saa/bottom/amp2/Mmux_outmix11
-    SLICE_X36Y62.C2      net (fanout=17)       1.467   sam/maquina/el_saa/bottom/amp2/outmix<0>
-    SLICE_X36Y62.C       Tilo                  0.235   sam/maquina/el_saa/outmix_r/out<7>
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd1_lut<3>1
-    SLICE_X38Y62.D2      net (fanout=4)        0.920   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd1_lut<3>
-    SLICE_X38Y62.D       Tilo                  0.254   sam/maquina/el_saa/outmix_l/out<7>
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd1_cy<5>11
-    SLICE_X38Y62.C1      net (fanout=3)        1.196   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd1_cy<5>1
-    SLICE_X38Y62.C       Tilo                  0.255   sam/maquina/el_saa/outmix_l/out<7>
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd1_xor<6>11
-    SLICE_X22Y61.C5      net (fanout=1)        1.115   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_61
-    SLICE_X22Y61.CMUX    Topcc                 0.495   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_52
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd2_lut<0>6
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd2_cy<0>_6
-    SLICE_X32Y62.D3      net (fanout=1)        1.019   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_62
-    SLICE_X32Y62.DMUX    Tilo                  0.298   sam/maquina/sam_audio_mixer/audio_dac_left/DACout
-                                                       sam/maquina/el_saa/bottom/amp2/out<12>1
-    SLICE_X34Y53.C4      net (fanout=1)        1.253   sam/maquina/el_saa/bottom/out2<6>
-    SLICE_X34Y53.CMUX    Tilo                  0.326   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_78
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd86
-    SLICE_X34Y53.DX      net (fanout=2)        0.706   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd86
-    SLICE_X34Y53.COUT    Tdxcy                 0.109   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_78
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd8_cy<0>_6
-    SLICE_X34Y54.CIN     net (fanout=1)        0.003   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd8_cy<0>7
-    SLICE_X34Y54.AQ      Tito_logic            0.698   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_88
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd8_xor<0>_9
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_88_rt
-    SLICE_X38Y53.A2      net (fanout=1)        0.955   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_88
-    SLICE_X38Y53.AMUX    Topaa                 0.456   sam/maquina/scan_inst/row<7>_6
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd9_lut<8>
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd9_cy<10>
-    SLICE_X38Y55.D2      net (fanout=10)       1.235   sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd1_lut<11>
-    SLICE_X38Y55.DMUX    Topdd                 0.463   sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd_cy<11>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd_lut<11>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd_cy<11>
-    SLICE_X30Y61.A2      net (fanout=2)        1.309   sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd_11
-    SLICE_X30Y61.DMUX    Topad                 0.667   sam/maquina/el_saa/ctrl<1>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd2_lut<11>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd2_cy<14>
-    SLICE_X38Y61.B5      net (fanout=2)        0.982   sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd_142
-    SLICE_X38Y61.COUT    Topcyb                0.483   sam/maquina/el_saa/outmix_l/out<6>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd3_lut<14>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd3_cy<16>
-    SLICE_X38Y62.CIN     net (fanout=1)        0.003   sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd3_cy<16>
-    SLICE_X38Y62.CLK     Tcinck                0.213   sam/maquina/el_saa/outmix_l/out<7>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd3_xor<17>
-                                                       sam/maquina/el_saa/outmix_l/out_7
-    -------------------------------------------------  ---------------------------
-    Total                                     19.491ns (5.641ns logic, 13.850ns route)
-                                                       (28.9% logic, 71.1% route)
-
---------------------------------------------------------------------------------
-Slack (setup path):     1.193ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               sam/maquina/el_saa/freqenable_5 (FF)
-  Destination:          sam/maquina/el_saa/outmix_l/out_7 (FF)
-  Requirement:          20.800ns
-  Data Path Delay:      19.470ns (Levels of Logic = 14)
-  Clock Path Skew:      0.017ns (0.331 - 0.314)
-  Source Clock:         sam/clk48 rising at 0.000ns
-  Destination Clock:    sam/clk48 rising at 20.800ns
-  Clock Uncertainty:    0.154ns
-
-  Clock Uncertainty:          0.154ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
-    Total System Jitter (TSJ):  0.070ns
-    Discrete Jitter (DJ):       0.300ns
-    Phase Error (PE):           0.000ns
-
-  Maximum Data Path at Slow Process Corner: sam/maquina/el_saa/freqenable_5 to sam/maquina/el_saa/outmix_l/out_7
-    Location             Delay type         Delay(ns)  Physical Resource
-                                                       Logical Resource(s)
-    -------------------------------------------------  -------------------
-    SLICE_X31Y62.BQ      Tcko                  0.430   sam/maquina/el_saa/freqenable<5>
-                                                       sam/maquina/el_saa/freqenable_5
-    SLICE_X31Y62.B2      net (fanout=18)       1.687   sam/maquina/el_saa/freqenable<5>
-    SLICE_X31Y62.B       Tilo                  0.259   sam/maquina/el_saa/freqenable<5>
-                                                       sam/maquina/el_saa/bottom/amp2/Mmux_outmix11
-    SLICE_X36Y62.C2      net (fanout=17)       1.467   sam/maquina/el_saa/bottom/amp2/outmix<0>
-    SLICE_X36Y62.C       Tilo                  0.235   sam/maquina/el_saa/outmix_r/out<7>
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd1_lut<3>1
-    SLICE_X38Y62.D2      net (fanout=4)        0.920   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd1_lut<3>
-    SLICE_X38Y62.D       Tilo                  0.254   sam/maquina/el_saa/outmix_l/out<7>
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd1_cy<5>11
-    SLICE_X38Y62.C1      net (fanout=3)        1.196   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd1_cy<5>1
-    SLICE_X38Y62.C       Tilo                  0.255   sam/maquina/el_saa/outmix_l/out<7>
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd1_xor<6>11
-    SLICE_X22Y61.C5      net (fanout=1)        1.115   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_61
-    SLICE_X22Y61.CMUX    Topcc                 0.495   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_52
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd2_lut<0>6
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd2_cy<0>_6
-    SLICE_X32Y62.D3      net (fanout=1)        1.019   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_62
-    SLICE_X32Y62.DMUX    Tilo                  0.298   sam/maquina/sam_audio_mixer/audio_dac_left/DACout
-                                                       sam/maquina/el_saa/bottom/amp2/out<12>1
-    SLICE_X34Y53.C4      net (fanout=1)        1.253   sam/maquina/el_saa/bottom/out2<6>
-    SLICE_X34Y53.CMUX    Tilo                  0.326   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_78
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd86
-    SLICE_X34Y53.DX      net (fanout=2)        0.706   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd86
-    SLICE_X34Y53.COUT    Tdxcy                 0.109   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_78
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd8_cy<0>_6
-    SLICE_X34Y54.CIN     net (fanout=1)        0.003   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd8_cy<0>7
-    SLICE_X34Y54.AQ      Tito_logic            0.698   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_88
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd8_xor<0>_9
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_88_rt
-    SLICE_X38Y53.A2      net (fanout=1)        0.955   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_88
-    SLICE_X38Y53.AMUX    Topaa                 0.456   sam/maquina/scan_inst/row<7>_6
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd9_lut<8>
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd9_cy<10>
-    SLICE_X39Y62.D1      net (fanout=10)       1.688   sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd1_lut<11>
-    SLICE_X39Y62.D       Tilo                  0.259   sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd_121
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd_1211
-    SLICE_X30Y61.B1      net (fanout=1)        1.011   sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd_121
-    SLICE_X30Y61.DMUX    Topbd                 0.695   sam/maquina/el_saa/ctrl<1>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd2_lut<12>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd2_cy<14>
-    SLICE_X38Y61.B5      net (fanout=2)        0.982   sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd_142
-    SLICE_X38Y61.COUT    Topcyb                0.483   sam/maquina/el_saa/outmix_l/out<6>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd3_lut<14>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd3_cy<16>
-    SLICE_X38Y62.CIN     net (fanout=1)        0.003   sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd3_cy<16>
-    SLICE_X38Y62.CLK     Tcinck                0.213   sam/maquina/el_saa/outmix_l/out<7>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd3_xor<17>
-                                                       sam/maquina/el_saa/outmix_l/out_7
-    -------------------------------------------------  ---------------------------
-    Total                                     19.470ns (5.465ns logic, 14.005ns route)
-                                                       (28.1% logic, 71.9% route)
-
---------------------------------------------------------------------------------
-
-Paths for end point sam/maquina/el_saa/outmix_l/out_6 (SLICE_X38Y61.B5), 3787398 paths
---------------------------------------------------------------------------------
-Slack (setup path):     1.167ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               sam/maquina/el_saa/freqenable_5 (FF)
-  Destination:          sam/maquina/el_saa/outmix_l/out_6 (FF)
-  Requirement:          20.800ns
-  Data Path Delay:      19.495ns (Levels of Logic = 14)
-  Clock Path Skew:      0.016ns (0.330 - 0.314)
-  Source Clock:         sam/clk48 rising at 0.000ns
-  Destination Clock:    sam/clk48 rising at 20.800ns
-  Clock Uncertainty:    0.154ns
-
-  Clock Uncertainty:          0.154ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
-    Total System Jitter (TSJ):  0.070ns
-    Discrete Jitter (DJ):       0.300ns
-    Phase Error (PE):           0.000ns
-
-  Maximum Data Path at Slow Process Corner: sam/maquina/el_saa/freqenable_5 to sam/maquina/el_saa/outmix_l/out_6
-    Location             Delay type         Delay(ns)  Physical Resource
-                                                       Logical Resource(s)
-    -------------------------------------------------  -------------------
-    SLICE_X31Y62.BQ      Tcko                  0.430   sam/maquina/el_saa/freqenable<5>
-                                                       sam/maquina/el_saa/freqenable_5
-    SLICE_X31Y62.B2      net (fanout=18)       1.687   sam/maquina/el_saa/freqenable<5>
-    SLICE_X31Y62.B       Tilo                  0.259   sam/maquina/el_saa/freqenable<5>
-                                                       sam/maquina/el_saa/bottom/amp2/Mmux_outmix11
-    SLICE_X36Y62.C2      net (fanout=17)       1.467   sam/maquina/el_saa/bottom/amp2/outmix<0>
-    SLICE_X36Y62.C       Tilo                  0.235   sam/maquina/el_saa/outmix_r/out<7>
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd1_lut<3>1
-    SLICE_X38Y62.D2      net (fanout=4)        0.920   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd1_lut<3>
-    SLICE_X38Y62.D       Tilo                  0.254   sam/maquina/el_saa/outmix_l/out<7>
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd1_cy<5>11
-    SLICE_X38Y62.C1      net (fanout=3)        1.196   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd1_cy<5>1
-    SLICE_X38Y62.C       Tilo                  0.255   sam/maquina/el_saa/outmix_l/out<7>
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd1_xor<6>11
-    SLICE_X22Y61.C5      net (fanout=1)        1.115   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_61
-    SLICE_X22Y61.CMUX    Topcc                 0.495   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_52
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd2_lut<0>6
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd2_cy<0>_6
-    SLICE_X32Y62.D3      net (fanout=1)        1.019   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_62
-    SLICE_X32Y62.DMUX    Tilo                  0.298   sam/maquina/sam_audio_mixer/audio_dac_left/DACout
-                                                       sam/maquina/el_saa/bottom/amp2/out<12>1
-    SLICE_X34Y53.C4      net (fanout=1)        1.253   sam/maquina/el_saa/bottom/out2<6>
-    SLICE_X34Y53.CMUX    Tilo                  0.326   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_78
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd86
-    SLICE_X34Y53.DX      net (fanout=2)        0.706   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd86
-    SLICE_X34Y53.COUT    Tdxcy                 0.109   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_78
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd8_cy<0>_6
-    SLICE_X34Y54.CIN     net (fanout=1)        0.003   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd8_cy<0>7
-    SLICE_X34Y54.AQ      Tito_logic            0.698   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_88
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd8_xor<0>_9
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_88_rt
-    SLICE_X38Y53.A2      net (fanout=1)        0.955   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_88
-    SLICE_X38Y53.AMUX    Topaa                 0.456   sam/maquina/scan_inst/row<7>_6
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd9_lut<8>
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd9_cy<10>
-    SLICE_X38Y55.D2      net (fanout=10)       1.235   sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd1_lut<11>
-    SLICE_X38Y55.COUT    Topcyd                0.312   sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd_cy<11>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd_lut<11>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd_cy<11>
-    SLICE_X38Y56.CIN     net (fanout=1)        0.082   sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd_cy<11>
-    SLICE_X38Y56.BMUX    Tcinb                 0.310   sam/maquina/scan_inst/row<1>_0
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd_cy<15>
-    SLICE_X30Y61.C5      net (fanout=2)        1.214   sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd_13
-    SLICE_X30Y61.DMUX    Topcd                 0.536   sam/maquina/el_saa/ctrl<1>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd2_lut<13>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd2_cy<14>
-    SLICE_X38Y61.B5      net (fanout=2)        0.982   sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd_142
-    SLICE_X38Y61.CLK     Tas                   0.688   sam/maquina/el_saa/outmix_l/out<6>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd3_lut<14>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd3_cy<16>
-                                                       sam/maquina/el_saa/outmix_l/out_6
-    -------------------------------------------------  ---------------------------
-    Total                                     19.495ns (5.661ns logic, 13.834ns route)
-                                                       (29.0% logic, 71.0% route)
-
---------------------------------------------------------------------------------
-Slack (setup path):     1.182ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               sam/maquina/el_saa/freqenable_5 (FF)
-  Destination:          sam/maquina/el_saa/outmix_l/out_6 (FF)
-  Requirement:          20.800ns
-  Data Path Delay:      19.480ns (Levels of Logic = 13)
-  Clock Path Skew:      0.016ns (0.330 - 0.314)
-  Source Clock:         sam/clk48 rising at 0.000ns
-  Destination Clock:    sam/clk48 rising at 20.800ns
-  Clock Uncertainty:    0.154ns
-
-  Clock Uncertainty:          0.154ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
-    Total System Jitter (TSJ):  0.070ns
-    Discrete Jitter (DJ):       0.300ns
-    Phase Error (PE):           0.000ns
-
-  Maximum Data Path at Slow Process Corner: sam/maquina/el_saa/freqenable_5 to sam/maquina/el_saa/outmix_l/out_6
-    Location             Delay type         Delay(ns)  Physical Resource
-                                                       Logical Resource(s)
-    -------------------------------------------------  -------------------
-    SLICE_X31Y62.BQ      Tcko                  0.430   sam/maquina/el_saa/freqenable<5>
-                                                       sam/maquina/el_saa/freqenable_5
-    SLICE_X31Y62.B2      net (fanout=18)       1.687   sam/maquina/el_saa/freqenable<5>
-    SLICE_X31Y62.B       Tilo                  0.259   sam/maquina/el_saa/freqenable<5>
-                                                       sam/maquina/el_saa/bottom/amp2/Mmux_outmix11
-    SLICE_X36Y62.C2      net (fanout=17)       1.467   sam/maquina/el_saa/bottom/amp2/outmix<0>
-    SLICE_X36Y62.C       Tilo                  0.235   sam/maquina/el_saa/outmix_r/out<7>
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd1_lut<3>1
-    SLICE_X38Y62.D2      net (fanout=4)        0.920   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd1_lut<3>
-    SLICE_X38Y62.D       Tilo                  0.254   sam/maquina/el_saa/outmix_l/out<7>
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd1_cy<5>11
-    SLICE_X38Y62.C1      net (fanout=3)        1.196   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd1_cy<5>1
-    SLICE_X38Y62.C       Tilo                  0.255   sam/maquina/el_saa/outmix_l/out<7>
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd1_xor<6>11
-    SLICE_X22Y61.C5      net (fanout=1)        1.115   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_61
-    SLICE_X22Y61.CMUX    Topcc                 0.495   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_52
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd2_lut<0>6
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd2_cy<0>_6
-    SLICE_X32Y62.D3      net (fanout=1)        1.019   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_62
-    SLICE_X32Y62.DMUX    Tilo                  0.298   sam/maquina/sam_audio_mixer/audio_dac_left/DACout
-                                                       sam/maquina/el_saa/bottom/amp2/out<12>1
-    SLICE_X34Y53.C4      net (fanout=1)        1.253   sam/maquina/el_saa/bottom/out2<6>
-    SLICE_X34Y53.CMUX    Tilo                  0.326   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_78
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd86
-    SLICE_X34Y53.DX      net (fanout=2)        0.706   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd86
-    SLICE_X34Y53.COUT    Tdxcy                 0.109   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_78
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd8_cy<0>_6
-    SLICE_X34Y54.CIN     net (fanout=1)        0.003   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd8_cy<0>7
-    SLICE_X34Y54.AQ      Tito_logic            0.698   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_88
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd8_xor<0>_9
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_88_rt
-    SLICE_X38Y53.A2      net (fanout=1)        0.955   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_88
-    SLICE_X38Y53.AMUX    Topaa                 0.456   sam/maquina/scan_inst/row<7>_6
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd9_lut<8>
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd9_cy<10>
-    SLICE_X38Y55.D2      net (fanout=10)       1.235   sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd1_lut<11>
-    SLICE_X38Y55.DMUX    Topdd                 0.463   sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd_cy<11>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd_lut<11>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd_cy<11>
-    SLICE_X30Y61.A2      net (fanout=2)        1.309   sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd_11
-    SLICE_X30Y61.DMUX    Topad                 0.667   sam/maquina/el_saa/ctrl<1>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd2_lut<11>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd2_cy<14>
-    SLICE_X38Y61.B5      net (fanout=2)        0.982   sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd_142
-    SLICE_X38Y61.CLK     Tas                   0.688   sam/maquina/el_saa/outmix_l/out<6>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd3_lut<14>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd3_cy<16>
-                                                       sam/maquina/el_saa/outmix_l/out_6
-    -------------------------------------------------  ---------------------------
-    Total                                     19.480ns (5.633ns logic, 13.847ns route)
-                                                       (28.9% logic, 71.1% route)
-
---------------------------------------------------------------------------------
-Slack (setup path):     1.203ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               sam/maquina/el_saa/freqenable_5 (FF)
-  Destination:          sam/maquina/el_saa/outmix_l/out_6 (FF)
-  Requirement:          20.800ns
-  Data Path Delay:      19.459ns (Levels of Logic = 13)
-  Clock Path Skew:      0.016ns (0.330 - 0.314)
-  Source Clock:         sam/clk48 rising at 0.000ns
-  Destination Clock:    sam/clk48 rising at 20.800ns
-  Clock Uncertainty:    0.154ns
-
-  Clock Uncertainty:          0.154ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
-    Total System Jitter (TSJ):  0.070ns
-    Discrete Jitter (DJ):       0.300ns
-    Phase Error (PE):           0.000ns
-
-  Maximum Data Path at Slow Process Corner: sam/maquina/el_saa/freqenable_5 to sam/maquina/el_saa/outmix_l/out_6
-    Location             Delay type         Delay(ns)  Physical Resource
-                                                       Logical Resource(s)
-    -------------------------------------------------  -------------------
-    SLICE_X31Y62.BQ      Tcko                  0.430   sam/maquina/el_saa/freqenable<5>
-                                                       sam/maquina/el_saa/freqenable_5
-    SLICE_X31Y62.B2      net (fanout=18)       1.687   sam/maquina/el_saa/freqenable<5>
-    SLICE_X31Y62.B       Tilo                  0.259   sam/maquina/el_saa/freqenable<5>
-                                                       sam/maquina/el_saa/bottom/amp2/Mmux_outmix11
-    SLICE_X36Y62.C2      net (fanout=17)       1.467   sam/maquina/el_saa/bottom/amp2/outmix<0>
-    SLICE_X36Y62.C       Tilo                  0.235   sam/maquina/el_saa/outmix_r/out<7>
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd1_lut<3>1
-    SLICE_X38Y62.D2      net (fanout=4)        0.920   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd1_lut<3>
-    SLICE_X38Y62.D       Tilo                  0.254   sam/maquina/el_saa/outmix_l/out<7>
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd1_cy<5>11
-    SLICE_X38Y62.C1      net (fanout=3)        1.196   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd1_cy<5>1
-    SLICE_X38Y62.C       Tilo                  0.255   sam/maquina/el_saa/outmix_l/out<7>
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd1_xor<6>11
-    SLICE_X22Y61.C5      net (fanout=1)        1.115   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_61
-    SLICE_X22Y61.CMUX    Topcc                 0.495   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_52
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd2_lut<0>6
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd2_cy<0>_6
-    SLICE_X32Y62.D3      net (fanout=1)        1.019   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_62
-    SLICE_X32Y62.DMUX    Tilo                  0.298   sam/maquina/sam_audio_mixer/audio_dac_left/DACout
-                                                       sam/maquina/el_saa/bottom/amp2/out<12>1
-    SLICE_X34Y53.C4      net (fanout=1)        1.253   sam/maquina/el_saa/bottom/out2<6>
-    SLICE_X34Y53.CMUX    Tilo                  0.326   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_78
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd86
-    SLICE_X34Y53.DX      net (fanout=2)        0.706   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd86
-    SLICE_X34Y53.COUT    Tdxcy                 0.109   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_78
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd8_cy<0>_6
-    SLICE_X34Y54.CIN     net (fanout=1)        0.003   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd8_cy<0>7
-    SLICE_X34Y54.AQ      Tito_logic            0.698   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_88
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd8_xor<0>_9
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_88_rt
-    SLICE_X38Y53.A2      net (fanout=1)        0.955   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_88
-    SLICE_X38Y53.AMUX    Topaa                 0.456   sam/maquina/scan_inst/row<7>_6
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd9_lut<8>
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd9_cy<10>
-    SLICE_X39Y62.D1      net (fanout=10)       1.688   sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd1_lut<11>
-    SLICE_X39Y62.D       Tilo                  0.259   sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd_121
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd_1211
-    SLICE_X30Y61.B1      net (fanout=1)        1.011   sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd_121
-    SLICE_X30Y61.DMUX    Topbd                 0.695   sam/maquina/el_saa/ctrl<1>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd2_lut<12>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd2_cy<14>
-    SLICE_X38Y61.B5      net (fanout=2)        0.982   sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd_142
-    SLICE_X38Y61.CLK     Tas                   0.688   sam/maquina/el_saa/outmix_l/out<6>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd3_lut<14>
-                                                       sam/maquina/el_saa/outmix_l/Mmult_n0010_Madd3_cy<16>
-                                                       sam/maquina/el_saa/outmix_l/out_6
-    -------------------------------------------------  ---------------------------
-    Total                                     19.459ns (5.457ns logic, 14.002ns route)
-                                                       (28.0% logic, 72.0% route)
-
---------------------------------------------------------------------------------
-
-Paths for end point sam/maquina/el_saa/outmix_r/out_7 (SLICE_X36Y62.CIN), 38971713 paths
---------------------------------------------------------------------------------
-Slack (setup path):     1.170ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               sam/maquina/el_saa/freqenable_5 (FF)
+Slack (setup path):     0.712ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               sam/maquina/el_saa/noiseenable_5 (FF)
   Destination:          sam/maquina/el_saa/outmix_r/out_7 (FF)
   Requirement:          20.800ns
-  Data Path Delay:      19.485ns (Levels of Logic = 15)
-  Clock Path Skew:      0.009ns (0.323 - 0.314)
+  Data Path Delay:      19.879ns (Levels of Logic = 17)
+  Clock Path Skew:      -0.055ns (0.582 - 0.637)
   Source Clock:         sam/clk48 rising at 0.000ns
   Destination Clock:    sam/clk48 rising at 20.800ns
   Clock Uncertainty:    0.154ns
@@ -542,156 +91,82 @@ Slack (setup path):     1.170ns (requirement - (data path - clock path skew + un
     Discrete Jitter (DJ):       0.300ns
     Phase Error (PE):           0.000ns
 
-  Maximum Data Path at Slow Process Corner: sam/maquina/el_saa/freqenable_5 to sam/maquina/el_saa/outmix_r/out_7
+  Maximum Data Path at Slow Process Corner: sam/maquina/el_saa/noiseenable_5 to sam/maquina/el_saa/outmix_r/out_7
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X31Y62.BQ      Tcko                  0.430   sam/maquina/el_saa/freqenable<5>
-                                                       sam/maquina/el_saa/freqenable_5
-    SLICE_X31Y62.B2      net (fanout=18)       1.687   sam/maquina/el_saa/freqenable<5>
-    SLICE_X31Y62.B       Tilo                  0.259   sam/maquina/el_saa/freqenable<5>
+    SLICE_X3Y62.BQ       Tcko                  0.430   sam/maquina/el_saa/noiseenable<5>
+                                                       sam/maquina/el_saa/noiseenable_5
+    SLICE_X9Y63.B5       net (fanout=18)       1.105   sam/maquina/el_saa/noiseenable<5>
+    SLICE_X9Y63.B        Tilo                  0.259   sam/maquina/el_saa/freqenable<5>
                                                        sam/maquina/el_saa/bottom/amp2/Mmux_outmix11
-    SLICE_X33Y57.A4      net (fanout=17)       1.187   sam/maquina/el_saa/bottom/amp2/outmix<0>
-    SLICE_X33Y57.A       Tilo                  0.259   sam/maquina/el_saa/amplit5<7>
+    SLICE_X3Y65.A6       net (fanout=17)       1.465   sam/maquina/el_saa/bottom/amp2/outmix<0>
+    SLICE_X3Y65.A        Tilo                  0.259   sam/maquina/el_saa/amplit5<7>
                                                        sam/maquina/el_saa/bottom/amp2/Sh141
-    SLICE_X33Y57.D4      net (fanout=6)        0.945   sam/maquina/el_saa/bottom/amp2/Sh14
-    SLICE_X33Y57.D       Tilo                  0.259   sam/maquina/el_saa/amplit5<7>
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd4_xor<4>11
-    SLICE_X32Y57.A1      net (fanout=1)        1.307   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_44
-    SLICE_X32Y57.AMUX    Tilo                  0.298   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_55
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd54
-    SLICE_X32Y57.BX      net (fanout=2)        1.159   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd54
-    SLICE_X32Y57.CMUX    Taxc                  0.340   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_55
+    SLICE_X3Y65.C2       net (fanout=6)        0.555   sam/maquina/el_saa/bottom/amp2/Sh14
+    SLICE_X3Y65.C        Tilo                  0.259   sam/maquina/el_saa/amplit5<7>
+                                                       sam/maquina/el_saa/bottom/amp2/mod_r/Mmux_n002021
+    SLICE_X2Y62.B3       net (fanout=1)        1.073   sam/maquina/el_saa/bottom/amp2/mod_r/n0020<1>
+    SLICE_X2Y62.BMUX     Tilo                  0.326   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_35
+                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd51
+    SLICE_X2Y62.C5       net (fanout=2)        0.442   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd51
+    SLICE_X2Y62.COUT     Topcyc                0.328   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_35
+                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd5_lut<0>2
+                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd5_cy<0>_2
+    SLICE_X2Y63.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd5_cy<0>3
+    SLICE_X2Y63.AQ       Tito_logic            0.698   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_55
                                                        sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd5_cy<0>_6
-    SLICE_X31Y61.D4      net (fanout=1)        1.549   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_65
-    SLICE_X31Y61.D       Tilo                  0.259   sam/maquina/el_saa/bottom/amp2/clock
-                                                       sam/maquina/el_saa/bottom/amp2/out<3>1
-    SLICE_X28Y61.C3      net (fanout=1)        0.808   sam/maquina/el_saa/bottom/out2<15>
-    SLICE_X28Y61.CMUX    Tilo                  0.298   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd36
-    SLICE_X28Y61.D3      net (fanout=2)        0.373   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd36
-    SLICE_X28Y61.DQ      Tad_logic             0.920   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd3_lut<0>7
+                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_45_rt
+    SLICE_X5Y64.A3       net (fanout=1)        0.950   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_45
+    SLICE_X5Y64.A        Tilo                  0.259   sam/maquina/el_saa/_n0494_inv
+                                                       sam/maquina/el_saa/bottom/amp2/out<5>1
+    SLICE_X4Y66.A4       net (fanout=1)        0.654   sam/maquina/el_saa/bottom/out2<13>
+    SLICE_X4Y66.AMUX     Tilo                  0.298   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd34
+    SLICE_X4Y66.BX       net (fanout=2)        1.391   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd34
+    SLICE_X4Y66.DQ       Tito_logic            0.842   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73
                                                        sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd3_cy<0>_6
                                                        sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73_rt
-    SLICE_X32Y54.D3      net (fanout=1)        1.195   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73
-    SLICE_X32Y54.COUT    Topcyd                0.290   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<7>
+    SLICE_X6Y62.D4       net (fanout=1)        0.958   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73
+    SLICE_X6Y62.COUT     Topcyd                0.312   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<7>
                                                        sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_lut<7>
                                                        sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<7>
-    SLICE_X32Y55.CIN     net (fanout=1)        0.003   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<7>
-    SLICE_X32Y55.BMUX    Tcinb                 0.277   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<10>
+    SLICE_X6Y63.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<7>
+    SLICE_X6Y63.AMUX     Tcina                 0.220   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<10>
                                                        sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<10>
-    SLICE_X36Y55.A3      net (fanout=5)        0.664   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_94
-    SLICE_X36Y55.AMUX    Topaa                 0.449   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<15>
-                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_lut<12>
-                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<15>
-    SLICE_X32Y61.B2      net (fanout=2)        1.784   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_12
-    SLICE_X32Y61.COUT    Topcyb                0.448   sam/maquina/el_saa/outmix_r/ced
-                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_lut<12>
-                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_cy<14>
-    SLICE_X32Y62.CIN     net (fanout=1)        0.003   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_cy<14>
-    SLICE_X32Y62.BMUX    Tcinb                 0.277   sam/maquina/sam_audio_mixer/audio_dac_left/DACout
-                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_xor<17>
-    SLICE_X36Y61.D2      net (fanout=1)        1.225   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_162
-    SLICE_X36Y61.COUT    Topcyd                0.290   sam/maquina/el_saa/outmix_r/out<6>
-                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_162_rt
-                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd3_cy<16>
-    SLICE_X36Y62.CIN     net (fanout=1)        0.003   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd3_cy<16>
-    SLICE_X36Y62.CLK     Tcinck                0.240   sam/maquina/el_saa/outmix_r/out<7>
-                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd3_xor<17>
-                                                       sam/maquina/el_saa/outmix_r/out_7
-    -------------------------------------------------  ---------------------------
-    Total                                     19.485ns (5.593ns logic, 13.892ns route)
-                                                       (28.7% logic, 71.3% route)
-
---------------------------------------------------------------------------------
-Slack (setup path):     1.183ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               sam/maquina/el_saa/freqenable_5 (FF)
-  Destination:          sam/maquina/el_saa/outmix_r/out_7 (FF)
-  Requirement:          20.800ns
-  Data Path Delay:      19.472ns (Levels of Logic = 16)
-  Clock Path Skew:      0.009ns (0.323 - 0.314)
-  Source Clock:         sam/clk48 rising at 0.000ns
-  Destination Clock:    sam/clk48 rising at 20.800ns
-  Clock Uncertainty:    0.154ns
-
-  Clock Uncertainty:          0.154ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
-    Total System Jitter (TSJ):  0.070ns
-    Discrete Jitter (DJ):       0.300ns
-    Phase Error (PE):           0.000ns
-
-  Maximum Data Path at Slow Process Corner: sam/maquina/el_saa/freqenable_5 to sam/maquina/el_saa/outmix_r/out_7
-    Location             Delay type         Delay(ns)  Physical Resource
-                                                       Logical Resource(s)
-    -------------------------------------------------  -------------------
-    SLICE_X31Y62.BQ      Tcko                  0.430   sam/maquina/el_saa/freqenable<5>
-                                                       sam/maquina/el_saa/freqenable_5
-    SLICE_X31Y62.B2      net (fanout=18)       1.687   sam/maquina/el_saa/freqenable<5>
-    SLICE_X31Y62.B       Tilo                  0.259   sam/maquina/el_saa/freqenable<5>
-                                                       sam/maquina/el_saa/bottom/amp2/Mmux_outmix11
-    SLICE_X33Y57.A4      net (fanout=17)       1.187   sam/maquina/el_saa/bottom/amp2/outmix<0>
-    SLICE_X33Y57.A       Tilo                  0.259   sam/maquina/el_saa/amplit5<7>
-                                                       sam/maquina/el_saa/bottom/amp2/Sh141
-    SLICE_X33Y57.D4      net (fanout=6)        0.945   sam/maquina/el_saa/bottom/amp2/Sh14
-    SLICE_X33Y57.D       Tilo                  0.259   sam/maquina/el_saa/amplit5<7>
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd4_xor<4>11
-    SLICE_X32Y57.A1      net (fanout=1)        1.307   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_44
-    SLICE_X32Y57.AMUX    Tilo                  0.298   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_55
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd54
-    SLICE_X32Y57.BX      net (fanout=2)        1.159   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd54
-    SLICE_X32Y57.CMUX    Taxc                  0.340   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_55
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd5_cy<0>_6
-    SLICE_X31Y61.D4      net (fanout=1)        1.549   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_65
-    SLICE_X31Y61.D       Tilo                  0.259   sam/maquina/el_saa/bottom/amp2/clock
-                                                       sam/maquina/el_saa/bottom/amp2/out<3>1
-    SLICE_X28Y61.C3      net (fanout=1)        0.808   sam/maquina/el_saa/bottom/out2<15>
-    SLICE_X28Y61.CMUX    Tilo                  0.298   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd36
-    SLICE_X28Y61.D3      net (fanout=2)        0.373   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd36
-    SLICE_X28Y61.DQ      Tad_logic             0.920   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd3_lut<0>7
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd3_cy<0>_6
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73_rt
-    SLICE_X32Y54.D3      net (fanout=1)        1.195   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73
-    SLICE_X32Y54.COUT    Topcyd                0.290   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<7>
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_lut<7>
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<7>
-    SLICE_X32Y55.CIN     net (fanout=1)        0.003   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<7>
-    SLICE_X32Y55.AMUX    Tcina                 0.210   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<10>
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<10>
-    SLICE_X36Y54.D6      net (fanout=10)       0.664   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd1_lut<11>
-    SLICE_X36Y54.COUT    Topcyd                0.290   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<11>
+    SLICE_X6Y74.D2       net (fanout=10)       2.158   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd1_lut<11>
+    SLICE_X6Y74.COUT     Topcyd                0.312   sam/maquina/el_saa/outmix_r/ced
                                                        sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_lut<11>
                                                        sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<11>
-    SLICE_X36Y55.CIN     net (fanout=1)        0.003   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<11>
-    SLICE_X36Y55.AMUX    Tcina                 0.210   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<15>
+    SLICE_X6Y75.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<11>
+    SLICE_X6Y75.CMUX     Tcinc                 0.279   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<15>
                                                        sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<15>
-    SLICE_X32Y61.B2      net (fanout=2)        1.784   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_12
-    SLICE_X32Y61.COUT    Topcyb                0.448   sam/maquina/el_saa/outmix_r/ced
-                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_lut<12>
+    SLICE_X6Y66.D2       net (fanout=2)        1.733   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_14
+    SLICE_X6Y66.COUT     Topcyd                0.312   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_cy<14>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_lut<14>
                                                        sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_cy<14>
-    SLICE_X32Y62.CIN     net (fanout=1)        0.003   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_cy<14>
-    SLICE_X32Y62.BMUX    Tcinb                 0.277   sam/maquina/sam_audio_mixer/audio_dac_left/DACout
+    SLICE_X6Y67.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_cy<14>
+    SLICE_X6Y67.AMUX     Tcina                 0.220   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_171
                                                        sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_xor<17>
-    SLICE_X36Y61.D2      net (fanout=1)        1.225   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_162
-    SLICE_X36Y61.COUT    Topcyd                0.290   sam/maquina/el_saa/outmix_r/out<6>
-                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_162_rt
+    SLICE_X6Y71.C6       net (fanout=2)        1.147   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_152
+    SLICE_X6Y71.COUT     Topcyc                0.328   sam/maquina/el_saa/outmix_r/out<6>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd3_lut<15>
                                                        sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd3_cy<16>
-    SLICE_X36Y62.CIN     net (fanout=1)        0.003   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd3_cy<16>
-    SLICE_X36Y62.CLK     Tcinck                0.240   sam/maquina/el_saa/outmix_r/out<7>
+    SLICE_X6Y72.CIN      net (fanout=1)        0.082   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd3_cy<16>
+    SLICE_X6Y72.CLK      Tcinck                0.213   sam/maquina/el_saa/outmix_r/out<7>
                                                        sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd3_xor<17>
                                                        sam/maquina/el_saa/outmix_r/out_7
     -------------------------------------------------  ---------------------------
-    Total                                     19.472ns (5.577ns logic, 13.895ns route)
-                                                       (28.6% logic, 71.4% route)
+    Total                                     19.879ns (6.154ns logic, 13.725ns route)
+                                                       (31.0% logic, 69.0% route)
 
 --------------------------------------------------------------------------------
-Slack (setup path):     1.212ns (requirement - (data path - clock path skew + uncertainty))
+Slack (setup path):     0.722ns (requirement - (data path - clock path skew + uncertainty))
   Source:               sam/maquina/el_saa/freqenable_5 (FF)
   Destination:          sam/maquina/el_saa/outmix_r/out_7 (FF)
   Requirement:          20.800ns
-  Data Path Delay:      19.443ns (Levels of Logic = 15)
-  Clock Path Skew:      0.009ns (0.323 - 0.314)
+  Data Path Delay:      19.912ns (Levels of Logic = 17)
+  Clock Path Skew:      -0.012ns (0.582 - 0.594)
   Source Clock:         sam/clk48 rising at 0.000ns
   Destination Clock:    sam/clk48 rising at 20.800ns
   Clock Uncertainty:    0.154ns
@@ -705,61 +180,647 @@ Slack (setup path):     1.212ns (requirement - (data path - clock path skew + un
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X31Y62.BQ      Tcko                  0.430   sam/maquina/el_saa/freqenable<5>
+    SLICE_X9Y63.BQ       Tcko                  0.430   sam/maquina/el_saa/freqenable<5>
                                                        sam/maquina/el_saa/freqenable_5
-    SLICE_X31Y62.B2      net (fanout=18)       1.687   sam/maquina/el_saa/freqenable<5>
-    SLICE_X31Y62.B       Tilo                  0.259   sam/maquina/el_saa/freqenable<5>
+    SLICE_X9Y63.B1       net (fanout=18)       1.138   sam/maquina/el_saa/freqenable<5>
+    SLICE_X9Y63.B        Tilo                  0.259   sam/maquina/el_saa/freqenable<5>
                                                        sam/maquina/el_saa/bottom/amp2/Mmux_outmix11
-    SLICE_X33Y57.A4      net (fanout=17)       1.187   sam/maquina/el_saa/bottom/amp2/outmix<0>
-    SLICE_X33Y57.A       Tilo                  0.259   sam/maquina/el_saa/amplit5<7>
+    SLICE_X3Y65.A6       net (fanout=17)       1.465   sam/maquina/el_saa/bottom/amp2/outmix<0>
+    SLICE_X3Y65.A        Tilo                  0.259   sam/maquina/el_saa/amplit5<7>
                                                        sam/maquina/el_saa/bottom/amp2/Sh141
-    SLICE_X33Y57.D4      net (fanout=6)        0.945   sam/maquina/el_saa/bottom/amp2/Sh14
-    SLICE_X33Y57.D       Tilo                  0.259   sam/maquina/el_saa/amplit5<7>
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd4_xor<4>11
-    SLICE_X32Y57.A1      net (fanout=1)        1.307   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_44
-    SLICE_X32Y57.AMUX    Tilo                  0.298   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_55
-                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd54
-    SLICE_X32Y57.BX      net (fanout=2)        1.159   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd54
-    SLICE_X32Y57.CMUX    Taxc                  0.340   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_55
+    SLICE_X3Y65.C2       net (fanout=6)        0.555   sam/maquina/el_saa/bottom/amp2/Sh14
+    SLICE_X3Y65.C        Tilo                  0.259   sam/maquina/el_saa/amplit5<7>
+                                                       sam/maquina/el_saa/bottom/amp2/mod_r/Mmux_n002021
+    SLICE_X2Y62.B3       net (fanout=1)        1.073   sam/maquina/el_saa/bottom/amp2/mod_r/n0020<1>
+    SLICE_X2Y62.BMUX     Tilo                  0.326   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_35
+                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd51
+    SLICE_X2Y62.C5       net (fanout=2)        0.442   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd51
+    SLICE_X2Y62.COUT     Topcyc                0.328   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_35
+                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd5_lut<0>2
+                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd5_cy<0>_2
+    SLICE_X2Y63.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd5_cy<0>3
+    SLICE_X2Y63.AQ       Tito_logic            0.698   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_55
                                                        sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd5_cy<0>_6
-    SLICE_X31Y61.D4      net (fanout=1)        1.549   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_65
-    SLICE_X31Y61.D       Tilo                  0.259   sam/maquina/el_saa/bottom/amp2/clock
-                                                       sam/maquina/el_saa/bottom/amp2/out<3>1
-    SLICE_X28Y61.C3      net (fanout=1)        0.808   sam/maquina/el_saa/bottom/out2<15>
-    SLICE_X28Y61.CMUX    Tilo                  0.298   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd36
-    SLICE_X28Y61.DX      net (fanout=2)        0.663   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd36
-    SLICE_X28Y61.COUT    Tdxcy                 0.121   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73
+                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_45_rt
+    SLICE_X5Y64.A3       net (fanout=1)        0.950   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_45
+    SLICE_X5Y64.A        Tilo                  0.259   sam/maquina/el_saa/_n0494_inv
+                                                       sam/maquina/el_saa/bottom/amp2/out<5>1
+    SLICE_X4Y66.A4       net (fanout=1)        0.654   sam/maquina/el_saa/bottom/out2<13>
+    SLICE_X4Y66.AMUX     Tilo                  0.298   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd34
+    SLICE_X4Y66.BX       net (fanout=2)        1.391   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd34
+    SLICE_X4Y66.DQ       Tito_logic            0.842   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73
                                                        sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd3_cy<0>_6
-    SLICE_X28Y62.CIN     net (fanout=1)        0.003   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd3_cy<0>7
-    SLICE_X28Y62.AQ      Tito_logic            0.684   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_83
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd3_xor<0>_9
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_83_rt
-    SLICE_X32Y55.A6      net (fanout=1)        1.020   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_83
-    SLICE_X32Y55.CMUX    Topac                 0.636   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<10>
-                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_lut<8>
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73_rt
+    SLICE_X6Y62.D4       net (fanout=1)        0.958   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73
+    SLICE_X6Y62.COUT     Topcyd                0.312   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<7>
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_lut<7>
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<7>
+    SLICE_X6Y63.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<7>
+    SLICE_X6Y63.AMUX     Tcina                 0.220   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<10>
                                                        sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<10>
-    SLICE_X36Y57.A2      net (fanout=9)        1.414   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_104
-    SLICE_X36Y57.A       Tilo                  0.235   sam/maquina/el_saa/outmix_l/_n0018
-                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_1111
-    SLICE_X32Y61.A1      net (fanout=1)        1.113   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_111
-    SLICE_X32Y61.COUT    Topcya                0.472   sam/maquina/el_saa/outmix_r/ced
-                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_lut<11>
+    SLICE_X6Y74.D2       net (fanout=10)       2.158   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd1_lut<11>
+    SLICE_X6Y74.COUT     Topcyd                0.312   sam/maquina/el_saa/outmix_r/ced
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_lut<11>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<11>
+    SLICE_X6Y75.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<11>
+    SLICE_X6Y75.CMUX     Tcinc                 0.279   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<15>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<15>
+    SLICE_X6Y66.D2       net (fanout=2)        1.733   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_14
+    SLICE_X6Y66.COUT     Topcyd                0.312   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_cy<14>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_lut<14>
                                                        sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_cy<14>
-    SLICE_X32Y62.CIN     net (fanout=1)        0.003   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_cy<14>
-    SLICE_X32Y62.BMUX    Tcinb                 0.277   sam/maquina/sam_audio_mixer/audio_dac_left/DACout
+    SLICE_X6Y67.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_cy<14>
+    SLICE_X6Y67.AMUX     Tcina                 0.220   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_171
                                                        sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_xor<17>
-    SLICE_X36Y61.D2      net (fanout=1)        1.225   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_162
-    SLICE_X36Y61.COUT    Topcyd                0.290   sam/maquina/el_saa/outmix_r/out<6>
-                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_162_rt
+    SLICE_X6Y71.C6       net (fanout=2)        1.147   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_152
+    SLICE_X6Y71.COUT     Topcyc                0.328   sam/maquina/el_saa/outmix_r/out<6>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd3_lut<15>
                                                        sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd3_cy<16>
-    SLICE_X36Y62.CIN     net (fanout=1)        0.003   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd3_cy<16>
-    SLICE_X36Y62.CLK     Tcinck                0.240   sam/maquina/el_saa/outmix_r/out<7>
+    SLICE_X6Y72.CIN      net (fanout=1)        0.082   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd3_cy<16>
+    SLICE_X6Y72.CLK      Tcinck                0.213   sam/maquina/el_saa/outmix_r/out<7>
                                                        sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd3_xor<17>
                                                        sam/maquina/el_saa/outmix_r/out_7
     -------------------------------------------------  ---------------------------
-    Total                                     19.443ns (5.357ns logic, 14.086ns route)
-                                                       (27.6% logic, 72.4% route)
+    Total                                     19.912ns (6.154ns logic, 13.758ns route)
+                                                       (30.9% logic, 69.1% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     0.729ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               sam/maquina/el_saa/top/noise_gen/lfsr_0 (FF)
+  Destination:          sam/maquina/el_saa/outmix_r/out_7 (FF)
+  Requirement:          20.800ns
+  Data Path Delay:      19.887ns (Levels of Logic = 16)
+  Clock Path Skew:      -0.030ns (0.460 - 0.490)
+  Source Clock:         sam/clk48 rising at 0.000ns
+  Destination Clock:    sam/clk48 rising at 20.800ns
+  Clock Uncertainty:    0.154ns
+
+  Clock Uncertainty:          0.154ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.300ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: sam/maquina/el_saa/top/noise_gen/lfsr_0 to sam/maquina/el_saa/outmix_r/out_7
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X7Y64.AQ       Tcko                  0.430   sam/maquina/el_saa/top/noise_gen/lfsr<3>
+                                                       sam/maquina/el_saa/top/noise_gen/lfsr_0
+    SLICE_X7Y71.B2       net (fanout=29)       1.214   sam/maquina/el_saa/top/noise_gen/lfsr<0>
+    SLICE_X7Y71.B        Tilo                  0.259   sam/maquina/el_saa/top/amp2/outmix<0>
+                                                       sam/maquina/el_saa/top/amp2/Mmux_outmix11
+    SLICE_X3Y71.A3       net (fanout=18)       1.065   sam/maquina/el_saa/top/amp2/outmix<0>
+    SLICE_X3Y71.A        Tilo                  0.259   sam/maquina/el_saa/amplit2<7>
+                                                       sam/maquina/el_saa/top/amp2/Sh141
+    SLICE_X3Y70.B1       net (fanout=6)        0.737   sam/maquina/el_saa/top/amp2/Sh14
+    SLICE_X3Y70.BMUX     Tilo                  0.337   sam/maquina/el_saa/envelope0<7>
+                                                       sam/maquina/el_saa/top/amp2/ADDERTREE_INTERNAL_Madd4_xor<4>11
+    SLICE_X2Y76.A3       net (fanout=1)        1.288   sam/maquina/el_saa/top/amp2/ADDERTREE_INTERNAL_Madd_44
+    SLICE_X2Y76.AMUX     Tilo                  0.326   sam/maquina/el_saa/top/amp2/ADDERTREE_INTERNAL_Madd_55
+                                                       sam/maquina/el_saa/top/amp2/ADDERTREE_INTERNAL_Madd54
+    SLICE_X2Y76.B4       net (fanout=2)        0.343   sam/maquina/el_saa/top/amp2/ADDERTREE_INTERNAL_Madd54
+    SLICE_X2Y76.BQ       Tad_logic             0.942   sam/maquina/el_saa/top/amp2/ADDERTREE_INTERNAL_Madd_55
+                                                       sam/maquina/el_saa/top/amp2/ADDERTREE_INTERNAL_Madd5_lut<0>5
+                                                       sam/maquina/el_saa/top/amp2/ADDERTREE_INTERNAL_Madd5_cy<0>_6
+                                                       sam/maquina/el_saa/top/amp2/ADDERTREE_INTERNAL_Madd_55_rt
+    SLICE_X7Y73.C1       net (fanout=1)        1.088   sam/maquina/el_saa/top/amp2/ADDERTREE_INTERNAL_Madd_55
+    SLICE_X7Y73.C        Tilo                  0.259   sam/maquina/el_saa/top/out2<5>
+                                                       sam/maquina/el_saa/top/amp2/out<4>1
+    SLICE_X2Y73.B5       net (fanout=1)        0.859   sam/maquina/el_saa/top/out2<14>
+    SLICE_X2Y73.BMUX     Tilo                  0.326   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_71
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd15
+    SLICE_X2Y73.C4       net (fanout=2)        0.559   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd15
+    SLICE_X2Y73.CQ       Tad_logic             0.973   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_71
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd1_lut<0>6
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd1_cy<0>_6
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_61_rt
+    SLICE_X6Y62.C5       net (fanout=2)        1.282   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_61
+    SLICE_X6Y62.COUT     Topcyc                0.328   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<7>
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_lut<6>
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<7>
+    SLICE_X6Y63.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<7>
+    SLICE_X6Y63.AMUX     Tcina                 0.220   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<10>
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<10>
+    SLICE_X6Y74.D2       net (fanout=10)       2.158   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd1_lut<11>
+    SLICE_X6Y74.COUT     Topcyd                0.312   sam/maquina/el_saa/outmix_r/ced
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_lut<11>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<11>
+    SLICE_X6Y75.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<11>
+    SLICE_X6Y75.CMUX     Tcinc                 0.279   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<15>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<15>
+    SLICE_X6Y66.D2       net (fanout=2)        1.733   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_14
+    SLICE_X6Y66.COUT     Topcyd                0.312   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_cy<14>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_lut<14>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_cy<14>
+    SLICE_X6Y67.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_cy<14>
+    SLICE_X6Y67.AMUX     Tcina                 0.220   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_171
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_xor<17>
+    SLICE_X6Y71.C6       net (fanout=2)        1.147   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_152
+    SLICE_X6Y71.COUT     Topcyc                0.328   sam/maquina/el_saa/outmix_r/out<6>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd3_lut<15>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd3_cy<16>
+    SLICE_X6Y72.CIN      net (fanout=1)        0.082   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd3_cy<16>
+    SLICE_X6Y72.CLK      Tcinck                0.213   sam/maquina/el_saa/outmix_r/out<7>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd3_xor<17>
+                                                       sam/maquina/el_saa/outmix_r/out_7
+    -------------------------------------------------  ---------------------------
+    Total                                     19.887ns (6.323ns logic, 13.564ns route)
+                                                       (31.8% logic, 68.2% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point sam/maquina/el_saa/outmix_r/out_6 (SLICE_X6Y71.C6), 5033206 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     0.806ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               sam/maquina/el_saa/noiseenable_5 (FF)
+  Destination:          sam/maquina/el_saa/outmix_r/out_6 (FF)
+  Requirement:          20.800ns
+  Data Path Delay:      19.785ns (Levels of Logic = 16)
+  Clock Path Skew:      -0.055ns (0.582 - 0.637)
+  Source Clock:         sam/clk48 rising at 0.000ns
+  Destination Clock:    sam/clk48 rising at 20.800ns
+  Clock Uncertainty:    0.154ns
+
+  Clock Uncertainty:          0.154ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.300ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: sam/maquina/el_saa/noiseenable_5 to sam/maquina/el_saa/outmix_r/out_6
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X3Y62.BQ       Tcko                  0.430   sam/maquina/el_saa/noiseenable<5>
+                                                       sam/maquina/el_saa/noiseenable_5
+    SLICE_X9Y63.B5       net (fanout=18)       1.105   sam/maquina/el_saa/noiseenable<5>
+    SLICE_X9Y63.B        Tilo                  0.259   sam/maquina/el_saa/freqenable<5>
+                                                       sam/maquina/el_saa/bottom/amp2/Mmux_outmix11
+    SLICE_X3Y65.A6       net (fanout=17)       1.465   sam/maquina/el_saa/bottom/amp2/outmix<0>
+    SLICE_X3Y65.A        Tilo                  0.259   sam/maquina/el_saa/amplit5<7>
+                                                       sam/maquina/el_saa/bottom/amp2/Sh141
+    SLICE_X3Y65.C2       net (fanout=6)        0.555   sam/maquina/el_saa/bottom/amp2/Sh14
+    SLICE_X3Y65.C        Tilo                  0.259   sam/maquina/el_saa/amplit5<7>
+                                                       sam/maquina/el_saa/bottom/amp2/mod_r/Mmux_n002021
+    SLICE_X2Y62.B3       net (fanout=1)        1.073   sam/maquina/el_saa/bottom/amp2/mod_r/n0020<1>
+    SLICE_X2Y62.BMUX     Tilo                  0.326   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_35
+                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd51
+    SLICE_X2Y62.C5       net (fanout=2)        0.442   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd51
+    SLICE_X2Y62.COUT     Topcyc                0.328   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_35
+                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd5_lut<0>2
+                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd5_cy<0>_2
+    SLICE_X2Y63.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd5_cy<0>3
+    SLICE_X2Y63.AQ       Tito_logic            0.698   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_55
+                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd5_cy<0>_6
+                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_45_rt
+    SLICE_X5Y64.A3       net (fanout=1)        0.950   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_45
+    SLICE_X5Y64.A        Tilo                  0.259   sam/maquina/el_saa/_n0494_inv
+                                                       sam/maquina/el_saa/bottom/amp2/out<5>1
+    SLICE_X4Y66.A4       net (fanout=1)        0.654   sam/maquina/el_saa/bottom/out2<13>
+    SLICE_X4Y66.AMUX     Tilo                  0.298   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd34
+    SLICE_X4Y66.BX       net (fanout=2)        1.391   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd34
+    SLICE_X4Y66.DQ       Tito_logic            0.842   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd3_cy<0>_6
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73_rt
+    SLICE_X6Y62.D4       net (fanout=1)        0.958   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73
+    SLICE_X6Y62.COUT     Topcyd                0.312   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<7>
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_lut<7>
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<7>
+    SLICE_X6Y63.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<7>
+    SLICE_X6Y63.AMUX     Tcina                 0.220   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<10>
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<10>
+    SLICE_X6Y74.D2       net (fanout=10)       2.158   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd1_lut<11>
+    SLICE_X6Y74.COUT     Topcyd                0.312   sam/maquina/el_saa/outmix_r/ced
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_lut<11>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<11>
+    SLICE_X6Y75.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<11>
+    SLICE_X6Y75.CMUX     Tcinc                 0.279   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<15>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<15>
+    SLICE_X6Y66.D2       net (fanout=2)        1.733   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_14
+    SLICE_X6Y66.COUT     Topcyd                0.312   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_cy<14>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_lut<14>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_cy<14>
+    SLICE_X6Y67.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_cy<14>
+    SLICE_X6Y67.AMUX     Tcina                 0.220   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_171
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_xor<17>
+    SLICE_X6Y71.C6       net (fanout=2)        1.147   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_152
+    SLICE_X6Y71.CLK      Tas                   0.529   sam/maquina/el_saa/outmix_r/out<6>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd3_lut<15>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd3_cy<16>
+                                                       sam/maquina/el_saa/outmix_r/out_6
+    -------------------------------------------------  ---------------------------
+    Total                                     19.785ns (6.142ns logic, 13.643ns route)
+                                                       (31.0% logic, 69.0% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     0.816ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               sam/maquina/el_saa/freqenable_5 (FF)
+  Destination:          sam/maquina/el_saa/outmix_r/out_6 (FF)
+  Requirement:          20.800ns
+  Data Path Delay:      19.818ns (Levels of Logic = 16)
+  Clock Path Skew:      -0.012ns (0.582 - 0.594)
+  Source Clock:         sam/clk48 rising at 0.000ns
+  Destination Clock:    sam/clk48 rising at 20.800ns
+  Clock Uncertainty:    0.154ns
+
+  Clock Uncertainty:          0.154ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.300ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: sam/maquina/el_saa/freqenable_5 to sam/maquina/el_saa/outmix_r/out_6
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y63.BQ       Tcko                  0.430   sam/maquina/el_saa/freqenable<5>
+                                                       sam/maquina/el_saa/freqenable_5
+    SLICE_X9Y63.B1       net (fanout=18)       1.138   sam/maquina/el_saa/freqenable<5>
+    SLICE_X9Y63.B        Tilo                  0.259   sam/maquina/el_saa/freqenable<5>
+                                                       sam/maquina/el_saa/bottom/amp2/Mmux_outmix11
+    SLICE_X3Y65.A6       net (fanout=17)       1.465   sam/maquina/el_saa/bottom/amp2/outmix<0>
+    SLICE_X3Y65.A        Tilo                  0.259   sam/maquina/el_saa/amplit5<7>
+                                                       sam/maquina/el_saa/bottom/amp2/Sh141
+    SLICE_X3Y65.C2       net (fanout=6)        0.555   sam/maquina/el_saa/bottom/amp2/Sh14
+    SLICE_X3Y65.C        Tilo                  0.259   sam/maquina/el_saa/amplit5<7>
+                                                       sam/maquina/el_saa/bottom/amp2/mod_r/Mmux_n002021
+    SLICE_X2Y62.B3       net (fanout=1)        1.073   sam/maquina/el_saa/bottom/amp2/mod_r/n0020<1>
+    SLICE_X2Y62.BMUX     Tilo                  0.326   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_35
+                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd51
+    SLICE_X2Y62.C5       net (fanout=2)        0.442   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd51
+    SLICE_X2Y62.COUT     Topcyc                0.328   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_35
+                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd5_lut<0>2
+                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd5_cy<0>_2
+    SLICE_X2Y63.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd5_cy<0>3
+    SLICE_X2Y63.AQ       Tito_logic            0.698   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_55
+                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd5_cy<0>_6
+                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_45_rt
+    SLICE_X5Y64.A3       net (fanout=1)        0.950   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_45
+    SLICE_X5Y64.A        Tilo                  0.259   sam/maquina/el_saa/_n0494_inv
+                                                       sam/maquina/el_saa/bottom/amp2/out<5>1
+    SLICE_X4Y66.A4       net (fanout=1)        0.654   sam/maquina/el_saa/bottom/out2<13>
+    SLICE_X4Y66.AMUX     Tilo                  0.298   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd34
+    SLICE_X4Y66.BX       net (fanout=2)        1.391   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd34
+    SLICE_X4Y66.DQ       Tito_logic            0.842   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd3_cy<0>_6
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73_rt
+    SLICE_X6Y62.D4       net (fanout=1)        0.958   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73
+    SLICE_X6Y62.COUT     Topcyd                0.312   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<7>
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_lut<7>
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<7>
+    SLICE_X6Y63.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<7>
+    SLICE_X6Y63.AMUX     Tcina                 0.220   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<10>
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<10>
+    SLICE_X6Y74.D2       net (fanout=10)       2.158   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd1_lut<11>
+    SLICE_X6Y74.COUT     Topcyd                0.312   sam/maquina/el_saa/outmix_r/ced
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_lut<11>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<11>
+    SLICE_X6Y75.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<11>
+    SLICE_X6Y75.CMUX     Tcinc                 0.279   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<15>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<15>
+    SLICE_X6Y66.D2       net (fanout=2)        1.733   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_14
+    SLICE_X6Y66.COUT     Topcyd                0.312   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_cy<14>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_lut<14>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_cy<14>
+    SLICE_X6Y67.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_cy<14>
+    SLICE_X6Y67.AMUX     Tcina                 0.220   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_171
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_xor<17>
+    SLICE_X6Y71.C6       net (fanout=2)        1.147   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_152
+    SLICE_X6Y71.CLK      Tas                   0.529   sam/maquina/el_saa/outmix_r/out<6>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd3_lut<15>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd3_cy<16>
+                                                       sam/maquina/el_saa/outmix_r/out_6
+    -------------------------------------------------  ---------------------------
+    Total                                     19.818ns (6.142ns logic, 13.676ns route)
+                                                       (31.0% logic, 69.0% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     0.829ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               sam/maquina/el_saa/top/noise_gen/lfsr_0 (FF)
+  Destination:          sam/maquina/el_saa/outmix_r/out_6 (FF)
+  Requirement:          20.800ns
+  Data Path Delay:      19.793ns (Levels of Logic = 15)
+  Clock Path Skew:      -0.024ns (0.184 - 0.208)
+  Source Clock:         sam/clk48 rising at 0.000ns
+  Destination Clock:    sam/clk48 rising at 20.800ns
+  Clock Uncertainty:    0.154ns
+
+  Clock Uncertainty:          0.154ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.300ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: sam/maquina/el_saa/top/noise_gen/lfsr_0 to sam/maquina/el_saa/outmix_r/out_6
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X7Y64.AQ       Tcko                  0.430   sam/maquina/el_saa/top/noise_gen/lfsr<3>
+                                                       sam/maquina/el_saa/top/noise_gen/lfsr_0
+    SLICE_X7Y71.B2       net (fanout=29)       1.214   sam/maquina/el_saa/top/noise_gen/lfsr<0>
+    SLICE_X7Y71.B        Tilo                  0.259   sam/maquina/el_saa/top/amp2/outmix<0>
+                                                       sam/maquina/el_saa/top/amp2/Mmux_outmix11
+    SLICE_X3Y71.A3       net (fanout=18)       1.065   sam/maquina/el_saa/top/amp2/outmix<0>
+    SLICE_X3Y71.A        Tilo                  0.259   sam/maquina/el_saa/amplit2<7>
+                                                       sam/maquina/el_saa/top/amp2/Sh141
+    SLICE_X3Y70.B1       net (fanout=6)        0.737   sam/maquina/el_saa/top/amp2/Sh14
+    SLICE_X3Y70.BMUX     Tilo                  0.337   sam/maquina/el_saa/envelope0<7>
+                                                       sam/maquina/el_saa/top/amp2/ADDERTREE_INTERNAL_Madd4_xor<4>11
+    SLICE_X2Y76.A3       net (fanout=1)        1.288   sam/maquina/el_saa/top/amp2/ADDERTREE_INTERNAL_Madd_44
+    SLICE_X2Y76.AMUX     Tilo                  0.326   sam/maquina/el_saa/top/amp2/ADDERTREE_INTERNAL_Madd_55
+                                                       sam/maquina/el_saa/top/amp2/ADDERTREE_INTERNAL_Madd54
+    SLICE_X2Y76.B4       net (fanout=2)        0.343   sam/maquina/el_saa/top/amp2/ADDERTREE_INTERNAL_Madd54
+    SLICE_X2Y76.BQ       Tad_logic             0.942   sam/maquina/el_saa/top/amp2/ADDERTREE_INTERNAL_Madd_55
+                                                       sam/maquina/el_saa/top/amp2/ADDERTREE_INTERNAL_Madd5_lut<0>5
+                                                       sam/maquina/el_saa/top/amp2/ADDERTREE_INTERNAL_Madd5_cy<0>_6
+                                                       sam/maquina/el_saa/top/amp2/ADDERTREE_INTERNAL_Madd_55_rt
+    SLICE_X7Y73.C1       net (fanout=1)        1.088   sam/maquina/el_saa/top/amp2/ADDERTREE_INTERNAL_Madd_55
+    SLICE_X7Y73.C        Tilo                  0.259   sam/maquina/el_saa/top/out2<5>
+                                                       sam/maquina/el_saa/top/amp2/out<4>1
+    SLICE_X2Y73.B5       net (fanout=1)        0.859   sam/maquina/el_saa/top/out2<14>
+    SLICE_X2Y73.BMUX     Tilo                  0.326   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_71
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd15
+    SLICE_X2Y73.C4       net (fanout=2)        0.559   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd15
+    SLICE_X2Y73.CQ       Tad_logic             0.973   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_71
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd1_lut<0>6
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd1_cy<0>_6
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_61_rt
+    SLICE_X6Y62.C5       net (fanout=2)        1.282   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_61
+    SLICE_X6Y62.COUT     Topcyc                0.328   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<7>
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_lut<6>
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<7>
+    SLICE_X6Y63.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<7>
+    SLICE_X6Y63.AMUX     Tcina                 0.220   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<10>
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<10>
+    SLICE_X6Y74.D2       net (fanout=10)       2.158   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd1_lut<11>
+    SLICE_X6Y74.COUT     Topcyd                0.312   sam/maquina/el_saa/outmix_r/ced
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_lut<11>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<11>
+    SLICE_X6Y75.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<11>
+    SLICE_X6Y75.CMUX     Tcinc                 0.279   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<15>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<15>
+    SLICE_X6Y66.D2       net (fanout=2)        1.733   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_14
+    SLICE_X6Y66.COUT     Topcyd                0.312   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_cy<14>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_lut<14>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_cy<14>
+    SLICE_X6Y67.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_cy<14>
+    SLICE_X6Y67.AMUX     Tcina                 0.220   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_171
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_xor<17>
+    SLICE_X6Y71.C6       net (fanout=2)        1.147   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_152
+    SLICE_X6Y71.CLK      Tas                   0.529   sam/maquina/el_saa/outmix_r/out<6>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd3_lut<15>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd3_cy<16>
+                                                       sam/maquina/el_saa/outmix_r/out_6
+    -------------------------------------------------  ---------------------------
+    Total                                     19.793ns (6.311ns logic, 13.482ns route)
+                                                       (31.9% logic, 68.1% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point sam/maquina/el_saa/outmix_r/out_5 (SLICE_X6Y71.C6), 5033206 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     0.847ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               sam/maquina/el_saa/noiseenable_5 (FF)
+  Destination:          sam/maquina/el_saa/outmix_r/out_5 (FF)
+  Requirement:          20.800ns
+  Data Path Delay:      19.744ns (Levels of Logic = 16)
+  Clock Path Skew:      -0.055ns (0.582 - 0.637)
+  Source Clock:         sam/clk48 rising at 0.000ns
+  Destination Clock:    sam/clk48 rising at 20.800ns
+  Clock Uncertainty:    0.154ns
+
+  Clock Uncertainty:          0.154ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.300ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: sam/maquina/el_saa/noiseenable_5 to sam/maquina/el_saa/outmix_r/out_5
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X3Y62.BQ       Tcko                  0.430   sam/maquina/el_saa/noiseenable<5>
+                                                       sam/maquina/el_saa/noiseenable_5
+    SLICE_X9Y63.B5       net (fanout=18)       1.105   sam/maquina/el_saa/noiseenable<5>
+    SLICE_X9Y63.B        Tilo                  0.259   sam/maquina/el_saa/freqenable<5>
+                                                       sam/maquina/el_saa/bottom/amp2/Mmux_outmix11
+    SLICE_X3Y65.A6       net (fanout=17)       1.465   sam/maquina/el_saa/bottom/amp2/outmix<0>
+    SLICE_X3Y65.A        Tilo                  0.259   sam/maquina/el_saa/amplit5<7>
+                                                       sam/maquina/el_saa/bottom/amp2/Sh141
+    SLICE_X3Y65.C2       net (fanout=6)        0.555   sam/maquina/el_saa/bottom/amp2/Sh14
+    SLICE_X3Y65.C        Tilo                  0.259   sam/maquina/el_saa/amplit5<7>
+                                                       sam/maquina/el_saa/bottom/amp2/mod_r/Mmux_n002021
+    SLICE_X2Y62.B3       net (fanout=1)        1.073   sam/maquina/el_saa/bottom/amp2/mod_r/n0020<1>
+    SLICE_X2Y62.BMUX     Tilo                  0.326   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_35
+                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd51
+    SLICE_X2Y62.C5       net (fanout=2)        0.442   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd51
+    SLICE_X2Y62.COUT     Topcyc                0.328   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_35
+                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd5_lut<0>2
+                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd5_cy<0>_2
+    SLICE_X2Y63.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd5_cy<0>3
+    SLICE_X2Y63.AQ       Tito_logic            0.698   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_55
+                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd5_cy<0>_6
+                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_45_rt
+    SLICE_X5Y64.A3       net (fanout=1)        0.950   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_45
+    SLICE_X5Y64.A        Tilo                  0.259   sam/maquina/el_saa/_n0494_inv
+                                                       sam/maquina/el_saa/bottom/amp2/out<5>1
+    SLICE_X4Y66.A4       net (fanout=1)        0.654   sam/maquina/el_saa/bottom/out2<13>
+    SLICE_X4Y66.AMUX     Tilo                  0.298   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd34
+    SLICE_X4Y66.BX       net (fanout=2)        1.391   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd34
+    SLICE_X4Y66.DQ       Tito_logic            0.842   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd3_cy<0>_6
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73_rt
+    SLICE_X6Y62.D4       net (fanout=1)        0.958   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73
+    SLICE_X6Y62.COUT     Topcyd                0.312   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<7>
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_lut<7>
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<7>
+    SLICE_X6Y63.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<7>
+    SLICE_X6Y63.AMUX     Tcina                 0.220   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<10>
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<10>
+    SLICE_X6Y74.D2       net (fanout=10)       2.158   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd1_lut<11>
+    SLICE_X6Y74.COUT     Topcyd                0.312   sam/maquina/el_saa/outmix_r/ced
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_lut<11>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<11>
+    SLICE_X6Y75.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<11>
+    SLICE_X6Y75.CMUX     Tcinc                 0.279   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<15>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<15>
+    SLICE_X6Y66.D2       net (fanout=2)        1.733   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_14
+    SLICE_X6Y66.COUT     Topcyd                0.312   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_cy<14>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_lut<14>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_cy<14>
+    SLICE_X6Y67.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_cy<14>
+    SLICE_X6Y67.AMUX     Tcina                 0.220   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_171
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_xor<17>
+    SLICE_X6Y71.C6       net (fanout=2)        1.147   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_152
+    SLICE_X6Y71.CLK      Tas                   0.488   sam/maquina/el_saa/outmix_r/out<6>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd3_lut<15>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd3_cy<16>
+                                                       sam/maquina/el_saa/outmix_r/out_5
+    -------------------------------------------------  ---------------------------
+    Total                                     19.744ns (6.101ns logic, 13.643ns route)
+                                                       (30.9% logic, 69.1% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     0.857ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               sam/maquina/el_saa/freqenable_5 (FF)
+  Destination:          sam/maquina/el_saa/outmix_r/out_5 (FF)
+  Requirement:          20.800ns
+  Data Path Delay:      19.777ns (Levels of Logic = 16)
+  Clock Path Skew:      -0.012ns (0.582 - 0.594)
+  Source Clock:         sam/clk48 rising at 0.000ns
+  Destination Clock:    sam/clk48 rising at 20.800ns
+  Clock Uncertainty:    0.154ns
+
+  Clock Uncertainty:          0.154ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.300ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: sam/maquina/el_saa/freqenable_5 to sam/maquina/el_saa/outmix_r/out_5
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y63.BQ       Tcko                  0.430   sam/maquina/el_saa/freqenable<5>
+                                                       sam/maquina/el_saa/freqenable_5
+    SLICE_X9Y63.B1       net (fanout=18)       1.138   sam/maquina/el_saa/freqenable<5>
+    SLICE_X9Y63.B        Tilo                  0.259   sam/maquina/el_saa/freqenable<5>
+                                                       sam/maquina/el_saa/bottom/amp2/Mmux_outmix11
+    SLICE_X3Y65.A6       net (fanout=17)       1.465   sam/maquina/el_saa/bottom/amp2/outmix<0>
+    SLICE_X3Y65.A        Tilo                  0.259   sam/maquina/el_saa/amplit5<7>
+                                                       sam/maquina/el_saa/bottom/amp2/Sh141
+    SLICE_X3Y65.C2       net (fanout=6)        0.555   sam/maquina/el_saa/bottom/amp2/Sh14
+    SLICE_X3Y65.C        Tilo                  0.259   sam/maquina/el_saa/amplit5<7>
+                                                       sam/maquina/el_saa/bottom/amp2/mod_r/Mmux_n002021
+    SLICE_X2Y62.B3       net (fanout=1)        1.073   sam/maquina/el_saa/bottom/amp2/mod_r/n0020<1>
+    SLICE_X2Y62.BMUX     Tilo                  0.326   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_35
+                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd51
+    SLICE_X2Y62.C5       net (fanout=2)        0.442   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd51
+    SLICE_X2Y62.COUT     Topcyc                0.328   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_35
+                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd5_lut<0>2
+                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd5_cy<0>_2
+    SLICE_X2Y63.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd5_cy<0>3
+    SLICE_X2Y63.AQ       Tito_logic            0.698   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_55
+                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd5_cy<0>_6
+                                                       sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_45_rt
+    SLICE_X5Y64.A3       net (fanout=1)        0.950   sam/maquina/el_saa/bottom/amp2/ADDERTREE_INTERNAL_Madd_45
+    SLICE_X5Y64.A        Tilo                  0.259   sam/maquina/el_saa/_n0494_inv
+                                                       sam/maquina/el_saa/bottom/amp2/out<5>1
+    SLICE_X4Y66.A4       net (fanout=1)        0.654   sam/maquina/el_saa/bottom/out2<13>
+    SLICE_X4Y66.AMUX     Tilo                  0.298   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd34
+    SLICE_X4Y66.BX       net (fanout=2)        1.391   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd34
+    SLICE_X4Y66.DQ       Tito_logic            0.842   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd3_cy<0>_6
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73_rt
+    SLICE_X6Y62.D4       net (fanout=1)        0.958   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_73
+    SLICE_X6Y62.COUT     Topcyd                0.312   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<7>
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_lut<7>
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<7>
+    SLICE_X6Y63.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<7>
+    SLICE_X6Y63.AMUX     Tcina                 0.220   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<10>
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<10>
+    SLICE_X6Y74.D2       net (fanout=10)       2.158   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd1_lut<11>
+    SLICE_X6Y74.COUT     Topcyd                0.312   sam/maquina/el_saa/outmix_r/ced
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_lut<11>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<11>
+    SLICE_X6Y75.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<11>
+    SLICE_X6Y75.CMUX     Tcinc                 0.279   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<15>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<15>
+    SLICE_X6Y66.D2       net (fanout=2)        1.733   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_14
+    SLICE_X6Y66.COUT     Topcyd                0.312   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_cy<14>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_lut<14>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_cy<14>
+    SLICE_X6Y67.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_cy<14>
+    SLICE_X6Y67.AMUX     Tcina                 0.220   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_171
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_xor<17>
+    SLICE_X6Y71.C6       net (fanout=2)        1.147   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_152
+    SLICE_X6Y71.CLK      Tas                   0.488   sam/maquina/el_saa/outmix_r/out<6>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd3_lut<15>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd3_cy<16>
+                                                       sam/maquina/el_saa/outmix_r/out_5
+    -------------------------------------------------  ---------------------------
+    Total                                     19.777ns (6.101ns logic, 13.676ns route)
+                                                       (30.8% logic, 69.2% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     0.870ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               sam/maquina/el_saa/top/noise_gen/lfsr_0 (FF)
+  Destination:          sam/maquina/el_saa/outmix_r/out_5 (FF)
+  Requirement:          20.800ns
+  Data Path Delay:      19.752ns (Levels of Logic = 15)
+  Clock Path Skew:      -0.024ns (0.184 - 0.208)
+  Source Clock:         sam/clk48 rising at 0.000ns
+  Destination Clock:    sam/clk48 rising at 20.800ns
+  Clock Uncertainty:    0.154ns
+
+  Clock Uncertainty:          0.154ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.300ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: sam/maquina/el_saa/top/noise_gen/lfsr_0 to sam/maquina/el_saa/outmix_r/out_5
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X7Y64.AQ       Tcko                  0.430   sam/maquina/el_saa/top/noise_gen/lfsr<3>
+                                                       sam/maquina/el_saa/top/noise_gen/lfsr_0
+    SLICE_X7Y71.B2       net (fanout=29)       1.214   sam/maquina/el_saa/top/noise_gen/lfsr<0>
+    SLICE_X7Y71.B        Tilo                  0.259   sam/maquina/el_saa/top/amp2/outmix<0>
+                                                       sam/maquina/el_saa/top/amp2/Mmux_outmix11
+    SLICE_X3Y71.A3       net (fanout=18)       1.065   sam/maquina/el_saa/top/amp2/outmix<0>
+    SLICE_X3Y71.A        Tilo                  0.259   sam/maquina/el_saa/amplit2<7>
+                                                       sam/maquina/el_saa/top/amp2/Sh141
+    SLICE_X3Y70.B1       net (fanout=6)        0.737   sam/maquina/el_saa/top/amp2/Sh14
+    SLICE_X3Y70.BMUX     Tilo                  0.337   sam/maquina/el_saa/envelope0<7>
+                                                       sam/maquina/el_saa/top/amp2/ADDERTREE_INTERNAL_Madd4_xor<4>11
+    SLICE_X2Y76.A3       net (fanout=1)        1.288   sam/maquina/el_saa/top/amp2/ADDERTREE_INTERNAL_Madd_44
+    SLICE_X2Y76.AMUX     Tilo                  0.326   sam/maquina/el_saa/top/amp2/ADDERTREE_INTERNAL_Madd_55
+                                                       sam/maquina/el_saa/top/amp2/ADDERTREE_INTERNAL_Madd54
+    SLICE_X2Y76.B4       net (fanout=2)        0.343   sam/maquina/el_saa/top/amp2/ADDERTREE_INTERNAL_Madd54
+    SLICE_X2Y76.BQ       Tad_logic             0.942   sam/maquina/el_saa/top/amp2/ADDERTREE_INTERNAL_Madd_55
+                                                       sam/maquina/el_saa/top/amp2/ADDERTREE_INTERNAL_Madd5_lut<0>5
+                                                       sam/maquina/el_saa/top/amp2/ADDERTREE_INTERNAL_Madd5_cy<0>_6
+                                                       sam/maquina/el_saa/top/amp2/ADDERTREE_INTERNAL_Madd_55_rt
+    SLICE_X7Y73.C1       net (fanout=1)        1.088   sam/maquina/el_saa/top/amp2/ADDERTREE_INTERNAL_Madd_55
+    SLICE_X7Y73.C        Tilo                  0.259   sam/maquina/el_saa/top/out2<5>
+                                                       sam/maquina/el_saa/top/amp2/out<4>1
+    SLICE_X2Y73.B5       net (fanout=1)        0.859   sam/maquina/el_saa/top/out2<14>
+    SLICE_X2Y73.BMUX     Tilo                  0.326   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_71
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd15
+    SLICE_X2Y73.C4       net (fanout=2)        0.559   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd15
+    SLICE_X2Y73.CQ       Tad_logic             0.973   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_71
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd1_lut<0>6
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd1_cy<0>_6
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_61_rt
+    SLICE_X6Y62.C5       net (fanout=2)        1.282   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd_61
+    SLICE_X6Y62.COUT     Topcyc                0.328   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<7>
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_lut<6>
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<7>
+    SLICE_X6Y63.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<7>
+    SLICE_X6Y63.AMUX     Tcina                 0.220   sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<10>
+                                                       sam/maquina/el_saa/ADDERTREE_INTERNAL_Madd4_cy<10>
+    SLICE_X6Y74.D2       net (fanout=10)       2.158   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd1_lut<11>
+    SLICE_X6Y74.COUT     Topcyd                0.312   sam/maquina/el_saa/outmix_r/ced
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_lut<11>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<11>
+    SLICE_X6Y75.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<11>
+    SLICE_X6Y75.CMUX     Tcinc                 0.279   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<15>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_cy<15>
+    SLICE_X6Y66.D2       net (fanout=2)        1.733   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_14
+    SLICE_X6Y66.COUT     Topcyd                0.312   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_cy<14>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_lut<14>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_cy<14>
+    SLICE_X6Y67.CIN      net (fanout=1)        0.003   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_cy<14>
+    SLICE_X6Y67.AMUX     Tcina                 0.220   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_171
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd2_xor<17>
+    SLICE_X6Y71.C6       net (fanout=2)        1.147   sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd_152
+    SLICE_X6Y71.CLK      Tas                   0.488   sam/maquina/el_saa/outmix_r/out<6>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd3_lut<15>
+                                                       sam/maquina/el_saa/outmix_r/Mmult_n0010_Madd3_cy<16>
+                                                       sam/maquina/el_saa/outmix_r/out_5
+    -------------------------------------------------  ---------------------------
+    Total                                     19.752ns (6.270ns logic, 13.482ns route)
+                                                       (31.7% logic, 68.3% route)
 
 --------------------------------------------------------------------------------
 
@@ -767,39 +828,65 @@ Hold Paths: TS_sam_los_relojes_clkout0 = PERIOD TIMEGRP "sam_los_relojes_clkout0
         / 0.961538462 HIGH 50%;
 --------------------------------------------------------------------------------
 
-Paths for end point sam/MyCtrlModule/UART.uart/txready (SLICE_X0Y33.D6), 1 path
+Paths for end point sam/MyCtrlModule/UART.uart/txready (SLICE_X2Y30.CE), 1 path
 --------------------------------------------------------------------------------
-Slack (hold path):      0.417ns (requirement - (clock path skew + uncertainty - data path))
-  Source:               sam/MyCtrlModule/UART.uart/txready (FF)
+Slack (hold path):      0.349ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               sam/MyCtrlModule/UART.uart/txstate (FF)
   Destination:          sam/MyCtrlModule/UART.uart/txready (FF)
   Requirement:          0.000ns
-  Data Path Delay:      0.417ns (Levels of Logic = 1)
-  Clock Path Skew:      0.000ns
+  Data Path Delay:      0.350ns (Levels of Logic = 0)
+  Clock Path Skew:      0.001ns (0.286 - 0.285)
   Source Clock:         sam/clk48 rising at 20.800ns
   Destination Clock:    sam/clk48 rising at 20.800ns
   Clock Uncertainty:    0.000ns
 
-  Minimum Data Path at Fast Process Corner: sam/MyCtrlModule/UART.uart/txready to sam/MyCtrlModule/UART.uart/txready
+  Minimum Data Path at Fast Process Corner: sam/MyCtrlModule/UART.uart/txstate to sam/MyCtrlModule/UART.uart/txready
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X0Y33.DQ       Tcko                  0.200   sam/MyCtrlModule/UART.uart/txready
-                                                       sam/MyCtrlModule/UART.uart/txready
-    SLICE_X0Y33.D6       net (fanout=2)        0.027   sam/MyCtrlModule/UART.uart/txready
-    SLICE_X0Y33.CLK      Tah         (-Th)    -0.190   sam/MyCtrlModule/UART.uart/txready
-                                                       sam/MyCtrlModule/UART.uart/txready_glue_set
+    SLICE_X0Y31.AMUX     Tshcko                0.238   sam/MyCtrlModule/UART.uart/_n0129
+                                                       sam/MyCtrlModule/UART.uart/txstate
+    SLICE_X2Y30.CE       net (fanout=13)       0.204   sam/MyCtrlModule/UART.uart/txstate
+    SLICE_X2Y30.CLK      Tckce       (-Th)     0.092   sam/MyCtrlModule/UART.uart/txready
                                                        sam/MyCtrlModule/UART.uart/txready
     -------------------------------------------------  ---------------------------
-    Total                                      0.417ns (0.390ns logic, 0.027ns route)
-                                                       (93.5% logic, 6.5% route)
+    Total                                      0.350ns (0.146ns logic, 0.204ns route)
+                                                       (41.7% logic, 58.3% route)
 
 --------------------------------------------------------------------------------
 
-Paths for end point sam/MyCtrlModule/myosd/hwindowactive (SLICE_X4Y41.A6), 1 path
+Paths for end point sam/maquina/el_saa/outmix_r/out_7 (SLICE_X6Y72.CE), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.387ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               sam/maquina/el_saa/outmix_r/ced (FF)
+  Destination:          sam/maquina/el_saa/outmix_r/out_7 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.385ns (Levels of Logic = 0)
+  Clock Path Skew:      -0.002ns (0.032 - 0.034)
+  Source Clock:         sam/clk48 rising at 20.800ns
+  Destination Clock:    sam/clk48 rising at 20.800ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: sam/maquina/el_saa/outmix_r/ced to sam/maquina/el_saa/outmix_r/out_7
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X6Y74.DQ       Tcko                  0.234   sam/maquina/el_saa/outmix_r/ced
+                                                       sam/maquina/el_saa/outmix_r/ced
+    SLICE_X6Y72.CE       net (fanout=7)        0.243   sam/maquina/el_saa/outmix_r/ced
+    SLICE_X6Y72.CLK      Tckce       (-Th)     0.092   sam/maquina/el_saa/outmix_r/out<7>
+                                                       sam/maquina/el_saa/outmix_r/out_7
+    -------------------------------------------------  ---------------------------
+    Total                                      0.385ns (0.142ns logic, 0.243ns route)
+                                                       (36.9% logic, 63.1% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point sam/MyCtrlModule/myosd/vwindowactive (SLICE_X4Y37.A6), 1 path
 --------------------------------------------------------------------------------
 Slack (hold path):      0.417ns (requirement - (clock path skew + uncertainty - data path))
-  Source:               sam/MyCtrlModule/myosd/hwindowactive (FF)
-  Destination:          sam/MyCtrlModule/myosd/hwindowactive (FF)
+  Source:               sam/MyCtrlModule/myosd/vwindowactive (FF)
+  Destination:          sam/MyCtrlModule/myosd/vwindowactive (FF)
   Requirement:          0.000ns
   Data Path Delay:      0.417ns (Levels of Logic = 1)
   Clock Path Skew:      0.000ns
@@ -807,47 +894,19 @@ Slack (hold path):      0.417ns (requirement - (clock path skew + uncertainty - 
   Destination Clock:    sam/clk48 rising at 20.800ns
   Clock Uncertainty:    0.000ns
 
-  Minimum Data Path at Fast Process Corner: sam/MyCtrlModule/myosd/hwindowactive to sam/MyCtrlModule/myosd/hwindowactive
+  Minimum Data Path at Fast Process Corner: sam/MyCtrlModule/myosd/vwindowactive to sam/MyCtrlModule/myosd/vwindowactive
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X4Y41.AQ       Tcko                  0.200   sam/MyCtrlModule/myosd/hwindowactive
-                                                       sam/MyCtrlModule/myosd/hwindowactive
-    SLICE_X4Y41.A6       net (fanout=9)        0.027   sam/MyCtrlModule/myosd/hwindowactive
-    SLICE_X4Y41.CLK      Tah         (-Th)    -0.190   sam/MyCtrlModule/myosd/hwindowactive
-                                                       sam/MyCtrlModule/myosd/hwindowactive_glue_set
-                                                       sam/MyCtrlModule/myosd/hwindowactive
+    SLICE_X4Y37.AQ       Tcko                  0.200   sam/MyCtrlModule/myosd/vwindowactive
+                                                       sam/MyCtrlModule/myosd/vwindowactive
+    SLICE_X4Y37.A6       net (fanout=9)        0.027   sam/MyCtrlModule/myosd/vwindowactive
+    SLICE_X4Y37.CLK      Tah         (-Th)    -0.190   sam/MyCtrlModule/myosd/vwindowactive
+                                                       sam/MyCtrlModule/myosd/vwindowactive_glue_set
+                                                       sam/MyCtrlModule/myosd/vwindowactive
     -------------------------------------------------  ---------------------------
     Total                                      0.417ns (0.390ns logic, 0.027ns route)
                                                        (93.5% logic, 6.5% route)
-
---------------------------------------------------------------------------------
-
-Paths for end point sam/MyCtrlModule/intcontroller/pending_2 (SLICE_X19Y23.D6), 1 path
---------------------------------------------------------------------------------
-Slack (hold path):      0.438ns (requirement - (clock path skew + uncertainty - data path))
-  Source:               sam/MyCtrlModule/intcontroller/pending_2 (FF)
-  Destination:          sam/MyCtrlModule/intcontroller/pending_2 (FF)
-  Requirement:          0.000ns
-  Data Path Delay:      0.438ns (Levels of Logic = 1)
-  Clock Path Skew:      0.000ns
-  Source Clock:         sam/clk48 rising at 20.800ns
-  Destination Clock:    sam/clk48 rising at 20.800ns
-  Clock Uncertainty:    0.000ns
-
-  Minimum Data Path at Fast Process Corner: sam/MyCtrlModule/intcontroller/pending_2 to sam/MyCtrlModule/intcontroller/pending_2
-    Location             Delay type         Delay(ns)  Physical Resource
-                                                       Logical Resource(s)
-    -------------------------------------------------  -------------------
-    SLICE_X19Y23.DQ      Tcko                  0.198   sam/MyCtrlModule/intcontroller/pending<2>
-                                                       sam/MyCtrlModule/intcontroller/pending_2
-    SLICE_X19Y23.D6      net (fanout=2)        0.025   sam/MyCtrlModule/intcontroller/pending<2>
-    SLICE_X19Y23.CLK     Tah         (-Th)    -0.215   sam/MyCtrlModule/intcontroller/pending<2>
-                                                       sam/MyCtrlModule/intcontroller/Mmux_pending[2]_PWR_74_o_MUX_2033_o11
-                                                       sam/MyCtrlModule/intcontroller/pending_2
-    -------------------------------------------------  ---------------------------
-    Total                                      0.438ns (0.413ns logic, 0.025ns route)
-                                                       (94.3% logic, 5.7% route)
 
 --------------------------------------------------------------------------------
 
@@ -887,8 +946,8 @@ Derived Constraints for TS_clk50
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TS_clk50                       |     20.000ns|      5.000ns|     18.888ns|            0|            0|            0|    318259603|
-| TS_sam_los_relojes_clkout0    |     20.800ns|     19.643ns|          N/A|            0|            0|    318259603|            0|
+|TS_clk50                       |     20.000ns|      5.000ns|     19.315ns|            0|            0|            0|    318259603|
+| TS_sam_los_relojes_clkout0    |     20.800ns|     20.088ns|          N/A|            0|            0|    318259603|            0|
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
 All constraints were met.
@@ -903,7 +962,7 @@ Clock to Setup on destination clock clock_50_i
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clock_50_i     |   19.643|         |         |    3.942|
+clock_50_i     |   20.088|         |         |    3.344|
 ---------------+---------+---------+---------+---------+
 
 
@@ -912,23 +971,23 @@ Timing summary:
 
 Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
 
-Constraints cover 318259603 paths, 0 nets, and 4424 connections
+Constraints cover 318259603 paths, 0 nets, and 4421 connections
 
 Design statistics:
-   Minimum period:  19.643ns{1}   (Maximum frequency:  50.909MHz)
+   Minimum period:  20.088ns{1}   (Maximum frequency:  49.781MHz)
 
 
 ------------------------------------Footnotes-----------------------------------
 1)  The minimum period statistic assumes all single cycle delays.
 
-Analysis completed Sun Jan 01 16:01:06 2023 
+Analysis completed Mon Jun 12 12:44:06 2023 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 4872 MB
+Peak Memory Usage: 473 MB
 
 
 

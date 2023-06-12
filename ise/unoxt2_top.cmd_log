@@ -39,3 +39,15 @@ map -filter "D:/Xilinx/share/sam/unoxt-sam-coupe/ise/iseconfig/filter.filter" -i
 par -filter "D:/Xilinx/share/sam/unoxt-sam-coupe/ise/iseconfig/filter.filter" -w -intstyle ise -ol high -xe n -mt 4 unoxt2_top_map.ncd unoxt2_top.ncd unoxt2_top.pcf 
 trce -filter D:/Xilinx/share/sam/unoxt-sam-coupe/ise/iseconfig/filter.filter -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml unoxt2_top.twx unoxt2_top.ncd -o unoxt2_top.twr unoxt2_top.pcf 
 bitgen -filter "iseconfig/filter.filter" -intstyle ise -f unoxt2_top.ut unoxt2_top.ncd 
+xst -intstyle ise -filter "/home/ise/share/git/unoxt-sam-coupe/ise/iseconfig/filter.filter" -ifn "/home/ise/share/git/unoxt-sam-coupe/ise/unoxt2_top.xst" -ofn "/home/ise/share/git/unoxt-sam-coupe/ise/unoxt2_top.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc /home/ise/share/git/unoxt-sam-coupe/unoxt/unoxt2_pins.ucf -p xc6slx25-ftg256-2 unoxt2_top.ngc unoxt2_top.ngd  
+map -filter "/home/ise/share/git/unoxt-sam-coupe/ise/iseconfig/filter.filter" -intstyle ise -p xc6slx25-ftg256-2 -w -logic_opt off -ol high -xe n -t 10 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o unoxt2_top_map.ncd unoxt2_top.ngd unoxt2_top.pcf 
+par -filter "/home/ise/share/git/unoxt-sam-coupe/ise/iseconfig/filter.filter" -w -intstyle ise -ol high -xe n -mt 4 unoxt2_top_map.ncd unoxt2_top.ncd unoxt2_top.pcf 
+trce -filter /home/ise/share/git/unoxt-sam-coupe/ise/iseconfig/filter.filter -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml unoxt2_top.twx unoxt2_top.ncd -o unoxt2_top.twr unoxt2_top.pcf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f unoxt2_top.ut unoxt2_top.ncd 
+xst -intstyle ise -filter "/home/ise/share/git/unoxt-sam-coupe/ise/iseconfig/filter.filter" -ifn "/home/ise/share/git/unoxt-sam-coupe/ise/unoxt2_top.xst" -ofn "/home/ise/share/git/unoxt-sam-coupe/ise/unoxt2_top.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc /home/ise/share/git/unoxt-sam-coupe/unoxt/unoxt2_pins.ucf -p xc6slx25-ftg256-2 unoxt2_top.ngc unoxt2_top.ngd  
+map -filter "/home/ise/share/git/unoxt-sam-coupe/ise/iseconfig/filter.filter" -intstyle ise -p xc6slx25-ftg256-2 -w -logic_opt off -ol high -xe n -t 10 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o unoxt2_top_map.ncd unoxt2_top.ngd unoxt2_top.pcf 
+par -filter "/home/ise/share/git/unoxt-sam-coupe/ise/iseconfig/filter.filter" -w -intstyle ise -ol high -xe n -mt 4 unoxt2_top_map.ncd unoxt2_top.ncd unoxt2_top.pcf 
+trce -filter /home/ise/share/git/unoxt-sam-coupe/ise/iseconfig/filter.filter -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml unoxt2_top.twx unoxt2_top.ncd -o unoxt2_top.twr unoxt2_top.pcf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f unoxt2_top.ut unoxt2_top.ncd 

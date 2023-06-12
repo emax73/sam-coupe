@@ -105,8 +105,8 @@ NET 'joyp6_i'           LOC='E10'   |IOSTANDARD = LVTTL | PULLUP;
 NET 'joyp7_o'           LOC='C11'   |IOSTANDARD = LVTTL;
 NET 'joyp9_i'           LOC='C13'   |IOSTANDARD = LVTTL | PULLUP;
 
-NET 'audioext_l_o'      LOC='E7'    |IOSTANDARD = LVCMOS33 |DRIVE = 16;
-NET 'audioext_r_o'      LOC='E6'    |IOSTANDARD = LVCMOS33 |DRIVE = 16;
+NET 'audioext_l_o'      LOC='C9'    |IOSTANDARD = LVCMOS33 |DRIVE = 16;
+NET 'audioext_r_o'      LOC='B10'    |IOSTANDARD = LVCMOS33 |DRIVE = 16;
 
 NET 'ear_port_i'        LOC='A2'    |IOSTANDARD = LVCMOS33;
 NET 'mic_port_o'        LOC='B2'    |IOSTANDARD = LVCMOS33;

@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Sun Jan 01 15:59:52 2023
+// Written by: Map P.20131013 on Mon Jun 12 12:43:40 2023
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -41,8 +41,8 @@ COMP "joyp6_i" LOCATE = SITE "E10" LEVEL 1;
 COMP "joyp7_o" LOCATE = SITE "C11" LEVEL 1;
 COMP "joyp9_i" LOCATE = SITE "C13" LEVEL 1;
 COMP "hsync_o" LOCATE = SITE "C8" LEVEL 1;
-COMP "audioext_l_o" LOCATE = SITE "E7" LEVEL 1;
-COMP "audioext_r_o" LOCATE = SITE "E6" LEVEL 1;
+COMP "audioext_l_o" LOCATE = SITE "C9" LEVEL 1;
+COMP "audioext_r_o" LOCATE = SITE "B10" LEVEL 1;
 COMP "ear_port_i" LOCATE = SITE "A2" LEVEL 1;
 COMP "flash_cs_n_o" LOCATE = SITE "T3" LEVEL 1;
 COMP "flash_hold_o" LOCATE = SITE "P12" LEVEL 1;
